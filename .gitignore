@@ -1,0 +1,10 @@
+*.xls
+*.xlsx
+__pycache__
+*pyc
+.git
+*.vs
+*.vscode
+executavel
+._.DS_Store
+.DS_Store
