@@ -6,11 +6,11 @@ from datetime import datetime
 from progress.bar import Bar
 from progress.bar import PixelBar
 
-pdf_file = "SICRO/TO 07-2019 Relatório Analítico de Composições de Custos.pdf"
+pdf_file = "SICRO/GO 10-2020 Relatório Analítico de ComposiçΣes de Custos.pdf"
 
-path = 'TXT/' + '_'.join([pdf_file[0:5], pdf_file[7:9], pdf_file[10:12], pdf_file[13:17], 'analitico_composicao_'])
+path = 'TXT/' + '_'.join([pdf_file[0:5], pdf_file[6:8], pdf_file[9:11], pdf_file[12:16], 'analitico_composicao_'])
 
-origem_dados = ','.join([pdf_file[0:5], pdf_file[7:9], pdf_file[10:17]])
+origem_dados = ','.join([pdf_file[0:5], pdf_file[6:8], pdf_file[9:16]])
 
 composicao = open(''.join([path,'dado_basico.txt']), 'w', encoding="utf-8")
 apropriacao = open(''.join([path,'apropriacao.txt']), 'w', encoding="utf-8")

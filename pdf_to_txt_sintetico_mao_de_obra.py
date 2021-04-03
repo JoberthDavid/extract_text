@@ -23,9 +23,9 @@ from funcoes import (
                         escrever_arquivo_detalhamento_custos
                     )
 
-pdf_file = "SICRO//TO 07-2019 Relatório Sintético de Mão de Obra.pdf"
+pdf_file = "SICRO/GO 10-2020 Relatório Sintético de Mao de Obra.pdf"
 
-pdf_file_desonerado = "SICRO//TO 07-2019 Relatório Sintético de Mão de Obra - com desoneração.pdf"
+pdf_file_desonerado = "SICRO/GO 10-2020 Relatório Sintético de Mao de Obra - com desoneracao.pdf"
 
 d_arquivo = iniciar_dicionario_arquivo()
 regex_arquivo = retornar_regex_arquivo( pdf_file )
@@ -44,6 +44,7 @@ arquivo_mao_de_obra = gerar_arquivo_dados_basicos( path )
 custos_unitarios = gerar_arquivo_custos_unitarios_insumos( path )
 
 detalhamento_custos = gerar_arquivo_detalhamento_custos_mao_de_obra( path )
+
 
 with open( pdf_file, "rb" ) as f:
     cadastro = pdftotext.PDF( f )
@@ -77,6 +78,7 @@ with PixelBar('Extraindo dados do PDF', max=num_pages, suffix='%(index)d/%(max)d
             d = iniciar_dicionario( item )
 
             regex_onerado = retornar_regex( item, linhas_pagina_atual_pdf_onerado[k] )
+
             regex_desonerado = retornar_regex( item, linhas_pagina_atual_pdf_desonerado[k] )
 
             cabecalho_onerado = retornar_regex_cabecalho( linhas_pagina_atual_pdf_onerado[k] )

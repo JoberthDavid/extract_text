@@ -21,7 +21,7 @@ from funcoes import (
                         escrever_arquivo_custos
                     )
 
-pdf_file = "SICRO//TO 07-2019 Relatório Sintético de Materiais.pdf"
+pdf_file = "SICRO/GO 10-2020 Relatório Sintético de Materiais.pdf"
 
 d_arquivo = iniciar_dicionario_arquivo()
 regex_arquivo = retornar_regex_arquivo( pdf_file )

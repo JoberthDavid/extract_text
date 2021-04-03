@@ -315,7 +315,8 @@ def retornar_regex_cabecalho(linha: str ):
 
 
 def retornar_regex( item: str, linha: str ):
-    if item == mao_de_obra:
+    if True:#item == mao_de_obra:
+        print( item )
         return re.match( retornar_pattern_mao_de_obra(), linha)
 
     elif item == material:
@@ -419,7 +420,7 @@ def preparar_grupo_regex_arquivo( grupo: str ) -> str:
 
 
 def retornar_pattern_arquivo() -> str:
-    return r'(?P<re_sistema>(.+))//(?P<re_estado>\w{2}) (?P<re_mes_base>(\d{2}))-(?P<re_ano_base>(\d{4})) (Relatório) (?P<re_item_a>(Analítico|Sintético)) (de) (?P<re_item_b>Composições de Custos|Equipamentos|Mão de Obra|Materiais)( - com desoneração)?\.pdf$'
+    return r'(?P<re_sistema>(.+))/(?P<re_estado>\w{2}) (?P<re_mes_base>(\d{2}))-(?P<re_ano_base>(\d{4})) (Relatório) (?P<re_item_a>(Analítico|Sintético)) (de) (?P<re_item_b>Composições de Custos|Equipamentos|Mão de Obra|Mao de Obra|Materiais)( - com desoneração| - com desoneraç╞o)?\.pdf$'
 
 
 def retornar_regex_arquivo( pdf_file: str ):

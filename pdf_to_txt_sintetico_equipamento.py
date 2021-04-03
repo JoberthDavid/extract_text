@@ -23,9 +23,9 @@ from funcoes import (
                         escrever_arquivo_detalhamento_custos
                     )
 
-pdf_file = "SICRO//TO 07-2019 Relatório Sintético de Equipamentos.pdf"
+pdf_file = "SICRO/GO 10-2020 Relatório Sintético de Equipamentos.pdf"
 
-pdf_file_desonerado = "SICRO//TO 07-2019 Relatório Sintético de Equipamentos - com desoneração.pdf"
+pdf_file_desonerado = "SICRO/GO 10-2020 Relatório Sintético de Equipamentos - com desoneraç╞o.pdf"
 
 
 d_arquivo = iniciar_dicionario_arquivo()
