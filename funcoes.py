@@ -43,9 +43,11 @@ def formatar_descricao( descricao: str ) -> str:
     return descricao.strip(' ').replace('.','').replace(',','.').replace('          ',' ').replace('         ',' ').replace('        ',' ').replace('       ',' ').replace('      ',' ').replace('     ',' ').replace('    ',' ').replace('   ',' ').replace('  ',' ')
 
 
-def retornar_pattern_mao_de_obra() -> str:
-    return r'(?P<re_codigo>[P]\d{4}) (\s{1,4}) (?P<re_descricao>(.+) (\s+)) (?P<re_unidade>h|mês) (\s+) (?P<re_salario>\d*.\d+,\d{4}|\s*-) (\s+) (?P<re_encargos_sociais>\d*.\d+,\d{4}%) (\s+) (?P<re_custo>\d*.\d+,\d{4}|\s*-) (\s+) (?P<re_periculosidade>\d*.\d+,\d{4}%)'
+def retornar_pattern_alfa_mao_de_obra() -> str:
+    return r'(?P<re_codigo>[P]\d{4}|\w*) (?P<re_descricao>.+) (?P<re_unidade>h|mês) (?P<re_salario>\d*.\d+,\d{4}|\s*-) (?P<re_encargos_sociais>\d*.\d+,\d{4}%|\s*-) (?P<re_custo>\d*.\d+,\d{4}|\s*-) (?P<re_periculosidade>\d*.\d+,\d{4}%|\s*-)'
 
+def retornar_pattern_beta_mao_de_obra() -> str:
+    return r'(\s*)? (?P<re_codigo>[P]\d{4}) (?P<re_descricao>.+) (?P<re_unidade>h|mês) (\s*) (?P<re_salario>\d*.\d+,\d{4}) (\s*) (?P<re_encargos_sociais>\d*.\d+,\d{4}%) (\s*) (?P<re_custo>\d*.\d+,\d{4}) (\s*) (?P<re_periculosidade>\d*.\d+,\d{4}%)'
 
 def retornar_pattern_alfa_material() -> str:
     return r'(?P<re_codigo>[M]\d{4}) (?P<re_descricao>.+) (?P<re_unidade>\w{1,5}) (?P<re_custo>\d*.*\d*.\d+,\d{4}|\s*-)'
@@ -315,9 +317,12 @@ def retornar_regex_cabecalho(linha: str ):
 
 
 def retornar_regex( item: str, linha: str ):
-    if True:#item == mao_de_obra:
-        print( item )
-        return re.match( retornar_pattern_mao_de_obra(), linha)
+    if item == mao_de_obra:
+        # print(  re.match( retornar_pattern_alfa_mao_de_obra(), linha) )
+        regex_beta =  re.match( retornar_pattern_beta_mao_de_obra(), linha)
+        if regex_beta is not None:
+            # print( regex_beta.group('re_periculosidade') )
+            return regex_beta#re.match( retornar_pattern_alfa_mao_de_obra(), linha)
 
     elif item == material:
         regex_alfa = re.match( retornar_pattern_alfa_material(), linha)
@@ -415,12 +420,12 @@ def configurar_dicionario( item: str, d: dict, regex_alfa: Match , regex_beta = 
 
 
 def preparar_grupo_regex_arquivo( grupo: str ) -> str:
-    grupo_regex = grupo.replace('Analítico','_analitico').replace('Sintético','_sintetico').replace('Composições de Custos','_composicao_').replace('Mão de Obra','_mao_de_obra_').replace('Equipamentos','_equipamento_').replace('Materiais','_material_')
+    grupo_regex = grupo.replace('Analítico','_analitico').replace('Sintético','_sintetico').replace('Composições de Custos','_composicao_').replace('Mão de Obra','_mao_de_obra_').replace('Mao de Obra','_mao_de_obra_').replace('Equipamentos','_equipamento_').replace('Materiais','_material_')
     return grupo_regex
 
 
 def retornar_pattern_arquivo() -> str:
-    return r'(?P<re_sistema>(.+))/(?P<re_estado>\w{2}) (?P<re_mes_base>(\d{2}))-(?P<re_ano_base>(\d{4})) (Relatório) (?P<re_item_a>(Analítico|Sintético)) (de) (?P<re_item_b>Composições de Custos|Equipamentos|Mão de Obra|Mao de Obra|Materiais)( - com desoneração| - com desoneraç╞o)?\.pdf$'
+    return r'(?P<re_sistema>(.+))/(?P<re_estado>\w{2}) (?P<re_mes_base>(\d{2}))-(?P<re_ano_base>(\d{4})) (Relatório) (?P<re_item_a>(Analítico|Sintético)) (de) (?P<re_item_b>Composições de Custos|Equipamentos|Mão de Obra|Mao de Obra|Materiais)( - com desoneração| - com desoneraç╞o| - com desoneracao)?\.pdf$'
 
 
 def retornar_regex_arquivo( pdf_file: str ):

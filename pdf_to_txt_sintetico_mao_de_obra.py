@@ -76,7 +76,7 @@ with PixelBar('Extraindo dados do PDF', max=num_pages, suffix='%(index)d/%(max)d
         for k in range( len( linhas_pagina_atual_pdf_onerado ) ):
 
             d = iniciar_dicionario( item )
-
+            
             regex_onerado = retornar_regex( item, linhas_pagina_atual_pdf_onerado[k] )
 
             regex_desonerado = retornar_regex( item, linhas_pagina_atual_pdf_desonerado[k] )
@@ -86,7 +86,7 @@ with PixelBar('Extraindo dados do PDF', max=num_pages, suffix='%(index)d/%(max)d
 
             if ( cabecalho_onerado is None ) and ( cabecalho_desonerado is None ):
 
-                if regex_onerado is not None:
+                if regex_onerado is not None and regex_desonerado is not None:
                     configurar_dicionario( item, d, regex_onerado, regex_desonerado )
 
                     if d['codigo'] not in lista_dicionarios:
