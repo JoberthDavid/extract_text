@@ -34,14 +34,11 @@ composicao = '_sintetico_composicao_'
 def formatar_numero( numero: str ) -> str:
     return numero.strip(' ').replace('-','0.0000').replace('.','').replace(',','.')
 
-
 def formatar_percentual( percentual: str ) -> str:
     return percentual.strip(' ').replace(',','.').replace('%','')
 
-
 def formatar_descricao( descricao: str ) -> str:
     return descricao.strip(' ').replace('.','').replace(',','.').replace('          ',' ').replace('         ',' ').replace('        ',' ').replace('       ',' ').replace('      ',' ').replace('     ',' ').replace('    ',' ').replace('   ',' ').replace('  ',' ')
-
 
 def retornar_pattern_alfa_mao_de_obra() -> str:
     return r'(?P<re_codigo>[P]\d{4}|\w*) (?P<re_descricao>.+) (?P<re_unidade>h|mês) (?P<re_salario>\d*.\d+,\d{4}|\s*-) (?P<re_encargos_sociais>\d*.\d+,\d{4}%|\s*-) (?P<re_custo>\d*.\d+,\d{4}|\s*-) (?P<re_periculosidade>\d*.\d+,\d{4}%|\s*-)'
@@ -52,26 +49,20 @@ def retornar_pattern_beta_mao_de_obra() -> str:
 def retornar_pattern_alfa_material() -> str:
     return r'(?P<re_codigo>[M]\d{4}) (?P<re_descricao>.+) (?P<re_unidade>\w{1,5}) (?P<re_custo>\d*.*\d*.\d+,\d{4}|\s*-)'
 
-
 def retornar_pattern_beta_material() -> str:
     return r'(?P<re_descricao>\w*)'
-
 
 def retornar_pattern_alfa_equipamento() -> str:
     return r'(?P<re_codigo>[E|A]\d{4}) (?P<re_descricao>.+) (?P<re_aquisicao>\d*.*\d*.\d+,\d{4}|\s*-) (?P<re_depreciacao>\d*.*\d*.\d+,\d{4}|\s*-) (?P<re_oportunidade_capital>\d*.*\d*.\d+,\d{4}|\s*-) (?P<re_seguros_impostos>\d*.*\d*.\d+,\d{4}|\s*-) (?P<re_manutencao>\d*.*\d*.\d+,\d{4}|\s*-) (?P<re_operacao>\d*.*\d*.\d+,\d{4}|\s*-) (?P<re_mao_de_obra>\d*.*\d*.\d+,\d{4}|\s*-) (?P<re_custo_produtivo>\d*.*\d*.\d+,\d{4}|\s*-) (?P<re_custo_improdutivo>\d*.*\d*.\d+,\d{4}|\s*-)'
 
-
 def retornar_pattern_beta_equipamento() -> str:
     return r'(?P<re_codigo>[E|A]\d{4}) (?P<re_descricao>.+) (?P<re_custo_produtivo>\d*.*\d*.\d+,\d{4}|\s*-) (?P<re_custo_improdutivo>\d*.*\d*.\d+,\d{4}|\s*-)'
-
 
 def retornar_pattern_alfa_composicao() -> str:
     return r'(?P<re_codigo>^\d{7}) (?P<re_descricao>(.+) (\S+) (.+)) (?P<re_unidade>\S+) (?P<re_custo>.+\,\d{2}|\s*-)'
 
-
 def retornar_pattern_beta_composicao() -> str:
     return r'(?P<re_descricao>(\s*) (.+) (\S*))'
-
 
 def iniciar_dicionario_mao_de_obra( item: str ) -> dict:
     return {
@@ -343,6 +334,7 @@ def retornar_regex( item: str, linha: str ):
             return regex_beta
 
     elif item == composicao:
+
         regex_alfa = re.match( retornar_pattern_alfa_composicao(), linha)
         regex_beta = re.match( retornar_pattern_beta_composicao(), linha)
 
@@ -360,8 +352,8 @@ def configurar_dicionario_mao_de_obra(d: dict, regex_alfa: Match , regex_beta = 
     d['periculosidade'] = regex_alfa.group('re_periculosidade')
     d['salario'] = regex_alfa.group('re_salario')
     d['custo_onerado'] = regex_alfa.group('re_custo')
-    d['encargos_sociais_desonerado'] = regex_beta.group('re_encargos_sociais')
-    d['custo_desonerado'] = regex_beta.group('re_custo')
+    # d['encargos_sociais_desonerado'] = regex_beta.group('re_encargos_sociais')
+    # d['custo_desonerado'] = regex_beta.group('re_custo')
 
 
 def configurar_dicionario_material(d: dict, regex_alfa: Match) -> None:
@@ -420,12 +412,12 @@ def configurar_dicionario( item: str, d: dict, regex_alfa: Match , regex_beta = 
 
 
 def preparar_grupo_regex_arquivo( grupo: str ) -> str:
-    grupo_regex = grupo.replace('Analítico','_analitico').replace('Sintético','_sintetico').replace('Composições de Custos','_composicao_').replace('Mão de Obra','_mao_de_obra_').replace('Mao de Obra','_mao_de_obra_').replace('Equipamentos','_equipamento_').replace('Materiais','_material_')
+    grupo_regex = grupo.replace('Analítico','_analitico').replace('Sintético','_sintetico').replace('Composições de Custos','_composicao_').replace('ComposiçΣes de Custos','_composicao_').replace('Mão de Obra','_mao_de_obra_').replace('Mao de Obra','_mao_de_obra_').replace('Equipamentos','_equipamento_').replace('Materiais','_material_')
     return grupo_regex
 
 
 def retornar_pattern_arquivo() -> str:
-    return r'(?P<re_sistema>(.+))/(?P<re_estado>\w{2}) (?P<re_mes_base>(\d{2}))-(?P<re_ano_base>(\d{4})) (Relatório) (?P<re_item_a>(Analítico|Sintético)) (de) (?P<re_item_b>Composições de Custos|Equipamentos|Mão de Obra|Mao de Obra|Materiais)( - com desoneração| - com desoneraç╞o| - com desoneracao)?\.pdf$'
+    return r'(?P<re_sistema>(.+))/(?P<re_estado>\w{2}) (?P<re_mes_base>(\d{2}))-(?P<re_ano_base>(\d{4})) (Relatório) (?P<re_item_a>(Analítico|Sintético)) (de) (?P<re_item_b>Composições de Custos|ComposiçΣes de Custos|Equipamentos|Mão de Obra|Mao de Obra|Materiais)( - com desoneração| - com desoneraç╞o| - com desoneracao)?\.pdf$'
 
 
 def retornar_regex_arquivo( pdf_file: str ):

@@ -66,7 +66,7 @@ with PixelBar('Extraindo dados do PDF', max=num_pages, suffix='%(index)d/%(max)d
             cabecalho = retornar_regex_cabecalho( linhas_pagina_atual_pdf_onerado[k] )
 
             if ( cabecalho is None ):
-
+                
                 if ( regex is not None ) and ( len( regex.groups() ) > 4 ):
                     configurar_dicionario( item, d, regex )
                     lista_dicionarios_onerado.append( d )

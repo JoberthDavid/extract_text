@@ -58,15 +58,9 @@ with PixelBar('Extraindo dados do PDF', max=num_pages, suffix='%(index)d/%(max)d
 
     lista_dicionarios_onerado = list()
 
-    lista_dicionarios_desonerado = list()
-
     lista_dicionarios = list()
 
     for j in range( len( cadastro ) ):
-
-
-        linhas_pagina_atual_pdf_desonerado = cadastro_desonerado[j].split('\n')
-        linhas_pagina_atual_pdf_desonerado.pop(-2)
 
 
         linhas_pagina_atual_pdf_onerado = cadastro[j].split('\n')
@@ -79,15 +73,14 @@ with PixelBar('Extraindo dados do PDF', max=num_pages, suffix='%(index)d/%(max)d
             
             regex_onerado = retornar_regex( item, linhas_pagina_atual_pdf_onerado[k] )
 
-            regex_desonerado = retornar_regex( item, linhas_pagina_atual_pdf_desonerado[k] )
-
             cabecalho_onerado = retornar_regex_cabecalho( linhas_pagina_atual_pdf_onerado[k] )
-            cabecalho_desonerado = retornar_regex_cabecalho( linhas_pagina_atual_pdf_desonerado[k] )
 
-            if ( cabecalho_onerado is None ) and ( cabecalho_desonerado is None ):
 
-                if regex_onerado is not None and regex_desonerado is not None:
-                    configurar_dicionario( item, d, regex_onerado, regex_desonerado )
+            if ( cabecalho_onerado is None ):
+
+                if regex_onerado is not None:
+
+                    configurar_dicionario( item, d, regex_onerado )
 
                     if d['codigo'] not in lista_dicionarios:
                         lista_dicionarios.append( d['codigo'] )
