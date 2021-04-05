@@ -31,14 +31,42 @@ equipamento = '_sintetico_equipamento_'
 composicao = '_sintetico_composicao_'
 
 
+class DescricaoNormalizada:
+
+    def __init__( self, descricao: str ) -> None:
+        self.descricao = self.obter_descricao_normalizada( descricao )
+
+    def obter_descricao_normalizada( self, descricao ) -> str:
+        return descricao.strip().replace('.','')
+
+
+class NumeroNormalizado:
+
+    def __init__( self, numero: str ) -> None:
+        self.numero = self.obter_numero_normalizado( numero )
+
+    def obter_numero_normalizado( self, numero ) -> str:
+        return numero.strip().replace('-','0.0000').replace('.','').replace(',','.') 
+
+
+class PercentualNormalizado:
+
+    def __init__( self, percentual: str ) -> None:
+        self.percentual = self.obter_numero_normalizado( percentual )
+
+    def obter_numero_normalizado( self, percentual ) -> str:
+        return percentual.strip().replace(',','.').replace('%','')
+
+
+
 def formatar_numero( numero: str ) -> str:
-    return numero.strip(' ').replace('-','0.0000').replace('.','').replace(',','.')
+    return numero.strip().replace('-','0.0000').replace('.','').replace(',','.')
 
 def formatar_percentual( percentual: str ) -> str:
-    return percentual.strip(' ').replace(',','.').replace('%','')
+    return percentual.strip().replace(',','.').replace('%','')
 
 def formatar_descricao( descricao: str ) -> str:
-    return descricao.strip(' ').replace('.','').replace(',','.').replace('          ',' ').replace('         ',' ').replace('        ',' ').replace('       ',' ').replace('      ',' ').replace('     ',' ').replace('    ',' ').replace('   ',' ').replace('  ',' ')
+    return descricao.strip().replace('.','').replace('          ',' ').replace('         ',' ').replace('        ',' ').replace('       ',' ').replace('      ',' ').replace('     ',' ').replace('    ',' ').replace('   ',' ').replace('  ',' ')
 
 def retornar_pattern_alfa_mao_de_obra() -> str:
     return r'(?P<re_codigo>[P]\d{4}|\w*) (?P<re_descricao>.+) (?P<re_unidade>h|mês) (?P<re_salario>\d*.\d+,\d{4}|\s*-) (?P<re_encargos_sociais>\d*.\d+,\d{4}%|\s*-) (?P<re_custo>\d*.\d+,\d{4}|\s*-) (?P<re_periculosidade>\d*.\d+,\d{4}%|\s*-)'
@@ -135,7 +163,7 @@ def iniciar_dicionario( item: str ) -> dict:
 
 
 def retornar_dados_cadastro_mao_de_obra(origem_dados: str, d: dict) -> str:
-    return ','.join([origem_dados,
+    return ';'.join([origem_dados,
                 d['codigo'],
                 formatar_descricao( d['descricao'] ),
                 d['unidade'],
@@ -144,7 +172,7 @@ def retornar_dados_cadastro_mao_de_obra(origem_dados: str, d: dict) -> str:
 
 
 def retornar_dados_cadastro_material(origem_dados: str, d: dict) -> str:
-    return ','.join([origem_dados,
+    return ';'.join([origem_dados,
                 d['codigo'],
                 formatar_descricao( d['descricao'] ),
                 d['unidade'],
@@ -153,7 +181,7 @@ def retornar_dados_cadastro_material(origem_dados: str, d: dict) -> str:
 
 
 def retornar_dados_cadastro_equipamento(origem_dados: str, d: dict) -> str:
-    return ','.join([origem_dados,
+    return ';'.join([origem_dados,
                 d['codigo'],
                 formatar_descricao( d['descricao'] ),
                 d['unidade'],
@@ -162,7 +190,7 @@ def retornar_dados_cadastro_equipamento(origem_dados: str, d: dict) -> str:
 
 
 def retornar_dados_cadastro_composicao(origem_dados: str, d: dict) -> str:
-    return ','.join([origem_dados, 
+    return ';'.join([origem_dados, 
                 d['codigo'], 
                 formatar_descricao( d['descricao'] ),
                 d['unidade'],
@@ -190,7 +218,7 @@ def escrever_arquivo_cadastro(item: str, descricao: TextIOWrapper, origem_dados:
 
 
 def retornar_dados_custos_mao_de_obra(origem_dados: str, d: dict) -> str:
-    return ','.join([origem_dados,
+    return ';'.join([origem_dados,
                 d['codigo'],
                 formatar_numero( d['custo_onerado'] ),
                 '',
@@ -203,7 +231,7 @@ def retornar_dados_custos_mao_de_obra(origem_dados: str, d: dict) -> str:
 
 
 def retornar_dados_custos_material(origem_dados: str, d: dict) -> str:
-    return ','.join([origem_dados,
+    return ';'.join([origem_dados,
                 d['codigo'],
                 '',
                 '',
@@ -216,7 +244,7 @@ def retornar_dados_custos_material(origem_dados: str, d: dict) -> str:
 
 
 def retornar_dados_custos_equipamento(origem_dados: str, d: dict) -> str:
-    return ','.join([origem_dados,
+    return ';'.join([origem_dados,
                 d['codigo'],
                 formatar_numero( d['custo_produtivo_onerado'] ),
                 formatar_numero( d['custo_improdutivo_onerado'] ),
@@ -229,7 +257,7 @@ def retornar_dados_custos_equipamento(origem_dados: str, d: dict) -> str:
 
 
 def retornar_dados_custos_composicao(origem_dados: str, d: dict) -> str:
-    return ','.join([origem_dados,
+    return ';'.join([origem_dados,
                 d['codigo'],
                 formatar_numero( d['custo_onerado'] ),
                 formatar_numero( d['custo_desonerado'] ),
@@ -257,7 +285,7 @@ def escrever_arquivo_custos(item: str, custos_unitarios: TextIOWrapper, origem_d
 
 
 def retornar_detalhamento_custos_mao_de_obra(origem_dados: str, d: dict) -> str:
-    return ','.join([origem_dados,
+    return ';'.join([origem_dados,
                 d['codigo'],
                 formatar_numero( d['salario'] ),
                 formatar_percentual( d['periculosidade'] ),
@@ -268,7 +296,7 @@ def retornar_detalhamento_custos_mao_de_obra(origem_dados: str, d: dict) -> str:
 
 
 def retornar_detalhamento_custos_equipamento(origem_dados: str, d: dict) -> str:
-    return ','.join([origem_dados,
+    return ';'.join([origem_dados,
                 d['codigo'],
                 formatar_numero( d['aquisicao'] ),
                 formatar_numero( d['depreciacao'] ),
@@ -356,13 +384,6 @@ def configurar_dicionario_mao_de_obra(d: dict, regex_alfa: Match , regex_beta = 
     # d['custo_desonerado'] = regex_beta.group('re_custo')
 
 
-def configurar_dicionario_material(d: dict, regex_alfa: Match) -> None:
-    d['codigo'] = regex_alfa.group('re_codigo')
-    d['descricao'] = regex_alfa.group('re_descricao')
-    d['unidade'] = regex_alfa.group('re_unidade')
-    d['custo'] = regex_alfa.group('re_custo')
-
-
 def configurar_dicionario_equipamento(d: dict, regex_alfa: Match , regex_beta = None) -> None:
     d['codigo'] = regex_alfa.group('re_codigo')
     d['descricao'] = regex_alfa.group('re_descricao')
@@ -399,9 +420,6 @@ def configurar_dicionario( item: str, d: dict, regex_alfa: Match , regex_beta = 
     if item == mao_de_obra:
         configurar_dicionario_mao_de_obra(d, regex_alfa, regex_beta)
 
-    elif item == material:
-        configurar_dicionario_material(d, regex_alfa)
-
     elif item == equipamento:
         configurar_dicionario_equipamento(d, regex_alfa, regex_beta)
 
@@ -422,7 +440,6 @@ def retornar_pattern_arquivo() -> str:
 
 def retornar_regex_arquivo( pdf_file: str ):
     return re.match( retornar_pattern_arquivo(), pdf_file)
-
 
 def configurar_dicionario_arquivo(d: dict, regex_alfa: Match) -> None:
     d['sistema'] = regex_alfa.group('re_sistema')
@@ -456,7 +473,7 @@ def retornar_data_base( d_arquivo: dict ) -> str:
 
 
 def retornar_origem( d_arquivo: dict ) -> str:
-    return ','.join( [  d_arquivo['sistema'], d_arquivo['estado'], retornar_data_base( d_arquivo ) ] )
+    return ';'.join( [  d_arquivo['sistema'], d_arquivo['estado'], retornar_data_base( d_arquivo ) ] )
 
 
 def retornar_item( d_arquivo: dict ) -> str:
@@ -481,3 +498,151 @@ def gerar_arquivo_detalhamento_custos_mao_de_obra( path: str) -> TextIOWrapper:
 
 def gerar_arquivo_detalhamento_custos_equipamento( path: str) -> TextIOWrapper:
     return open( ''.join( [ path, '_detalhamento_equipamento_custo_unitario.txt' ] ), 'w', encoding="utf-8" )
+
+
+########################
+
+class Arquivo:
+
+    def __init__( self, regex: Match) -> None:
+        self.sistema = regex.group('re_sistema')
+        self.estado = regex.group('re_estado')
+        self.mes_base = regex.group('re_mes_base')
+        self.ano_base = regex.group('re_ano_base')
+        self.item = self.preparar_grupo_regex_arquivo( regex.group('re_item_a'), regex.group('re_item_b') )
+        self.data_base = self.retornar_data_base()
+        self.origem = self.retornar_origem()
+        self.arquivo_dado_basico = self.gerar_arquivo_dados_basicos()
+        self.arquivo_custo_unitario = self.gerar_arquivo_custos_unitarios_insumos()
+
+    def preparar_grupo_regex_arquivo( self, item_a, item_b ) -> str:
+        grupo = ''.join( [ item_a, item_b ] )
+        grupo_regex = grupo.\
+            replace('Analítico','_analitico').\
+            replace('Sintético','_sintetico').\
+            replace('Composições de Custos','_composicao_').\
+            replace('ComposiçΣes de Custos','_composicao_').\
+            replace('Mão de Obra','_mao_de_obra_').\
+            replace('Mao de Obra','_mao_de_obra_').\
+            replace('Equipamentos','_equipamento_').\
+            replace('Materiais','_material_')
+        return grupo_regex
+
+    def retornar_data_base( self ):
+        return '-'.join( [ self.mes_base, self.ano_base ] )
+
+    def retornar_origem( self ) -> str:
+        return ';'.join( [ self.sistema, self.estado, self.retornar_data_base() ] )
+
+    def retornar_raiz( self ) -> str:
+        return ''.join( [ 'TXT/', self.sistema ] )
+
+    def retornar_path( self ) -> str:
+        return '_'.join( [ self.retornar_raiz(), self.estado, self.mes_base, self.ano_base ] )
+
+    def gerar_arquivo_dados_basicos( self ) -> TextIOWrapper:
+        return open( ''.join( [ self.retornar_path(), '_dados_basicos.txt' ] ), 'a', encoding="utf-8" )
+
+    def gerar_arquivo_custos_unitarios_insumos( self ) -> TextIOWrapper:
+        return open( ''.join( [ self.retornar_path(), '_insumos_custos_unitarios.txt' ] ), 'a', encoding="utf-8" )
+
+
+class RegexArquivo:
+
+    def __init__( self, pdf_file: str ):
+        self.regex = self.retornar_regex_arquivo( pdf_file )
+
+    def retornar_pattern_arquivo( self ) -> str:
+        return r'(?P<re_sistema>(.+))/(?P<re_estado>\w{2}) (?P<re_mes_base>(\d{2}))-(?P<re_ano_base>(\d{4})) (Relatório) (?P<re_item_a>(Analítico|Sintético)) (de) (?P<re_item_b>Composições de Custos|ComposiçΣes de Custos|Equipamentos|Mão de Obra|Mao de Obra|Materiais)( - com desoneração| - com desoneraç╞o| - com desoneracao)?\.pdf$'
+
+    def retornar_regex_arquivo( self, pdf_file: str ) -> Match:
+        return re.match( self.retornar_pattern_arquivo(), pdf_file )
+
+
+class Regex:
+
+    def __init__( self, avaliado: str ) -> None:
+        regex_1 = r'(CGCIT)'
+        regex_2 = r'(.*) - (\w{1,20}/\d{4})'
+        regex_3 = r'(\s*) (Custo Unitário|Preço Unitário)'
+        regex_4 = r'(Código)'
+        regex_5 = r'(\s*) \(R\$\)'
+        lista_regex = [regex_1, regex_2, regex_3, regex_4, regex_5]
+        self.cabecalho = self.obter_regex_cabecalho( avaliado, lista_regex )
+
+    def obter_regex_cabecalho( self, avaliado: str, lista: list ):
+        retorno = None
+        for rx in lista:
+            if ( re.match( rx, avaliado) is not None ):
+                retorno = re.match( rx, avaliado)
+        return retorno
+
+
+class RegexMaterial(Regex):
+
+    def __init__(self, avaliado: str ) -> None:
+        super().__init__( avaliado )
+        self.principal = self.obter_regex( avaliado )
+
+    def retornar_pattern_alfa_material( self ) -> str:
+        return r'(?P<re_codigo>[M]\d{4}) (?P<re_descricao>.+) (?P<re_unidade>\w{1,5}) (?P<re_custo>\d*.*\d*.\d+,\d{4}|\s*-)'
+
+    def retornar_pattern_beta_material( self ) -> str:
+        return r'(\s+) (?P<re_descricao1>.+)'
+
+    def obter_regex( self, avaliado ) -> Match:
+        regex_alfa = re.match( self.retornar_pattern_alfa_material(), avaliado )
+        regex_beta = re.match( retornar_pattern_beta_material(), avaliado, re.MULTILINE )
+        if regex_alfa is not None:
+            regex = regex_alfa
+        elif regex_beta is not None:
+            regex = regex_beta
+            print( avaliado )
+
+        return regex
+
+
+class Material:
+
+    def __init__( self, regex: Match ) -> None:
+        self.regex = regex
+        self.codigo = self.obter_codigo()
+        obj_descricao = DescricaoNormalizada( self.obter_descricao() )
+        self.descricao = obj_descricao.descricao
+        self.unidade = self.obter_unidade()
+        self.custo = formatar_numero( self.obter_custo() )
+        self.categoria = str(MATERIAL)
+
+    def obter_codigo( self ):
+        return self.regex.group('re_codigo')
+
+    def obter_descricao( self ) -> str:
+        if self.obter_codigo() == 'M3795':
+            retorno = 'Instalações do Estaleiro Padrão para beneficiamento de estruturas navais, \
+                        inclusive mobiliário, equipamentos de informática e de segurança '
+        else:
+            retorno = self.regex.group('re_descricao')
+        return retorno
+
+    def obter_unidade( self ):
+        return self.regex.group('re_unidade')
+
+    def obter_custo( self ):
+        return self.regex.group('re_custo')
+
+    def retornar_dados_cadastro_material( self, origem_dados: str ) -> str:
+        dados = ';'.join( [origem_dados, self.codigo, self.descricao, self.unidade] )
+        dados = '{}{}'.format( dados, '\n' )
+        return dados
+
+    def escrever_arquivo_cadastro( self, arquivo: TextIOWrapper, origem_dados: str ) -> None:
+        arquivo.write( self.retornar_dados_cadastro_material( origem_dados ) )
+
+    def retornar_dados_custos_material( self, origem_dados: str ) -> str:
+        dados = ';'.join( [origem_dados, self.codigo, '','','','', self.custo, self.categoria] )
+        dados = '{}{}'.format( dados, '\n' )
+        return dados
+
+    def escrever_arquivo_custo( self, custos_unitarios: TextIOWrapper, origem_dados: str ) -> None:
+        custos_unitarios.write( self.retornar_dados_custos_material( origem_dados ) )
+
