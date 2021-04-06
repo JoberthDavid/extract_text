@@ -1,0 +1,1805 @@
+SICRO;GO;10-2020;P9801;Ajudante;h;
+SICRO;GO;10-2020;P9802;Ajudante especializado;h;
+SICRO;GO;10-2020;P9803;Almoxarife;mês;
+SICRO;GO;10-2020;P9804;Apontador;mês;
+SICRO;GO;10-2020;P9805;Armador;h;
+SICRO;GO;10-2020;P9806;Auxiliar administrativo;mês;
+SICRO;GO;10-2020;P9807;Bombeiro hidráulico;h;
+SICRO;GO;10-2020;P9808;Carpinteiro;h;
+SICRO;GO;10-2020;P9809;Encarregado administrativo;mês;
+SICRO;GO;10-2020;P9810;Eletricista;h;
+SICRO;GO;10-2020;P9811;Encarregado especializado;mês;
+SICRO;GO;10-2020;P9812;Engenheiro;mês;
+SICRO;GO;10-2020;P9814;Operacional;mês;
+SICRO;GO;10-2020;P9815;Jardineiro;h;
+SICRO;GO;10-2020;P9816;Encarregado de mergulho;mês;
+SICRO;GO;10-2020;P9819;Engenheiro supervisor;mês;
+SICRO;GO;10-2020;P9821;Pedreiro;h;
+SICRO;GO;10-2020;P9822;Pintor;h;
+SICRO;GO;10-2020;P9823;Serralheiro;h;
+SICRO;GO;10-2020;P9824;Servente;h;
+SICRO;GO;10-2020;P9825;Soldador;h;
+SICRO;GO;10-2020;P9826;Chefe setor de finanças;mês;
+SICRO;GO;10-2020;P9827;Vigia;mês;
+SICRO;GO;10-2020;P9830;Montador;h;
+SICRO;GO;10-2020;P9833;Auxiliar de laboratório;mês;
+SICRO;GO;10-2020;P9835;Perfurador de tubulão a ar comprimido com insalubridade;h;
+SICRO;GO;10-2020;P9836;Geólogo;h;
+SICRO;GO;10-2020;P9837;Oceanógrafo;mês;
+SICRO;GO;10-2020;P9840;Encarregado geral;mês;
+SICRO;GO;10-2020;P9842;Faxineiro;mês;
+SICRO;GO;10-2020;P9843;Operador de equipamento leve;h;
+SICRO;GO;10-2020;P9844;Capitão fluvial;mês;
+SICRO;GO;10-2020;P9845;Operador de equipamento pesado;h;
+SICRO;GO;10-2020;P9846;Operador de equipamento especial;h;
+SICRO;GO;10-2020;P9847;Perfurador de tubulão;h;
+SICRO;GO;10-2020;P9848;Desenhista;mês;
+SICRO;GO;10-2020;P9849;Condutor maquinista fluvial;mês;
+SICRO;GO;10-2020;P9850;Copeiro;mês;
+SICRO;GO;10-2020;P9851;Médico do trabalho;mês;
+SICRO;GO;10-2020;P9852;Blaster;h;
+SICRO;GO;10-2020;P9853;Pré-marcador;h;
+SICRO;GO;10-2020;P9854;Recepcionista;mês;
+SICRO;GO;10-2020;P9855;Marinheiro de máquinas;mês;
+SICRO;GO;10-2020;P9856;Marinheiro de convés;h;
+SICRO;GO;10-2020;P9857;Marinheiro de convés - mensalista;mês;
+SICRO;GO;10-2020;P9858;Laboratorista;mês;
+SICRO;GO;10-2020;P9859;Trabalhador de via;h;
+SICRO;GO;10-2020;P9860;Mergulhador;h;
+SICRO;GO;10-2020;P9861;Selecionador de material pétreo;h;
+SICRO;GO;10-2020;P9864;Engenheiro de segurança do trabalho;mês;
+SICRO;GO;10-2020;P9865;Técnico em enfermagem;mês;
+SICRO;GO;10-2020;P9866;Motorista de caminhão;h;
+SICRO;GO;10-2020;P9867;Técnico especializado - mensalista;mês;
+SICRO;GO;10-2020;P9869;Encarregado de obras de artes especiais;mês;
+SICRO;GO;10-2020;P9870;Motorista de veículo leve;h;
+SICRO;GO;10-2020;P9871;Motorista de veículo especial;h;
+SICRO;GO;10-2020;P9875;Encarregado de turma;mês;
+SICRO;GO;10-2020;P9876;Técnico de segurança do trabalho;mês;
+SICRO;GO;10-2020;P9878;Secretária;mês;
+SICRO;GO;10-2020;P9880;Piloto fluvial;mês;
+SICRO;GO;10-2020;P9882;Técnico especializado;h;
+SICRO;GO;10-2020;P9883;Chefe do setor administrativo;mês;
+SICRO;GO;10-2020;P9884;Encarregado de terraplenagem;mês;
+SICRO;GO;10-2020;P9885;Frentista de túnel;h;
+SICRO;GO;10-2020;P9889;Técnico da qualidade;mês;
+SICRO;GO;10-2020;P9891;Engenheiro mecânico;mês;
+SICRO;GO;10-2020;P9892;Auxiliar de blaster;h;
+SICRO;GO;10-2020;P9893;Encarregado de pavimentação;mês;
+SICRO;GO;10-2020;P9896;Porteiro;mês;
+SICRO;GO;10-2020;P9897;Técnico de meio ambiente;mês;
+SICRO;GO;10-2020;P9900;Comprador;mês;
+SICRO;GO;10-2020;P9901;Encarregado de superestrutura ferroviária;mês;
+SICRO;GO;10-2020;P9903;Auxiliar técnico;mês;
+SICRO;GO;10-2020;P9907;Comandante de longo curso;mês;
+SICRO;GO;10-2020;P9908;Imediato;mês;
+SICRO;GO;10-2020;P9909;Oficial de náutica;mês;
+SICRO;GO;10-2020;P9910;Oficial de máquinas;mês;
+SICRO;GO;10-2020;P9911;Condutor de máquinas;mês;
+SICRO;GO;10-2020;P9912;Capitão fluvial com periculosidade;h;
+SICRO;GO;10-2020;P9913;Draguista;mês;
+SICRO;GO;10-2020;P9915;Maquinista;h;
+SICRO;GO;10-2020;P9916;Encarregado de conservação rodoviária;mês;
+SICRO;GO;10-2020;P9920;Mestre fluvial;mês;
+SICRO;GO;10-2020;P9923;Mergulhador com periculosidade;h;
+SICRO;GO;10-2020;P9927;Frentista de túnel com periculosidade;h;
+SICRO;GO;10-2020;P9928;Servente com periculosidade;h;
+SICRO;GO;10-2020;P9929;Bombeiro hidráulico com periculosidade;h;
+SICRO;GO;10-2020;P9930;Eletricista com periculosidade;h;
+SICRO;GO;10-2020;P9932;Operador de equipamento pesado com periculosidade;h;
+SICRO;GO;10-2020;P9934;Motorista de veículo especial com periculosidade;h;
+SICRO;GO;10-2020;P9938;Operador de equipamento leve com periculosidade;h;
+SICRO;GO;10-2020;P9939;Operador de equipamento leve com insalubridade;h;
+SICRO;GO;10-2020;P9940;Piloto fluvial com periculosidade;h;
+SICRO;GO;10-2020;P9941;Mestre fluvial com periculosidade;h;
+SICRO;GO;10-2020;P9942;Marinheiro de convés com periculosidade;h;
+SICRO;GO;10-2020;P9943;Técnico de batimetria com periculosidade;h;
+SICRO;GO;10-2020;P9944;Operador de equipamento especial com periculosidade;h;
+SICRO;GO;10-2020;P9945;Draguista com periculosidade;h;
+SICRO;GO;10-2020;P9946;Engenheiro auxiliar;mês;
+SICRO;GO;10-2020;P9947;Técnico florestal;mês;
+SICRO;GO;10-2020;P9948;Motorista de veículo leve - mensalista;mês;
+SICRO;GO;10-2020;P9949;Topógrafo;mês;
+SICRO;GO;10-2020;P9950;Auxiliar de topografia;mês;
+SICRO;GO;10-2020;P9951;Médico de câmara hiperbárica;mês;
+SICRO;GO;10-2020;P9952;Pedreiro - mensalista;mês;
+SICRO;GO;10-2020;P9953;Eletricista - mensalista;mês;
+SICRO;GO;10-2020;P9954;Servente - mensalista;mês;
+SICRO;GO;10-2020;P9955;Engenheiro chefe;mês;
+SICRO;GO;10-2020;P9956;Motorista de caminhão com periculosidade;h;
+SICRO;GO;10-2020;P9972;Técnico de batimetria;mês;
+SICRO;GO;10-2020;M0003;Aço CA 25;kg
+SICRO;GO;10-2020;M0004;Aço CA 50;kg
+SICRO;GO;10-2020;M0005;Brita 0;m³
+SICRO;GO;10-2020;M0006;Fibra de nylon para concreto;kg
+SICRO;GO;10-2020;M0007;Fibra de aço para concreto;kg
+SICRO;GO;10-2020;M0008;Detergente;l
+SICRO;GO;10-2020;M0009;Aço CP 175 RB;kg
+SICRO;GO;10-2020;M0010;Superplastificante;kg
+SICRO;GO;10-2020;M0011;Aditivo modificador de viscosidade;kg
+SICRO;GO;10-2020;M0012;Silicato de alumínio;kg
+SICRO;GO;10-2020;M0013;Grampo de ancoragem CA 50 - D = 12,5 mm;kg
+SICRO;GO;10-2020;M0014;Aço CA 60;kg
+SICRO;GO;10-2020;M0015;Espoleta elétrica Nº 8 - D = 6,0 mm;un
+SICRO;GO;10-2020;M0016;Grampo sargento nº 4;un
+SICRO;GO;10-2020;M0017;Saco de aniagem ou de ráfia de 95 x 65 cm de 50 kg;un
+SICRO;GO;10-2020;M0018;Grampo pesado para cabo de aço - D = 13 mm;un
+SICRO;GO;10-2020;M0019;Esticador para cabo de aço - D = 13 mm;un
+SICRO;GO;10-2020;M0020;Grampo de ancoragem CA 50 - D = 6,3 mm;kg
+SICRO;GO;10-2020;M0021;Herbicida glifosato para áreas contínuas;l
+SICRO;GO;10-2020;M0025;Adesivo plástico para tubos de PVC;kg
+SICRO;GO;10-2020;M0026;Aditivo aglutinante para argamassa;l
+SICRO;GO;10-2020;M0028;Areia média;m³
+SICRO;GO;10-2020;M0029;Microssílica;kg
+SICRO;GO;10-2020;M0030;Aditivo plastificante e retardador de pega para concreto e argamassa;kg
+SICRO;GO;10-2020;M0032;Cola de contato para laminado elastoplástico;kg
+SICRO;GO;10-2020;M0035;Diluente tipo aguarrás para tintas e vernizes;l
+SICRO;GO;10-2020;M0039;Gasolina;l
+SICRO;GO;10-2020;M0041;Container de 1 TEU com 2 banheiros;un
+SICRO;GO;10-2020;M0042;Container de 1 TEU com janela;un
+SICRO;GO;10-2020;M0043;Diesel;l
+SICRO;GO;10-2020;M0044;Abrasivo de vidro com granulometria de 250 a 420 microns;kg
+SICRO;GO;10-2020;M0045;Barreira plástica monobloco para canalização de trânsito de 101 x 50 x 55 cm;un
+SICRO;GO;10-2020;M0046;Barreira plástica para canalização de trânsito de 60 x 45 x 60 cm;un
+SICRO;GO;10-2020;M0047;Cone plástico de sinalização - NBR 15071;un
+SICRO;GO;10-2020;M0048;Balizador cônico refletivo em polietileno semiflexível de 114 x 11 x 40 cm;un
+SICRO;GO;10-2020;M0049;Delimitador de tráfego flexível com duas faixas refletivas com chumbador - D = 20 cm e H = 80 cm;un
+SICRO;GO;10-2020;M0050;Adesivo fixador para hidrossemeadura - Goma Xantana;kg
+SICRO;GO;10-2020;M0051;Cilindro canalizador de tráfego com base quadrada de 111 x 56 x 56 cm - NBR 15692:2009;un
+SICRO;GO;10-2020;M0052;Fita adesiva de PVC - L = 50 mm e C = 50 m;m
+SICRO;GO;10-2020;M0053;Tela plástica para tapume cor laranja - L = 1,2 m;m
+SICRO;GO;10-2020;M0054;Fita zebrada de cor laranja e branca - L = 7 a 8 cm;m
+SICRO;GO;10-2020;M0055;Barreira plástica articulável modular na cor amarela de 240 x 100 cm;un
+SICRO;GO;10-2020;M0056;Ferramenta de corte para removedora de faixa de sinalização (Smith Cutter);un
+SICRO;GO;10-2020;M0057;Container de 1 TEU duplo (6,0 m x 4,88 m) com janela;un
+SICRO;GO;10-2020;M0058;Container de 1 TEU duplo (6,0 m x 4,88 m) com janela e 2 lavabos;un
+SICRO;GO;10-2020;M0059;Container de 1 TEU com revestimento térmico (ar condicionado) com janela e 1 banheiro;un
+SICRO;GO;10-2020;M0060;Container 3/4 de 1 TEU com janela;un
+SICRO;GO;10-2020;M0061;Apoio de neoprene fretado de 100 x 100 x 28 mm;un
+SICRO;GO;10-2020;M0062;Apoio de neoprene fretado de 300 x 400 x 85 mm;un
+SICRO;GO;10-2020;M0063;Apoio de neoprene fretado de 350 x 450 x 99 mm;un
+SICRO;GO;10-2020;M0064;Apoio de neoprene fretado de 150 x 200 x 35 mm;un
+SICRO;GO;10-2020;M0065;Container 3/4 de 1 TEU com janela e 1 banheiro;un
+SICRO;GO;10-2020;M0066;Container de 2 TEU com revestimento térmico (ar condicionado) com janela e 1 lavabo;un
+SICRO;GO;10-2020;M0067;Tubo PE 100 PN10 com flanges - D = 160 mm;m
+SICRO;GO;10-2020;M0068;Caibro de pinho de 7,5 x 10 cm;m
+SICRO;GO;10-2020;M0069;Arame farpado em aço galvanizado - D = 1,60 mm;m
+SICRO;GO;10-2020;M0070;Arame liso galvanizado 10 BWG;kg
+SICRO;GO;10-2020;M0071;Container de 1/2 de 1 TEU, com 3 janelas, para guarita, Delta Containers ou similar;un
+SICRO;GO;10-2020;M0072;Arame liso em aço galvanizado - D = 2,10 mm (14 BWG);kg
+SICRO;GO;10-2020;M0073;Muda arbórea de porte de 30 a 80 cm;un
+SICRO;GO;10-2020;M0074;Muda arbustiva de porte de 50 cm;un
+SICRO;GO;10-2020;M0075;Arame liso recozido em aço-carbono - D = 1,24 mm (18 BWG);kg
+SICRO;GO;10-2020;M0076;Disco de corte abrasivo para policorte - D = 300 mm;un
+SICRO;GO;10-2020;M0080;Areia fina;m³
+SICRO;GO;10-2020;M0081;Areia grossa;m³
+SICRO;GO;10-2020;M0082;Areia média lavada;m³
+SICRO;GO;10-2020;M0083;Argamassa pré-dosada para grauteamento;kg
+SICRO;GO;10-2020;M0084;Argamassa pré-dosada autoadensável para grauteamento;kg
+SICRO;GO;10-2020;M0085;Ancoragem ativa para 4 cordoalhas - D = 12,7 mm;un
+SICRO;GO;10-2020;M0086;Ancoragem ativa para 6 cordoalhas - D = 12,7 mm;un
+SICRO;GO;10-2020;M0087;Ancoragem ativa para 7 cordoalhas - D = 12,7 mm;un
+SICRO;GO;10-2020;M0088;Ancoragem ativa para 8 cordoalhas - D = 12,7 mm;un
+SICRO;GO;10-2020;M0089;Ancoragem ativa para 9 cordoalhas - D = 12,7 mm;un
+SICRO;GO;10-2020;M0091;Ancoragem ativa para 10 cordoalhas - D = 12,7 mm;un
+SICRO;GO;10-2020;M0092;Ancoragem ativa para 12 cordoalhas - D = 12,7 mm;un
+SICRO;GO;10-2020;M0093;Ancoragem ativa para 15 cordoalhas - D = 12,7 mm;un
+SICRO;GO;10-2020;M0094;Ancoragem ativa para 19 cordoalhas - D = 12,7 mm;un
+SICRO;GO;10-2020;M0098;Bambu com diâmetro médio de 10 cm;m
+SICRO;GO;10-2020;M0099;Equipamentos para a fábrica de dormentes de concreto protendido;ISF
+SICRO;GO;10-2020;M0100;Ancoragem ativa para 22 cordoalhas - D = 12,7 mm;un
+SICRO;GO;10-2020;M0101;Ancoragem ativa para 27 cordoalhas - D = 12,7 mm;un
+SICRO;GO;10-2020;M0102;Ancoragem ativa para 31 cordoalhas - D = 12,7 mm;un
+SICRO;GO;10-2020;M0103;Aditivo antirricochete para concreto projetado;kg
+SICRO;GO;10-2020;M0104;Asfalto diluído CM 30;t
+SICRO;GO;10-2020;M0105;Ancoragem ativa para 4 cordoalhas - D = 15,2 mm;un
+SICRO;GO;10-2020;M0106;Ancoragem ativa para 6 cordoalhas - D = 15,2 mm;un
+SICRO;GO;10-2020;M0107;Geocomposto para drenagem;m²
+SICRO;GO;10-2020;M0108;Ancoragem ativa para 7 cordoalhas - D = 15,2 mm;un
+SICRO;GO;10-2020;M0109;Geodreno vertical - L = 10 cm e E = 5 mm;m
+SICRO;GO;10-2020;M0110;Ancoragem ativa para 10 cordoalhas - D = 15,2 mm;un
+SICRO;GO;10-2020;M0111;Ancoragem ativa para 9 cordoalhas - D = 15,2 mm;un
+SICRO;GO;10-2020;M0112;Disco diamantado para corte de pavimento - D = 1 m e E = 1,6 mm;un
+SICRO;GO;10-2020;M0113;Ancoragem ativa para 12 cordoalhas - D = 15,2 mm;un
+SICRO;GO;10-2020;M0114;Disco diamantado para corte de pavimento - D = 1,5 m e E = 1,6 mm;un
+SICRO;GO;10-2020;M0115;Biomanta vegetal de fibras de coco entrelaçadas com fios biodegradáveis de densidade 0,5 kg/m²;m²
+SICRO;GO;10-2020;M0116;Mangote flangeado de borracha reforçada com lonas sintéticas - C = 1,80 m e D = 0,30 m;un
+SICRO;GO;10-2020;M0117;Mangote flangeado de borracha reforçada com lonas sintéticas - C = 1,80 m e D = 0,40 m;un
+SICRO;GO;10-2020;M0118;Mangote flangeado de borracha reforçada com lonas sintéticas - C = 1,80 m e D = 0,45 m;un
+SICRO;GO;10-2020;M0119;Mangote flangeado de borracha reforçada com lonas sintéticas - C = 1,80 m e D = 0,50 m;un
+SICRO;GO;10-2020;M0120;Tubo PEAD PE 100 PN 8 com flanges - D = 250 mm;m
+SICRO;GO;10-2020;M0121;Tubo PEAD PE 100 PN 8 com flanges - D = 400 mm;m
+SICRO;GO;10-2020;M0122;Tubo PEAD PE 100 PN 8 com flanges - D = 450 mm;m
+SICRO;GO;10-2020;M0123;Tubo PEAD PE 100 PN 8 com flanges - D = 500 mm;m
+SICRO;GO;10-2020;M0124;Flutuador bipartido em polietileno com núcleo de espuma em poliuretano para tubos - D = 0,30 m;un
+SICRO;GO;10-2020;M0125;Flutuador bipartido em polietileno com núcleo de espuma em poliuretano para tubos - D = 0,40 m;un
+SICRO;GO;10-2020;M0126;Flutuador bipartido em polietileno com núcleo de espuma em poliuretano para tubos - D = 0,45 m;un
+SICRO;GO;10-2020;M0127;Flutuador bipartido em polietileno com núcleo de espuma em poliuretano para tubos - D = 0,50 m;un
+SICRO;GO;10-2020;M0128;Tela verde composta de fibras vegetais e fios de polipropileno com densidade de 600 g/m²;m²
+SICRO;GO;10-2020;M0129;Retentores de sedimentos de fibras vegetais - D = 20 cm;m
+SICRO;GO;10-2020;M0130;Ancoragem ativa para 15 cordoalhas - D = 15,2 mm;un
+SICRO;GO;10-2020;M0131;Tubo PEAD com paredes estruturadas para drenagem - D = 400 mm;m
+SICRO;GO;10-2020;M0132;Tubo PEAD com paredes estruturadas para drenagem - D = 450 mm;m
+SICRO;GO;10-2020;M0133;Tubo PEAD com paredes estruturadas para drenagem - D = 500 mm;m
+SICRO;GO;10-2020;M0134;Tubo PEAD com paredes estruturadas para drenagem - D = 600 mm;m
+SICRO;GO;10-2020;M0135;Tubo PEAD com paredes estruturadas para drenagem - D = 750 mm;m
+SICRO;GO;10-2020;M0136;Tubo PEAD com paredes estruturadas para drenagem - D = 800 mm;m
+SICRO;GO;10-2020;M0137;Tubo PEAD com paredes estruturadas para drenagem - D = 900 mm;m
+SICRO;GO;10-2020;M0138;Ancoragem ativa para 19 cordoalhas - D = 15,2 mm;un
+SICRO;GO;10-2020;M0139;Tubo PEAD com paredes estruturadas para drenagem - D = 1000 mm;m
+SICRO;GO;10-2020;M0140;Bentonita;kg
+SICRO;GO;10-2020;M0141;Tubo PEAD com paredes estruturadas para drenagem - D = 1050 mm;m
+SICRO;GO;10-2020;M0142;Tubo PEAD com paredes estruturadas para drenagem - D = 1200 mm;m
+SICRO;GO;10-2020;M0143;Tubo PEAD com paredes estruturadas para drenagem - D = 1500 mm;m
+SICRO;GO;10-2020;M0144;Tubo PEAD com paredes estruturadas para drenagem - D = 1800 mm;m
+SICRO;GO;10-2020;M0145;Ancoragem ativa para 22 cordoalhas - D = 15,2 mm;un
+SICRO;GO;10-2020;M0146;Ancoragem ativa para 27 cordoalhas - D = 15,2 mm;un
+SICRO;GO;10-2020;M0147;Tubo PEAD com paredes estruturadas para drenagem - D = 2000 mm;m
+SICRO;GO;10-2020;M0148;Ancoragem ativa para lajes para 1 cordoalha - D = 12,7 mm;un
+SICRO;GO;10-2020;M0149;Tubo PEAD com paredes estruturadas para drenagem - D = 2500 mm;m
+SICRO;GO;10-2020;M0150;Tubo PEAD com paredes estruturadas para drenagem - D = 3000 mm;m
+SICRO;GO;10-2020;M0151;Ancoragem ativa para lajes para 2 cordoalhas - D = 12,7 mm;un
+SICRO;GO;10-2020;M0152;Ancoragem ativa para lajes para 3 cordoalhas - D = 12,7 mm;un
+SICRO;GO;10-2020;M0153;Ancoragem ativa para lajes para 4 cordoalhas - D = 12,7 mm;un
+SICRO;GO;10-2020;M0155;Estolão vetiver para replantio;un
+SICRO;GO;10-2020;M0156;Bloco de concreto de 19 x 19 x 39 cm;un
+SICRO;GO;10-2020;M0157;Bloco de concreto celular;m³
+SICRO;GO;10-2020;M0158;Tela metálica galvanizada dobrada em L, com tensores de 40 x 40 x 200 cm e consumo de 5,8 kg aço/m²;un
+SICRO;GO;10-2020;M0160;Extintor espuma mecânica 10 l;un
+SICRO;GO;10-2020;M0161;Vergalhão de fibra de vidro de 25 mm;m
+SICRO;GO;10-2020;M0162;Corrente de elos de aço galvanizado 1/8" de diâmetro;m
+SICRO;GO;10-2020;M0163;Gonzo com aba de 1/2" em aço galvanizado;un
+SICRO;GO;10-2020;M0164;Tubo galvanizado perfil quadrado 20 x 20 mm, espessura 1/16";m
+SICRO;GO;10-2020;M0165;Cantoneira em aço de abas iguais de 1" x 1/8";m
+SICRO;GO;10-2020;M0166;Tubo galvanizado perfil redondo, diâmetro 3/4", espessura 2,25 mm;m
+SICRO;GO;10-2020;M0167;Tela de nylon industrial, malha 1,6 mm, espessura de fio 0,40 mm;m²
+SICRO;GO;10-2020;M0168;Abraçadeira em nylon espessura 3,6 x 200 mm;un
+SICRO;GO;10-2020;M0169;Roda em aço para carrinho de mão, com pneu 325/8 e câmara de ar;un
+SICRO;GO;10-2020;M0173;Ancoragem ativa para lajes para 1 cordoalha - D = 15,2 mm;un
+SICRO;GO;10-2020;M0178;Ancoragem ativa para lajes para 2 cordoalhas - D = 15,2 mm;un
+SICRO;GO;10-2020;M0181;Ancoragem ativa para lajes para 3 cordoalhas - D = 15,2 mm;un
+SICRO;GO;10-2020;M0184;Ancoragem ativa para lajes para 4 cordoalhas - D = 15,2 mm;un
+SICRO;GO;10-2020;M0191;Brita 1;m³
+SICRO;GO;10-2020;M0192;Brita 2;m³
+SICRO;GO;10-2020;M0193;Brita 3;m³
+SICRO;GO;10-2020;M0194;Escória de aciaria;m³
+SICRO;GO;10-2020;M0198;Parafuso com bucha plástica S8;un
+SICRO;GO;10-2020;M0200;Explosivo tipo emulsão bombeada;kg
+SICRO;GO;10-2020;M0201;Coroa para jumbo hidráulico T38 - D = 3 1/2";un
+SICRO;GO;10-2020;M0202;Bit de botão ST 68 - D = 76 mm;un
+SICRO;GO;10-2020;M0204;Instalações físicas para a central de pré-moldagem de dormentes de concreto protendido;CMCC
+SICRO;GO;10-2020;M0217;Enxofre;kg
+SICRO;GO;10-2020;M0218;Adubo fósforo (30%);kg
+SICRO;GO;10-2020;M0219;Adubo potássio;kg
+SICRO;GO;10-2020;M0220;Adubo NPK;kg
+SICRO;GO;10-2020;M0222;Filler calcário;kg
+SICRO;GO;10-2020;M0223;Sementes para hidrossemeadura;kg
+SICRO;GO;10-2020;M0224;Guia-chapéu pré-moldada - C = 140 cm;un
+SICRO;GO;10-2020;M0225;Adubo orgânico;kg
+SICRO;GO;10-2020;M0229;Gabião colchão Zn/Al + polímero - E = 0,17 m e D = 2,00 mm;m²
+SICRO;GO;10-2020;M0230;Gabião caixa Zn/Al de 2,0 x 1,0 x 0,50 m;un
+SICRO;GO;10-2020;M0231;Gabião caixa Zn/Al de 2,0 x 1,0 x 1,00 m;un
+SICRO;GO;10-2020;M0232;Gabião caixa Zn/Al + polímero de 2,0 x 1,0 x 0,50 m;un
+SICRO;GO;10-2020;M0233;Gabião caixa Zn/Al + polímero de 2,0 x 1,0 x 1,00 m;un
+SICRO;GO;10-2020;M0234;Gabião saco Zn/Al + polímero - D = 0,65 m;m³
+SICRO;GO;10-2020;M0235;Gabião colchão Zn/Al + polímero - E = 0,23 m e D = 2,00 mm;m²
+SICRO;GO;10-2020;M0236;Gabião colchão Zn/Al + polímero - E = 0,30 m e D = 2,00 mm;m²
+SICRO;GO;10-2020;M0237;Energia elétrica;kWh
+SICRO;GO;10-2020;M0253;Cabo isolado PVC de 16 mm² - 750 V;m
+SICRO;GO;10-2020;M0254;Gás argônio;m³
+SICRO;GO;10-2020;M0255;Gás CO2;kg
+SICRO;GO;10-2020;M0256;Tinta de fundo bicomponente à base de silicato;l
+SICRO;GO;10-2020;M0257;Diluente para tinta de fundo à base de silicato;l
+SICRO;GO;10-2020;M0260;Cabo paralelo de 3 x 1,5 mm²;m
+SICRO;GO;10-2020;M0264;Bomba de combustível para posto de abastecimento;un
+SICRO;GO;10-2020;M0265;Tanque de combustível aéreo horizontal de 5000 l com escada para visita;un
+SICRO;GO;10-2020;M0266;Cabo Sintenax de 240 mm² - 1 kV;m
+SICRO;GO;10-2020;M0269;Cabo Sintenax de 50 mm² - 1 kV;m
+SICRO;GO;10-2020;M0284;Caibro de pinho de 7,5 x 7,5 cm;m
+SICRO;GO;10-2020;M0285;Pontalete para escoramento - D = 15 cm;m
+SICRO;GO;10-2020;M0286;Tábua de 2,5 x 30 cm;m
+SICRO;GO;10-2020;M0289;Tábua de 2,5 x 15 cm;m
+SICRO;GO;10-2020;M0290;Tábua de 2,5 x 10 cm;m
+SICRO;GO;10-2020;M0301;Pontalete para escoramento - D = 10 cm;m
+SICRO;GO;10-2020;M0310;Peça de madeira de 2,5 x 7,5 cm;m
+SICRO;GO;10-2020;M0344;Cal hidratada - a granel;kg
+SICRO;GO;10-2020;M0345;Cal hidratada - saco;kg
+SICRO;GO;10-2020;M0346;Disco de aço para bomba de projeção via seca;un
+SICRO;GO;10-2020;M0347;Disco de aço para bomba de projeção via úmida;un
+SICRO;GO;10-2020;M0348;Disco de borracha para bomba de projeção via seca;un
+SICRO;GO;10-2020;M0349;Disco de borracha para bomba de projeção via úmida;un
+SICRO;GO;10-2020;M0350;Bico para bomba de projeção;un
+SICRO;GO;10-2020;M0351;Mangote para bomba de projeção;m
+SICRO;GO;10-2020;M0365;Cantoneira em ferro de abas iguais de 1" x 3/16";kg
+SICRO;GO;10-2020;M0366;Cantoneira em aço galvanizado ASTM A36;kg
+SICRO;GO;10-2020;M0374;Fungicida tipo Carbolineum ou similar;l
+SICRO;GO;10-2020;M0395;Chapa de alumínio - E = 1,5 mm;m²
+SICRO;GO;10-2020;M0408;Chumbador para concreto Tecbolt de 12,5 mm;un
+SICRO;GO;10-2020;M0409;Chumbador para concreto Tecbolt de 6,3 mm;un
+SICRO;GO;10-2020;M0410;Chumbador de expansão controlada por torque em aço zincado para concreto - D = 20,0 mm;un
+SICRO;GO;10-2020;M0411;Chumbador para concreto Tecbolt de 10 mm;un
+SICRO;GO;10-2020;M0412;Chumbador para concreto Tecbolt de 16 mm;un
+SICRO;GO;10-2020;M0413;Chumbador para concreto Tecbolt de 25 mm;un
+SICRO;GO;10-2020;M0421;Argamassa expansiva para desmonte de rocha e demolição de concreto;kg
+SICRO;GO;10-2020;M0424;Cimento Portland CP II - 32 - saco;kg
+SICRO;GO;10-2020;M0425;Cimento CP V - ARI;kg
+SICRO;GO;10-2020;M0427;Cordoalha nua tipo CP 190 RB - D = 12,7 mm;kg
+SICRO;GO;10-2020;M0428;Cordoalha nua tipo CP 190 RB - D = 15,2 mm;kg
+SICRO;GO;10-2020;M0429;Perfil de alumínio L421 de 33 x 40 mm;m
+SICRO;GO;10-2020;M0432;Cola de neoprene;kg
+SICRO;GO;10-2020;M0434;Tirante de aço ST 95/105 de capacidade de 39 t - D = 32 mm;m
+SICRO;GO;10-2020;M0440;Anel de compensação angular de até 45°;un
+SICRO;GO;10-2020;M0442;Compensado plastificado de 10 mm;m²
+SICRO;GO;10-2020;M0443;Compensado plastificado de 12 mm;m²
+SICRO;GO;10-2020;M0444;Luva de emenda prensada - D = 12,5 mm;un
+SICRO;GO;10-2020;M0445;Luva de emenda prensada - D = 16 mm;un
+SICRO;GO;10-2020;M0446;Compensado resinado - E = 10 mm;m²
+SICRO;GO;10-2020;M0447;Compensado resinado de 12 mm;m²
+SICRO;GO;10-2020;M0448;Compensado resinado de 14 mm;m²
+SICRO;GO;10-2020;M0449;Compensado resinado de 18 mm;m²
+SICRO;GO;10-2020;M0450;Compensado de virola de 6 mm;m²
+SICRO;GO;10-2020;M0451;Concreto usinado fck = 20 MPa (comercial);m³
+SICRO;GO;10-2020;M0452;Concreto usinado fck = 25 MPa (comercial);m³
+SICRO;GO;10-2020;M0453;Concreto usinado fck = 30 MPa (comercial);m³
+SICRO;GO;10-2020;M0454;Concreto usinado fck = 35 MPa (comercial);m³
+SICRO;GO;10-2020;M0459;Compensado plastificado de 14 mm;m²
+SICRO;GO;10-2020;M0467;Luva de emenda prensada - D = 20 mm;un
+SICRO;GO;10-2020;M0468;Luva de emenda prensada - D = 25 mm;un
+SICRO;GO;10-2020;M0469;Luva de emenda prensada - D = 32 mm;un
+SICRO;GO;10-2020;M0470;Luva de emenda com rosca cônica - D = 12,5 mm;un
+SICRO;GO;10-2020;M0471;Luva de emenda com rosca cônica - D = 16 mm;un
+SICRO;GO;10-2020;M0472;Luva de emenda com rosca cônica - D = 20 mm;un
+SICRO;GO;10-2020;M0481;Luva de emenda com rosca cônica - D = 25 mm;un
+SICRO;GO;10-2020;M0482;Cortiça - E = 10 mm;m²
+SICRO;GO;10-2020;M0502;Luva de emenda com rosca cônica - D = 32 mm;un
+SICRO;GO;10-2020;M0506;Broca de widia - D = 8 mm;un
+SICRO;GO;10-2020;M0511;Granalha de aço;kg
+SICRO;GO;10-2020;M0512;Bico Venturi longo de 8 mm;un
+SICRO;GO;10-2020;M0521;Laminado elastoplástico de 1,5 mm;m²
+SICRO;GO;10-2020;M0532;Escora metálica regulável telescópica para tunnel liner;kg
+SICRO;GO;10-2020;M0533;Escora tubular galvanizada regulável de 3,0 m a 4,5 m e capacidade de 2100 a 750 kg;un
+SICRO;GO;10-2020;M0534;Escora tubular galvanizada regulável de 1,8 m a 3,1 m e capacidade de 3200 a 1600 kg;un
+SICRO;GO;10-2020;M0536;Quadro tubular contraventado com acessórios de 1,0 x 1,0 x 1,2 m e capacidade de 6 t por poste;un
+SICRO;GO;10-2020;M0537;Sapata ajustável para andaime - base quadrada de 15 x 15 cm;un
+SICRO;GO;10-2020;M0538;Escada metálica tipo marinheiro para andaime;m
+SICRO;GO;10-2020;M0539;Quadro tubular contraventado com acessórios para andaime - H = 100 cm e L = 100 cm;un
+SICRO;GO;10-2020;M0540;Quadro tubular contraventado com acessórios para andaime - H = 100 cm e L = 150 cm;un
+SICRO;GO;10-2020;M0541;Quadro tubular contraventado com acessórios para andaime - H = 100 cm e L = 200 cm;un
+SICRO;GO;10-2020;M0542;Diagonal tubular para andaime - L = 141 cm;un
+SICRO;GO;10-2020;M0543;Diagonal tubular para andaime - L = 212 cm;un
+SICRO;GO;10-2020;M0544;Diagonal tubular para andaime - L = 283 cm;un
+SICRO;GO;10-2020;M0545;Plataforma metálica de piso para andaime - C = 100 e L = 33 cm;un
+SICRO;GO;10-2020;M0546;Plataforma metálica de piso para andaime - C = 150 e L = 37 cm;un
+SICRO;GO;10-2020;M0547;Plataforma metálica de piso para andaime - C = 200 e L = 33 cm;un
+SICRO;GO;10-2020;M0548;Quadro tubular tipo guarda-corpo com acessórios para andaime - H = 120 cm e L = 100 cm;un
+SICRO;GO;10-2020;M0549;Quadro tubular tipo guarda-corpo com acessórios para andaime - H = 120 cm e L = 150 cm;un
+SICRO;GO;10-2020;M0550;Quadro tubular tipo guarda-corpo com acessórios para andaime - H = 120 cm e L = 200 cm;un
+SICRO;GO;10-2020;M0560;Desmoldante para formas;l
+SICRO;GO;10-2020;M0562;Abraçadeira giratória em aço galvanizado para escada multidirecional - D = 48 mm;un
+SICRO;GO;10-2020;M0563;Tubo em aço galvanizado para escada multidirecional - C = 100 cm;un
+SICRO;GO;10-2020;M0564;Peça base em aço galvanizado para escada multidirecional - C = 33 cm;un
+SICRO;GO;10-2020;M0565;Poste vertical em aço galvanizado para escada multidirecional - C = 100 cm;un
+SICRO;GO;10-2020;M0566;Poste vertical em aço galvanizado para escada multidirecional - C = 200 cm;un
+SICRO;GO;10-2020;M0567;Travessa em aço galvanizado para escada multidirecional - C = 75 cm;un
+SICRO;GO;10-2020;M0568;Travessa em aço galvanizado para escada multidirecional - C = 150 cm;un
+SICRO;GO;10-2020;M0569;Travessa em aço galvanizado para escada multidirecional - C = 250 cm;un
+SICRO;GO;10-2020;M0570;Diagonal em aço galvanizado para escada multidirecional - C = 150 cm para módulos de H = 200 cm;un
+SICRO;GO;10-2020;M0571;Diagonal em aço galvanizado para escada multidirecional - C = 250 cm para módulos de H = 200 cm;un
+SICRO;GO;10-2020;M0572;Piso em aço galvanizado para escada multidirecional - L = 32 cm e C = 150 cm;un
+SICRO;GO;10-2020;M0573;Escada de alumínio para escada multidirecional - H = 200 cm e C = 250 cm;un
+SICRO;GO;10-2020;M0574;Corrimão externo em alumínio para escada multidirecional - C = 250 cm;un
+SICRO;GO;10-2020;M0575;Corrimão interno em alumínio para escada multidirecional - C = 250 cm;un
+SICRO;GO;10-2020;M0576;Conexão tubular em aço galvanizado com semiabraçadeira para travessas - C = 30 cm e D = 48,3 mm;un
+SICRO;GO;10-2020;M0600;Ponteiro de martelo demolidor de 1,2 m;un
+SICRO;GO;10-2020;M0602;Ponteiro para rompedor hidráulico de 1700 kg;un
+SICRO;GO;10-2020;M0603;Ponteiro para rompedor hidráulico de 520 kg;un
+SICRO;GO;10-2020;M0614;Concreto usinado fctmk = 4,5 MPa (comercial);m³
+SICRO;GO;10-2020;M0615;Aditivo incorporador de ar para concreto e argamassa;kg
+SICRO;GO;10-2020;M0646;Estaca pré-moldada com capacidade de 100 t;m
+SICRO;GO;10-2020;M0647;Estaca pré-moldada com capacidade de 25 t;m
+SICRO;GO;10-2020;M0648;Estaca pré-moldada com capacidade de 40 t;m
+SICRO;GO;10-2020;M0649;Estaca pré-moldada com capacidade de 60 t;m
+SICRO;GO;10-2020;M0650;Estaca pré-moldada com capacidade de 75 t;m
+SICRO;GO;10-2020;M0666;Martelo de fundo DTH - D = 3";un
+SICRO;GO;10-2020;M0667;Martelo de fundo DTH - D = 5";un
+SICRO;GO;10-2020;M0668;Martelo de fundo DTH - D = 6";un
+SICRO;GO;10-2020;M0669;Martelo de fundo DTH - D = 8";un
+SICRO;GO;10-2020;M0673;Estaca pré-moldada de concreto centrifugado - D = 26 cm;m
+SICRO;GO;10-2020;M0677;Estaca pré-moldada de concreto centrifugado - D = 33 cm;m
+SICRO;GO;10-2020;M0682;Aço em perfis ASTM A36;kg
+SICRO;GO;10-2020;M0686;Estaca pré-moldada de concreto centrifugado - D = 38 cm;m
+SICRO;GO;10-2020;M0717;Tinta à base de resina epóxi bicomponente para fundo preparador de pintura;l
+SICRO;GO;10-2020;M0718;Tinta esmalte à base de resina epóxi bicomponente;l
+SICRO;GO;10-2020;M0719;Diluente epóxi;l
+SICRO;GO;10-2020;M0720;Tinta epóxi para fundo branco;l
+SICRO;GO;10-2020;M0721;Fundo anticorrosivo zarcão;l
+SICRO;GO;10-2020;M0722;Estaca pré-moldada de concreto centrifugado - D = 42 cm;m
+SICRO;GO;10-2020;M0729;Fixa cal tipo Globo Fix ou similar;l
+SICRO;GO;10-2020;M0734;Estaca pré-moldada de concreto centrifugado - D = 50 cm;m
+SICRO;GO;10-2020;M0741;Grama tipo batatais;m²
+SICRO;GO;10-2020;M0742;Grama tipo esmeralda;m²
+SICRO;GO;10-2020;M0743;Grama tipo Pelo de Urso em muda;un
+SICRO;GO;10-2020;M0745;Grampo em aço galvanizado para cerca - C = 25,4 mm e E = 3,76 mm (1" x 9 BWG);kg
+SICRO;GO;10-2020;M0748;Grama em mudas para revestimento de taludes;m²
+SICRO;GO;10-2020;M0755;Estaca pré-moldada de concreto centrifugado - D = 60 cm;m
+SICRO;GO;10-2020;M0756;Estaca pré-moldada de concreto centrifugado - D = 70 cm;m
+SICRO;GO;10-2020;M0766;Semipórtico metálico para vão de 2,7 m e vento de 35 m/s;un
+SICRO;GO;10-2020;M0767;Sinalizador a LED com bateria;un
+SICRO;GO;10-2020;M0769;Lona plástica de 200 micras de espessura;m²
+SICRO;GO;10-2020;M0771;Cavalete em polietileno zebrado com faixa refletiva;un
+SICRO;GO;10-2020;M0773;Perfil de alumínio L463 de 50 x 50 mm;m
+SICRO;GO;10-2020;M0783;Massa asfáltica comercial - capa de rolamento;t
+SICRO;GO;10-2020;M0784;Massa asfáltica comercial - binder;t
+SICRO;GO;10-2020;M0786;Placa de poliestireno expandido (EPS);m³
+SICRO;GO;10-2020;M0787;Suporte em aço carbono galvanizado perfil "C";kg
+SICRO;GO;10-2020;M0789;Conjunto de cantoneiras e parafusos galvanizados para fixação de placas;kg
+SICRO;GO;10-2020;M0792;Semipórtico metálico para vão de 3,8 m e vento de 35 m/s;un
+SICRO;GO;10-2020;M0793;Semipórtico metálico para vão de 4,9 m e vento de 35 m/s;un
+SICRO;GO;10-2020;M0794;Semipórtico metálico para vão de 6,0 m e vento de 35 m/s;un
+SICRO;GO;10-2020;M0795;Semipórtico metálico para vão de 7,2 m e vento de 35 m/s;un
+SICRO;GO;10-2020;M0796;Semipórtico metálico para vão de 8,3 m e vento de 35 m/s;un
+SICRO;GO;10-2020;M0798;Apoio de neoprene fretado;dm³
+SICRO;GO;10-2020;M0799;Semipórtico duplo metálico para vão de 2 x 2,7 m e vento de 35 m/s;un
+SICRO;GO;10-2020;M0800;Semipórtico duplo metálico para vão de 2 x 3,8 m e vento de 35 m/s;un
+SICRO;GO;10-2020;M0801;Semipórtico duplo metálico para vão de 2 x 4,9 m e vento de 35 m/s;un
+SICRO;GO;10-2020;M0802;Semipórtico duplo metálico para vão de 2 x 6,0 m e vento de 35 m/s;un
+SICRO;GO;10-2020;M0803;Semipórtico duplo metálico para vão de 2 x 7,2 m e vento de 35 m/s;un
+SICRO;GO;10-2020;M0804;Cabo de aço - D = 13 mm;m
+SICRO;GO;10-2020;M0805;Semipórtico duplo metálico para vão de 2 x 8,3 m e vento de 35 m/s;un
+SICRO;GO;10-2020;M0808;Brita 4 (rachinha);m³
+SICRO;GO;10-2020;M0809;Cabo de aço - D = 6,3 mm;m
+SICRO;GO;10-2020;M0812;Sapatilha tipo Standard - D = 6,3 mm;un
+SICRO;GO;10-2020;M0813;Semipórtico metálico para vão de 2,7 m e vento de 40 m/s;un
+SICRO;GO;10-2020;M0814;Semipórtico metálico para vão de 3,8 m e vento de 40 m/s;un
+SICRO;GO;10-2020;M0815;Semipórtico metálico para vão de 4,9 m e vento de 40 m/s;un
+SICRO;GO;10-2020;M0816;Semipórtico metálico para vão de 6,0 m e vento de 40 m/s;un
+SICRO;GO;10-2020;M0817;Semipórtico metálico para vão de 7,2 m e vento de 40 m/s;un
+SICRO;GO;10-2020;M0818;Semipórtico metálico para vão de 8,3 m e vento de 40 m/s;un
+SICRO;GO;10-2020;M0819;Semipórtico duplo metálico para vão de 2 x 2,7 m e vento de 40 m/s;un
+SICRO;GO;10-2020;M0820;Semipórtico duplo metálico para vão de 2 x 3,8 m e vento de 40 m/s;un
+SICRO;GO;10-2020;M0821;Semipórtico duplo metálico para vão de 2 x 4,9 m e vento de 40 m/s;un
+SICRO;GO;10-2020;M0822;Semipórtico duplo metálico para vão de 2 x 6,0 m e vento de 40 m/s;un
+SICRO;GO;10-2020;M0823;Semipórtico duplo metálico para vão de 2 x 7,2 m e vento de 40 m/s;un
+SICRO;GO;10-2020;M0824;Semipórtico duplo metálico para vão de 2 x 8,3 m e vento de 40 m/s;un
+SICRO;GO;10-2020;M0825;Pórtico metálico para vão de 9,2 m e vento de 40 m/s;un
+SICRO;GO;10-2020;M0826;Pórtico metálico para vão de 10,3 m e vento de 40 m/s;un
+SICRO;GO;10-2020;M0827;Pórtico metálico para vão de 11,4 m e vento de 40 m/s;un
+SICRO;GO;10-2020;M0828;Pórtico metálico para vão de 12,5 m e vento de 40 m/s;un
+SICRO;GO;10-2020;M0829;Pórtico metálico para vão de 13,6 m e vento de 40 m/s;un
+SICRO;GO;10-2020;M0830;Pórtico metálico para vão de 14,8 m e vento de 40 m/s;un
+SICRO;GO;10-2020;M0831;Pórtico metálico para vão de 15,9 m e vento de 40 m/s;un
+SICRO;GO;10-2020;M0832;Pórtico metálico para vão de 17,0 m e vento de 40 m/s;un
+SICRO;GO;10-2020;M0833;Pórtico metálico para vão de 18,1 m e vento de 40 m/s;un
+SICRO;GO;10-2020;M0834;Pórtico metálico para vão de 19,2 m e vento de 40 m/s;un
+SICRO;GO;10-2020;M0835;Pórtico metálico para vão de 20,3 m e vento de 40 m/s;un
+SICRO;GO;10-2020;M0836;Pórtico metálico para vão de 21,5 m e vento de 40 m/s;un
+SICRO;GO;10-2020;M0837;Pórtico metálico para vão de 22,6 m e vento de 40 m/s;un
+SICRO;GO;10-2020;M0838;Pórtico metálico para vão de 23,7 m e vento de 40 m/s;un
+SICRO;GO;10-2020;M0839;Pórtico metálico para vão de 24,8 m e vento de 40 m/s;un
+SICRO;GO;10-2020;M0840;Pórtico metálico para vão de 26,0 m e vento de 40 m/s;un
+SICRO;GO;10-2020;M0841;Pórtico metálico para vão de 27,1 m e vento de 40 m/s;un
+SICRO;GO;10-2020;M0842;Semipórtico metálico para vão de 2,7 m e vento de 45 m/s;un
+SICRO;GO;10-2020;M0843;Semipórtico metálico para vão de 3,8 m e vento de 45 m/s;un
+SICRO;GO;10-2020;M0844;Semipórtico metálico para vão de 4,9 m e vento de 45 m/s;un
+SICRO;GO;10-2020;M0845;Semipórtico metálico para vão de 6,0 m e vento de 45 m/s;un
+SICRO;GO;10-2020;M0847;Semipórtico metálico para vão de 7,2 m e vento de 45 m/s;un
+SICRO;GO;10-2020;M0848;Semipórtico metálico para vão de 8,3 m e vento de 45 m/s;un
+SICRO;GO;10-2020;M0849;Corda de sisal - D = 12,5 mm;m
+SICRO;GO;10-2020;M0850;Semipórtico duplo metálico para vão de 2 x 2,7 m e vento de 45 m/s;un
+SICRO;GO;10-2020;M0851;Grampo leve para cabo de aço - D = 6,3 mm;un
+SICRO;GO;10-2020;M0852;Poste de concreto de 15 m;un
+SICRO;GO;10-2020;M0853;Junta plástica de 27 x 3 mm;m
+SICRO;GO;10-2020;M0854;Semipórtico duplo metálico para vão de 2 x 3,8 m e vento de 45 m/s;un
+SICRO;GO;10-2020;M0855;Semipórtico duplo metálico para vão de 2 x 4,9 m e vento de 45 m/s;un
+SICRO;GO;10-2020;M0856;Semipórtico duplo metálico para vão de 2 x 6,0 m e vento de 45 m/s;un
+SICRO;GO;10-2020;M0857;Semipórtico duplo metálico para vão de 2 x 7,2 m e vento de 45 m/s;un
+SICRO;GO;10-2020;M0858;Semipórtico duplo metálico para vão de 2 x 8,3 m e vento de 45 m/s;un
+SICRO;GO;10-2020;M0859;Pórtico metálico para vão de 9,2 m e vento de 45 m/s;un
+SICRO;GO;10-2020;M0860;Pórtico metálico para vão de 10,3 m e vento de 45 m/s;un
+SICRO;GO;10-2020;M0861;Pórtico metálico para vão de 11,4 m e vento de 45 m/s;un
+SICRO;GO;10-2020;M0862;Pórtico metálico para vão de 12,5 m e vento de 45 m/s;un
+SICRO;GO;10-2020;M0863;Pórtico metálico para vão de 13,6 m e vento de 45 m/s;un
+SICRO;GO;10-2020;M0864;Pórtico metálico para vão de 14,8 m e vento de 45 m/s;un
+SICRO;GO;10-2020;M0865;Pórtico metálico para vão de 15,9 m e vento de 45 m/s;un
+SICRO;GO;10-2020;M0866;Pórtico metálico para vão de 17,0 m e vento de 45 m/s;un
+SICRO;GO;10-2020;M0867;Pórtico metálico para vão de 18,1 m e vento de 45 m/s;un
+SICRO;GO;10-2020;M0868;Lâmpada compacta eletrônica PLE 20 W;un
+SICRO;GO;10-2020;M0869;Pórtico metálico para vão de 19,2 m e vento de 45 m/s;un
+SICRO;GO;10-2020;M0870;Pórtico metálico para vão de 20,3 m e vento de 45 m/s;un
+SICRO;GO;10-2020;M0871;Pórtico metálico para vão de 21,5 m e vento de 45 m/s;un
+SICRO;GO;10-2020;M0872;Pórtico metálico para vão de 22,6 m e vento de 45 m/s;un
+SICRO;GO;10-2020;M0873;Pórtico metálico para vão de 23,7 m e vento de 45 m/s;un
+SICRO;GO;10-2020;M0874;Pórtico metálico para vão de 24,8 m e vento de 45 m/s;un
+SICRO;GO;10-2020;M0875;Manta asfáltica de 3 mm;m²
+SICRO;GO;10-2020;M0876;Manta asfáltica de 4 mm;m²
+SICRO;GO;10-2020;M0877;Pórtico metálico para vão de 26,0 m e vento de 45 m/s;un
+SICRO;GO;10-2020;M0878;Pórtico metálico para vão de 27,1 m e vento de 45 m/s;un
+SICRO;GO;10-2020;M0879;Lixa para ferro;un
+SICRO;GO;10-2020;M0880;Lixa para madeira e massa;un
+SICRO;GO;10-2020;M0942;Estaca prancha metálica com chapa de 10 mm;kg
+SICRO;GO;10-2020;M0945;Parafuso cabeça sextavada - D = 1/4" com porca e arruela de pressão;cj
+SICRO;GO;10-2020;M0947;Parafuso cabeça sextavada - D = 3/8" com porca e arruela de pressão;cj
+SICRO;GO;10-2020;M0998;Madeira estrutural de eucalipto;m³
+SICRO;GO;10-2020;M0999;Tela de aço eletrosoldada;kg
+SICRO;GO;10-2020;M1000;Tela de alambrado fio 16 BWG e malha de 50 mm;m²
+SICRO;GO;10-2020;M1010;Manta de PVC de 1,2 mm reforçada com tela de poliéster;m²
+SICRO;GO;10-2020;M1011;Manta de PVC de 1,5 mm reforçada com tela de poliéster;m²
+SICRO;GO;10-2020;M1022;Massa para vidro;kg
+SICRO;GO;10-2020;M1031;Membrana sintética moldada no Local;kg
+SICRO;GO;10-2020;M1040;Mourão de concreto curvo de 12 x 12 x 320 cm;un
+SICRO;GO;10-2020;M1041;Mourão de concreto - H = 2,2 m e seção 15 x 15 cm;un
+SICRO;GO;10-2020;M1042;Mourão de concreto - H = 2,1 m e seção 11 x 11 cm;un
+SICRO;GO;10-2020;M1066;Cera para injeção de ancoragens de estais;kg
+SICRO;GO;10-2020;M1078;Parafuso de 1/2 x 5";un
+SICRO;GO;10-2020;M1079;Parafuso autoatarrachante com arruelas de vedação - D = 6,3 mm;un
+SICRO;GO;10-2020;M1082;Parafuso de 8 x 110 mm;un
+SICRO;GO;10-2020;M1097;Pedra de mão;m³
+SICRO;GO;10-2020;M1103;Pedrisco;m³
+SICRO;GO;10-2020;M1110;Cupinicida;l
+SICRO;GO;10-2020;M1118;Cruzeta de madeira para transformador em poste de 240 cm;un
+SICRO;GO;10-2020;M1130;Selante elástico à base de poliuretano, tipo PU Flex Construção ou similar;kg
+SICRO;GO;10-2020;M1131;Cordão de polietileno expandido;m
+SICRO;GO;10-2020;M1132;Junta em perfil extrudado de borracha vulcanizada de 20 x 40 mm;m
+SICRO;GO;10-2020;M1134;Junta em perfil extrudado de borracha vulcanizada de 25 x 50 mm;m
+SICRO;GO;10-2020;M1135;Pó de pedra;m³
+SICRO;GO;10-2020;M1142;Junta em perfil extrudado de borracha vulcanizada de 35 x 60 mm;m
+SICRO;GO;10-2020;M1150;Adesivo ADE 52 ou similar;kg
+SICRO;GO;10-2020;M1151;Junta em perfil extrudado de borracha vulcanizada de 40 x 70 mm;m
+SICRO;GO;10-2020;M1152;Junta em perfil extrudado de borracha vulcanizada de 50 x 80 mm;m
+SICRO;GO;10-2020;M1176;Arame liso em aço galvanizado - D = 1,65 mm (16 BWG);kg
+SICRO;GO;10-2020;M1200;Pórtico metálico para vão de 9,2 m e vento de 35 m/s;un
+SICRO;GO;10-2020;M1201;Pórtico metálico para vão de 10,3 m e vento de 35 m/s;un
+SICRO;GO;10-2020;M1202;Pórtico metálico para vão de 11,4 m e vento de 35 m/s;un
+SICRO;GO;10-2020;M1203;Pórtico metálico para vão de 12,5 m e vento de 35 m/s;un
+SICRO;GO;10-2020;M1204;Pórtico metálico para vão de 13,6 m e vento de 35 m/s;un
+SICRO;GO;10-2020;M1205;Prego de ferro;kg
+SICRO;GO;10-2020;M1207;Pórtico metálico para vão de 14,8 m e vento de 35 m/s;un
+SICRO;GO;10-2020;M1209;Primer para superfícies porosas;l
+SICRO;GO;10-2020;M1210;Pórtico metálico para vão de 15,9 m e vento de 35 m/s;un
+SICRO;GO;10-2020;M1211;Pórtico metálico para vão de 17,0 m e vento de 35 m/s;un
+SICRO;GO;10-2020;M1212;Pórtico metálico para vão de 18,1 m e vento de 35 m/s;un
+SICRO;GO;10-2020;M1213;Pórtico metálico para vão de 19,2 m e vento de 35 m/s;un
+SICRO;GO;10-2020;M1214;Pórtico metálico para vão de 20,3 m e vento de 35 m/s;un
+SICRO;GO;10-2020;M1215;Pórtico metálico para vão de 21,5 m e vento de 35 m/s;un
+SICRO;GO;10-2020;M1216;Pórtico metálico para vão de 22,6 m e vento de 35 m/s;un
+SICRO;GO;10-2020;M1217;Pórtico metálico para vão de 23,7 m e vento de 35 m/s;un
+SICRO;GO;10-2020;M1218;Projetor externo em alumínio fundido para lâmpada até 2000 W;un
+SICRO;GO;10-2020;M1220;Pórtico metálico para vão de 24,8 m e vento de 35 m/s;un
+SICRO;GO;10-2020;M1221;Pórtico metálico para vão de 26,0 m e vento de 35 m/s;un
+SICRO;GO;10-2020;M1222;Pórtico metálico para vão de 27,1 m e vento de 35 m/s;un
+SICRO;GO;10-2020;M1242;Coroa diamantada - D = 16 mm;un
+SICRO;GO;10-2020;M1243;Coroa diamantada - D = 20 mm;un
+SICRO;GO;10-2020;M1244;Coroa diamantada - D = 25 mm;un
+SICRO;GO;10-2020;M1245;Vergalhão rosca total - D = 3/8";m
+SICRO;GO;10-2020;M1299;Roller bit - Tooth cutter - serie 8 - D = 600 mm;un
+SICRO;GO;10-2020;M1300;Roller bit - Tooth cutter - serie 8 - D = 700 mm;un
+SICRO;GO;10-2020;M1301;Roller bit - Tooth cutter - serie 8 - D = 800 mm;un
+SICRO;GO;10-2020;M1302;Roller bit - Tooth cutter - serie 8 - D = 900 mm;un
+SICRO;GO;10-2020;M1303;Roller bit - Tooth cutter - serie 8 - D = 1000 mm;un
+SICRO;GO;10-2020;M1304;Roller bit - Tooth cutter - serie 8 - D = 1100 mm;un
+SICRO;GO;10-2020;M1305;Roller bit - Tooth cutter - serie 8 - D = 1200 mm;un
+SICRO;GO;10-2020;M1306;Roller bit - Tooth cutter - serie 13 - D = 1300 mm;un
+SICRO;GO;10-2020;M1307;Roller bit - Tooth cutter - serie 13 - D = 1400 mm;un
+SICRO;GO;10-2020;M1308;Roller bit - Tooth cutter - serie 13 - D = 1500 mm;un
+SICRO;GO;10-2020;M1309;Roller bit - Tooth cutter - serie 13 - D = 1600 mm;un
+SICRO;GO;10-2020;M1310;Roller bit - Tooth cutter - serie 13 - D = 1700 mm;un
+SICRO;GO;10-2020;M1311;Roller bit - Tooth cutter - serie 13 - D = 1800 mm;un
+SICRO;GO;10-2020;M1313;Roller bit - TCI button cutter - serie 8 - D = 600 mm;un
+SICRO;GO;10-2020;M1314;Roller bit - TCI button cutter - serie 8 - D = 700 mm;un
+SICRO;GO;10-2020;M1315;Roller bit - TCI button cutter - serie 8 - D = 800 mm;un
+SICRO;GO;10-2020;M1316;Roller bit - TCI button cutter - serie 8 - D = 900 mm;un
+SICRO;GO;10-2020;M1317;Roller bit - TCI button cutter - serie 8 - D = 1000 mm;un
+SICRO;GO;10-2020;M1318;Roller bit - TCI button cutter - serie 8 - D = 1100 mm;un
+SICRO;GO;10-2020;M1319;Roller bit - TCI button cutter - serie 8 - D = 1200 mm;un
+SICRO;GO;10-2020;M1320;Roller bit - TCI button cutter - serie 13 - D = 1300 mm;un
+SICRO;GO;10-2020;M1321;Roller bit - TCI button cutter - serie 13 - D = 1400 mm;un
+SICRO;GO;10-2020;M1322;Roller bit - TCI button cutter - serie 13 - D = 1500 mm;un
+SICRO;GO;10-2020;M1323;Roller bit - TCI button cutter - serie 13 - D = 1600 mm;un
+SICRO;GO;10-2020;M1324;Roller bit - TCI button cutter - serie 13 - D = 1700 mm;un
+SICRO;GO;10-2020;M1325;Roller bit - TCI button cutter - serie 13 - D = 1800 mm;un
+SICRO;GO;10-2020;M1328;Ripa de 4 x 1,5 cm;m
+SICRO;GO;10-2020;M1337;Série de brocas S-11 - D = 22 mm;un
+SICRO;GO;10-2020;M1341;Parafuso de aço galvanizado sextavado de 5/8 x 4";un
+SICRO;GO;10-2020;M1350;Árvore ornamental de porte de 200 a 300 cm;un
+SICRO;GO;10-2020;M1351;Árvore ornamental de porte de 100 a 200 cm;un
+SICRO;GO;10-2020;M1356;Árvore ornamental de porte de até 100 cm;un
+SICRO;GO;10-2020;M1358;Sarrafo em madeira de terceira de 2,5 x 5 cm;m
+SICRO;GO;10-2020;M1359;Árvore frutífera de porte de 200 a 300 cm;un
+SICRO;GO;10-2020;M1360;Árvore frutífera de porte de 100 a 200 cm;un
+SICRO;GO;10-2020;M1361;Árvore frutífera de porte de até 100 cm;un
+SICRO;GO;10-2020;M1362;Tapete de floríferas de porte até 50 cm;m²
+SICRO;GO;10-2020;M1364;Herbicida glifosato;l
+SICRO;GO;10-2020;M1366;Desengraxante;l
+SICRO;GO;10-2020;M1367;Chapa de aço galvanizado;kg
+SICRO;GO;10-2020;M1368;Pingadeira de elastômero com aba inclinada e perfil 40 x 40 mm;m
+SICRO;GO;10-2020;M1369;Selador para pintura acrílica;l
+SICRO;GO;10-2020;M1370;Aditivo látex SBR;l
+SICRO;GO;10-2020;M1377;Treliça nervurada com 3 barras longitudinais e 2 diagonais sinusoidais;kg
+SICRO;GO;10-2020;M1378;Chapa de aço ASTM A36;kg
+SICRO;GO;10-2020;M1379;Argamassa polimérica de alto desempenho;kg
+SICRO;GO;10-2020;M1382;Areia grossa lavada;m³
+SICRO;GO;10-2020;M1383;Areia fina lavada;m³
+SICRO;GO;10-2020;M1384;Tubo em aço-carbono com funil cônico tremonha para lançamento de concreto;kg
+SICRO;GO;10-2020;M1385;Disco diamantado - D = 350 mm;un
+SICRO;GO;10-2020;M1387;Adesivo estrutural à base de resina epóxi de média viscosidade;kg
+SICRO;GO;10-2020;M1388;Cordoalha para estais CP 177 RB - D = 15,7 mm;kg
+SICRO;GO;10-2020;M1391;Ponteiro para martelete - D = 22 mm e C = 1,00 m;un
+SICRO;GO;10-2020;M1392;Bico para injeção de adesivo estrutural à base de resina epóxi;un
+SICRO;GO;10-2020;M1397;Eletrodo E60 xx;kg
+SICRO;GO;10-2020;M1398;Vareta para solda oxi-gás AWS A 52 R45;kg
+SICRO;GO;10-2020;M1408;Grelha metálica para canaletas de 30 x 100 cm;un
+SICRO;GO;10-2020;M1409;Porta grelha metálica de 30 x 100 cm;m
+SICRO;GO;10-2020;M1429;Tábua de pinho de terceira - E = 2,5 cm;m²
+SICRO;GO;10-2020;M1432;Tampão de ferro fundido para águas pluviais TD 600;un
+SICRO;GO;10-2020;M1433;Grelha metálica para canaletas de 50 x 50 cm;un
+SICRO;GO;10-2020;M1434;Porta grelha metálica de 50 x 50 cm;m
+SICRO;GO;10-2020;M1446;Geogrelha bidirecional com resistência à tração de 30 kN/m, deformação inferior a 5% e malha de 36 x 34 mm;m²
+SICRO;GO;10-2020;M1447;Geogrelha unidirecional com resistência à tração de 60 kN/m;m²
+SICRO;GO;10-2020;M1448;Geogrelha unidirecional com resistência à tração de 80 kN/m;m²
+SICRO;GO;10-2020;M1449;Geogrelha unidirecional com resistência à tração de 100 kN/m;m²
+SICRO;GO;10-2020;M1450;Geogrelha unidirecional com resistência à tração de 150 kN/m;m²
+SICRO;GO;10-2020;M1451;Geogrelha unidirecional com resistência à tração de 200 kN/m;m²
+SICRO;GO;10-2020;M1452;Geogrelha unidirecional com resistência à tração de 300 kN/m;m²
+SICRO;GO;10-2020;M1453;Geogrelha unidirecional com resistência à tração de 400 kN/m;m²
+SICRO;GO;10-2020;M1454;Geocélula de PEAD - H = 75 mm e célula de 250 cm²;m²
+SICRO;GO;10-2020;M1455;Geocélula de PEAD - H = 100 mm e célula de 250 cm²;m²
+SICRO;GO;10-2020;M1456;Geocélula de PEAD - H = 125 mm e célula de 250 cm²;m²
+SICRO;GO;10-2020;M1457;Geocélula de PEAD - H = 200 mm e célula de 250 cm²;m²
+SICRO;GO;10-2020;M1458;Geocélula de PEAD - H = 75 mm e célula de 460 cm²;m²
+SICRO;GO;10-2020;M1459;Geocélula de PEAD - H = 100 mm e célula de 460 cm²;m²
+SICRO;GO;10-2020;M1460;Geocélula de PEAD - H = 125 mm e célula de 460 cm²;m²
+SICRO;GO;10-2020;M1461;Geocélula de PEAD - H = 200 mm e célula de 460 cm²;m²
+SICRO;GO;10-2020;M1462;Geocélula de PEAD - H = 75 mm e célula de 1206 cm²;m²
+SICRO;GO;10-2020;M1463;Geocélula de PEAD - H = 100 mm e célula de 1206 cm²;m²
+SICRO;GO;10-2020;M1464;Geocélula de PEAD - H = 125 mm e célula de 1206 cm²;m²
+SICRO;GO;10-2020;M1465;Geocélula de PEAD - H = 200 mm e célula de 1206 cm²;m²
+SICRO;GO;10-2020;M1468;Mastique para juntas à base de alcatrão e poliuretano;kg
+SICRO;GO;10-2020;M1472;Tubo de PVC roscável 3";m
+SICRO;GO;10-2020;M1481;Coroa diamantada - D = 32 mm;un
+SICRO;GO;10-2020;M1496;Coroa diamantada - D = 38 mm;un
+SICRO;GO;10-2020;M1498;Coroa diamantada - D = 44 mm;un
+SICRO;GO;10-2020;M1518;Coroa diamantada - D = 50 mm;un
+SICRO;GO;10-2020;M1519;Coroa diamantada - D = 63 mm;un
+SICRO;GO;10-2020;M1520;Coroa diamantada - D = 75 mm;un
+SICRO;GO;10-2020;M1526;Coroa diamantada - D = 100 mm;un
+SICRO;GO;10-2020;M1527;Broca de widia - D = 10 mm;un
+SICRO;GO;10-2020;M1528;Broca de widia - D = 12,5 mm;un
+SICRO;GO;10-2020;M1530;Parafuso de aço;kg
+SICRO;GO;10-2020;M1536;Argamassa estrutural de alta resistência feita na consistência seca;kg
+SICRO;GO;10-2020;M1543;Telha de fibrocimento ondulada de 5 mm;m²
+SICRO;GO;10-2020;M1546;Telha de aço zincado - E = 0,43 mm;m²
+SICRO;GO;10-2020;M1553;Geotêxtil não-tecido agulhado RT 31;m²
+SICRO;GO;10-2020;M1557;Tijolo furado de 10 x 20 x 20 cm;un
+SICRO;GO;10-2020;M1568;Tinta epóxi;l
+SICRO;GO;10-2020;M1570;Tinta de etil silicato de zinco;l
+SICRO;GO;10-2020;M1575;Tinta látex acrílica;l
+SICRO;GO;10-2020;M1577;Plástico a frio para alto relevo;kg
+SICRO;GO;10-2020;M1578;Plástico a frio para estrutura;kg
+SICRO;GO;10-2020;M1585;Massa termoplástica para aplicação em alto relevo;kg
+SICRO;GO;10-2020;M1591;Suporte polimérico ecológico maciço colapsível para placa de sinalização - D = 6,5 cm;m
+SICRO;GO;10-2020;M1600;Trilho TR 25 usado;kg
+SICRO;GO;10-2020;M1602;Trilho TR 37 usado;kg
+SICRO;GO;10-2020;M1603;Trilho TR 45 usado;kg
+SICRO;GO;10-2020;M1604;Presilha CF 25;un
+SICRO;GO;10-2020;M1605;Trilho TR 57 usado;kg
+SICRO;GO;10-2020;M1606;Trilho TR 68 usado;kg
+SICRO;GO;10-2020;M1609;Tubo de aço galvanizado BSP classe leve - D = 40 mm;m
+SICRO;GO;10-2020;M1614;Tubo de aço galvanizado BSP classe leve - D = 50 mm;m
+SICRO;GO;10-2020;M1616;Tubo de aço galvanizado BSP classe leve - D = 20 mm;m
+SICRO;GO;10-2020;M1617;Tubo de aço galvanizado BSP classe leve - D = 80 mm;m
+SICRO;GO;10-2020;M1618;Tubo de aço galvanizado BSP classe leve - D = 100 mm;m
+SICRO;GO;10-2020;M1624;Suporte polimérico ecológico maciço colapsível para placa de sinalização - seção quadrada de 8 cm;m
+SICRO;GO;10-2020;M1636;Suporte polimérico ecológico maciço colapsível para placa de sinalização - seção retangular de 7 x 15 cm;m
+SICRO;GO;10-2020;M1638;Mourão de madeira - H = 2,10 m e D = 0,10 m;un
+SICRO;GO;10-2020;M1639;Mourão de madeira - H = 2,20 m e D = 0,15 m;un
+SICRO;GO;10-2020;M1640;Nonel iniciador com 300 m;un
+SICRO;GO;10-2020;M1641;Bit de botão esférico - D = 3 1/2";un
+SICRO;GO;10-2020;M1642;Bit de botão esférico - D = 5 1/8";un
+SICRO;GO;10-2020;M1643;Bit de botão esférico - D = 7 5/8";un
+SICRO;GO;10-2020;M1644;Bit de botão esférico - D = 9 7/8";un
+SICRO;GO;10-2020;M1648;Bits para trado ou caçamba de perfuração;un
+SICRO;GO;10-2020;M1649;Bit de botão ST 68 - D = 102 mm;un
+SICRO;GO;10-2020;M1653;Bit piloto para sistema autoperfurante de 76 mm;un
+SICRO;GO;10-2020;M1655;Tubo de PVC esgoto - D = 50 mm;m
+SICRO;GO;10-2020;M1656;Tubo de PVC esgoto - D = 75 mm;m
+SICRO;GO;10-2020;M1662;Suporte em madeira de eucalipto tratado de 8 x 8 cm;m
+SICRO;GO;10-2020;M1664;Bit rotativo - D = 127 mm;un
+SICRO;GO;10-2020;M1665;Tubo de PVC roscável de 1 1/2";m
+SICRO;GO;10-2020;M1673;Tubo de PVC roscável de 4";m
+SICRO;GO;10-2020;M1674;Braçadeira para tubo de aço para ar comprimido - tipo Alvenius - D = 150 mm;un
+SICRO;GO;10-2020;M1675;Tubo de PVC roscável de 6";m
+SICRO;GO;10-2020;M1702;Tubo de ventilação flexível com acessórios - D = 1,2 m;m
+SICRO;GO;10-2020;M1719;Broca integral H19 - D = 24 mm e L = 0,4 m;un
+SICRO;GO;10-2020;M1720;Geotêxtil não-tecido agulhado RT 10;m²
+SICRO;GO;10-2020;M1731;Haste de perfuração simples de jet grouting de 88,9 x 300 mm;un
+SICRO;GO;10-2020;M1732;Luva para tubo de aço galvanizado BSP classe leve - D = 50 mm;un
+SICRO;GO;10-2020;M1733;Manta drenante de malha de polietileno e geotêxtil numa face tipo Drentex M Plus ou similar;m²
+SICRO;GO;10-2020;M1735;Punho de perfuração ST 68 de 80 mm;un
+SICRO;GO;10-2020;M1736;Resina de poliéster para ancoragem;kg
+SICRO;GO;10-2020;M1737;Tubo de aço para ar comprimido - tipo Alvenius - D = 150 mm ou similar;m
+SICRO;GO;10-2020;M1738;Verniz silicone hidrorrepelente;l
+SICRO;GO;10-2020;M1739;Haste para perfuratriz de esteira T45 de 3,6 m;un
+SICRO;GO;10-2020;M1740;Punho para perfuratriz de esteira T45;un
+SICRO;GO;10-2020;M1741;Luva para perfuratriz de esteira T45;un
+SICRO;GO;10-2020;M1742;Bit de botão com rosca T45 - D = 89 mm;un
+SICRO;GO;10-2020;M1747;Tubo de aço para sistema autoperfurante de 76 mm;m
+SICRO;GO;10-2020;M1748;Tubo iniciador de aço com 3 m para sistema autoperfurante de 76 mm com anel do bit piloto;un
+SICRO;GO;10-2020;M1749;Tubo de perfuração ST 68 de 87 x 1830 mm;un
+SICRO;GO;10-2020;M1750;Hidromonitor com bico de injeção para jet grouting - D = 88,9 mm;un
+SICRO;GO;10-2020;M1751;Válvula manchete - D = 73 mm;un
+SICRO;GO;10-2020;M1752;Borracha para obturador mecânico;un
+SICRO;GO;10-2020;M1753;Disco de corte diamantado para concreto 105 mm ou 110 mm;un
+SICRO;GO;10-2020;M1755;Pó calcário;kg
+SICRO;GO;10-2020;M1756;Material formador da camada protetora de hidrossemeadura;kg
+SICRO;GO;10-2020;M1765;Tubo de aço SCH 40 - D = 65 mm;m
+SICRO;GO;10-2020;M1773;Ancoragem regulável para estais TSR para 19 cordoalhas - D = 15,7 mm;un
+SICRO;GO;10-2020;M1774;Ancoragem regulável para estais TSR para 31 cordoalhas - D = 15,7 mm;un
+SICRO;GO;10-2020;M1775;Ancoragem regulável para estais TSR para 37 cordoalhas - D = 15,7 mm;un
+SICRO;GO;10-2020;M1776;Ancoragem regulável para estais TSR para 55 cordoalhas - D = 15,7 mm;un
+SICRO;GO;10-2020;M1777;Ancoragem regulável para estais TSR para 61 cordoalhas - D = 15,7 mm;un
+SICRO;GO;10-2020;M1778;Ancoragem regulável para estais TSR para 73 cordoalhas - D = 15,7 mm;un
+SICRO;GO;10-2020;M1779;Ancoragem regulável para estais TSR para 91 cordoalhas - D = 15,7 mm;un
+SICRO;GO;10-2020;M1780;Ancoragem fixa para estais TSR para 19 cordoalhas - D = 15,7 mm;un
+SICRO;GO;10-2020;M1781;Ancoragem fixa para estais TSR para 31 cordoalhas - D = 15,7 mm;un
+SICRO;GO;10-2020;M1782;Ancoragem fixa para estais TSR para 37 cordoalhas - D = 15,7 mm;un
+SICRO;GO;10-2020;M1783;Ancoragem fixa para estais TSR para 55 cordoalhas - D = 15,7 mm;un
+SICRO;GO;10-2020;M1784;Ancoragem fixa para estais TSR para 61 cordoalhas - D = 15,7 mm;un
+SICRO;GO;10-2020;M1785;Ancoragem fixa para estais TSR para 73 cordoalhas - D = 15,7 mm;un
+SICRO;GO;10-2020;M1786;Ancoragem fixa para estais TSR para 91 cordoalhas - D = 15,7 mm;un
+SICRO;GO;10-2020;M1787;Estaca de tutoramento de 5 x 2 m;un
+SICRO;GO;10-2020;M1789;Ancoragem ativa para 31 cordoalhas - D = 15,2 mm;un
+SICRO;GO;10-2020;M1790;Gás GLP;kg
+SICRO;GO;10-2020;M1794;Tela galvanizada fio 22 e malha de 25 mm;m²
+SICRO;GO;10-2020;M1795;Oxigênio;m³
+SICRO;GO;10-2020;M1796;Acetileno;kg
+SICRO;GO;10-2020;M1797;Fita de espuma EPDM para vedação com adesivo uma face de 4 x 40 mm;m
+SICRO;GO;10-2020;M1798;Fibra de polipropileno - C = 12 mm e D = 18 µm;kg
+SICRO;GO;10-2020;M1799;Fibra estrutural de polipropileno corrugado - C = 50 mm e D = 100 µm;kg
+SICRO;GO;10-2020;M1800;Manta asfáltica antiraiz de 3 mm;m²
+SICRO;GO;10-2020;M1811;Longarina de madeira de primeira de 6 x 16 cm;m
+SICRO;GO;10-2020;M1812;Estronca de madeira - D = 20 cm;m
+SICRO;GO;10-2020;M1815;Tela metálica de dupla torção com liga 95% ZN e 5% AL e malha de 8 x 10 cm;m²
+SICRO;GO;10-2020;M1819;Cartucho de cimento de 25 x 320 mm;un
+SICRO;GO;10-2020;M1820;Cartucho de resina de poliéster de 25 x 500 mm;un
+SICRO;GO;10-2020;M1844;Ancoragem ativa para 8 cordoalhas - D = 15,2 mm;un
+SICRO;GO;10-2020;M1845;Ancoragem passiva aderente para 10 cordoalhas - D = 15,2 mm;un
+SICRO;GO;10-2020;M1850;Pranchão de 7,5 x 30 cm;m
+SICRO;GO;10-2020;M1853;Aço para tirantes 750 MPa;kg
+SICRO;GO;10-2020;M1868;Tinta epóxi em pó;Kg
+SICRO;GO;10-2020;M1869;Bit para martelo de fundo - D = 120 mm;un
+SICRO;GO;10-2020;M1870;Cunha metálica para cordoalha - D = 12,7 mm;un
+SICRO;GO;10-2020;M1874;Martelo de fundo DTH - D = 110 a 130 mm;un
+SICRO;GO;10-2020;M1875;Haste de perfuração API - D = 73 mm;m
+SICRO;GO;10-2020;M1876;Válvula manchete - D = 32 mm;un
+SICRO;GO;10-2020;M1877;Válvula manchete - D = 40 mm;un
+SICRO;GO;10-2020;M1878;Tubo PE 80 PN6 - D = 25 mm;m
+SICRO;GO;10-2020;M1879;Tubo PE 80 PN6 - D = 40 mm;m
+SICRO;GO;10-2020;M1880;Tubo PE 80 PN8 - D = 20 mm;m
+SICRO;GO;10-2020;M1907;Tubo PE 80 PN8 - D = 32 mm;m
+SICRO;GO;10-2020;M1909;Tubo PE 80 PN8 - D = 40 mm;m
+SICRO;GO;10-2020;M1911;Tubo PE 80 PN8 - D = 50 mm;m
+SICRO;GO;10-2020;M1912;Tubo PE 80 PN8 - D = 63 mm;m
+SICRO;GO;10-2020;M1913;Tubo PE 80 PN8 - D = 75 mm;m
+SICRO;GO;10-2020;M1919;Tubo PE 80 PN8 - D = 110 mm;m
+SICRO;GO;10-2020;M1922;Tubo de PVC espaguete - D = 14 mm;m
+SICRO;GO;10-2020;M1924;Tirante de barra de aço 527 MPa;kg
+SICRO;GO;10-2020;M1926;Espaçador para tirante com 6 cordoalhas - D = 12,7 mm;un
+SICRO;GO;10-2020;M1927;Espaçador para tirante com 8 cordoalhas - D = 12,7 mm;un
+SICRO;GO;10-2020;M1928;Espaçador para tirante com 10 cordoalhas - D = 12,7 mm;un
+SICRO;GO;10-2020;M1931;Espaçador para tirante com 12 cordoalhas - D = 12,7 mm;un
+SICRO;GO;10-2020;M1933;Espaçador para tirante de barra de aço - D = 22 mm;un
+SICRO;GO;10-2020;M1935;Espaçador para tirante de barra de aço - D = 32 mm;un
+SICRO;GO;10-2020;M1936;Espaçador para tirante de barra de aço - D = 30 mm;un
+SICRO;GO;10-2020;M1937;Espaçador para tirante de barra de aço - D = 40 mm;un
+SICRO;GO;10-2020;M1941;Óleo combustível 1A;l
+SICRO;GO;10-2020;M1942;Espaçador para tirante de barra de aço - D = 47 mm;un
+SICRO;GO;10-2020;M1943;Cimento asfáltico CAP 50/70;t
+SICRO;GO;10-2020;M1944;Cimento asfáltico CAP 150/200;t
+SICRO;GO;10-2020;M1945;Cimento asfáltico CAP 85/100;t
+SICRO;GO;10-2020;M1946;Emulsão asfáltica RR-1C;t
+SICRO;GO;10-2020;M1947;Emulsão asfáltica RM-1C;t
+SICRO;GO;10-2020;M1948;Espaçador para tirante de barra de aço - D = 50 mm;un
+SICRO;GO;10-2020;M1949;Emulsão asfáltica RL-1C;t
+SICRO;GO;10-2020;M1950;Emulsão com polímero para microrrevestimento a frio;t
+SICRO;GO;10-2020;M1952;Cimento asfáltico CAP 150/200 com polímero;t
+SICRO;GO;10-2020;M1953;Agente rejuvenescedor para reciclagem a quente;t
+SICRO;GO;10-2020;M1954;Cimento Portland CP II - 32 a granel;kg
+SICRO;GO;10-2020;M1955;Cimento asfáltico CAP 50/70 com polímero;t
+SICRO;GO;10-2020;M1956;Emulsão asfáltica RR-2C com polímero;t
+SICRO;GO;10-2020;M1958;Emulsão asfáltica RM-1C com polímero;t
+SICRO;GO;10-2020;M1959;Espaçador para tirante de barra de aço - D = 53 mm;un
+SICRO;GO;10-2020;M1960;Espaçador para tirante de barra de aço - D = 57 mm;un
+SICRO;GO;10-2020;M1961;Espaçador para tirante de barra de aço - D = 63 mm;un
+SICRO;GO;10-2020;M1962;Espaçador para tirante de barra de aço - D = 69 mm;un
+SICRO;GO;10-2020;M1963;Parafuso zincado com fenda de 1 1/2" x 3/16";un
+SICRO;GO;10-2020;M1964;Parafuso zincado francês de 4" x 5/16";un
+SICRO;GO;10-2020;M1965;Cantoneira em ferro de abas iguais de 2 1/2" x 3/8";kg
+SICRO;GO;10-2020;M1966;Defensa metálica maleável simples;un
+SICRO;GO;10-2020;M1967;Defensa metálica maleável dupla;un
+SICRO;GO;10-2020;M1968;Defensa metálica semimaleável simples;un
+SICRO;GO;10-2020;M1969;Defensa metálica semimaleável dupla;un
+SICRO;GO;10-2020;M1970;Bit para fresadora de 155 kW;un
+SICRO;GO;10-2020;M1971;Módulo de transição de defensa metálica tipo dupla onda com lâmina adicional para barreira rígida;un
+SICRO;GO;10-2020;M1972;Porta bits para fresadora de 155 kW;un
+SICRO;GO;10-2020;M1973;Apoio do porta bit para fresadora de 155 kW;un
+SICRO;GO;10-2020;M1974;Bit para fresadora de 410 kW;un
+SICRO;GO;10-2020;M1975;Porta bits para fresadora de 410 kW;un
+SICRO;GO;10-2020;M1976;Terminal aéreo de defensa metálica (tipo A);un
+SICRO;GO;10-2020;M1977;Terminal de ancoragem de defensa metálica em barreira rígida (tipo D);un
+SICRO;GO;10-2020;M1979;Luva de emenda para tirantes - D = 38 x 115 mm;un
+SICRO;GO;10-2020;M1980;Luva de emenda para tirantes - D = 48 x 120 mm;un
+SICRO;GO;10-2020;M1981;Luva de emenda para tirantes - D = 60 x 160 mm;un
+SICRO;GO;10-2020;M1982;Luva de emenda para tirantes - D = 50 x 130 mm;un
+SICRO;GO;10-2020;M1983;Luva de emenda para tirantes - D = 63 x 180 mm;un
+SICRO;GO;10-2020;M1984;Luva de emenda para tirantes - D = 73 x 180 mm;un
+SICRO;GO;10-2020;M1985;Luva de emenda para tirantes - D = 73 x 200 mm;un
+SICRO;GO;10-2020;M1986;Luva de emenda para tirantes - D = 82 x 200 mm;un
+SICRO;GO;10-2020;M1987;Luva de emenda para tirantes - D = 89 x 210 mm;un
+SICRO;GO;10-2020;M1988;Luva de emenda para tirantes - D = 97 x 210 mm;un
+SICRO;GO;10-2020;M1990;Placa de ancoragem para tirante de 160 x 160 x 16 mm;un
+SICRO;GO;10-2020;M1991;Placa de ancoragem para tirante de 200 x 200 x 16 mm;un
+SICRO;GO;10-2020;M1992;Placa de ancoragem para tirante de 200 x 200 x 25 mm;un
+SICRO;GO;10-2020;M1994;Placa de ancoragem para tirante de 200 x 200 x 22 mm;un
+SICRO;GO;10-2020;M1996;Amortecedor retrátil tipo TAU II paralelo PCB ou similar para velocidade de projeto de 100 km/h;un
+SICRO;GO;10-2020;M1997;;un
+SICRO;GO;10-2020;M1998;;un
+SICRO;GO;10-2020;M1999;;un
+SICRO;GO;10-2020;M2000;;un
+SICRO;GO;10-2020;M2001;Dispositivo de ancoragem de fixação elástica pandrol;un
+SICRO;GO;10-2020;M2002;;un
+SICRO;GO;10-2020;M2003;;un
+SICRO;GO;10-2020;M2004;;un
+SICRO;GO;10-2020;M2005;Placa de ancoragem para tirante de 250 x 250 x 32 mm;un
+SICRO;GO;10-2020;M2006;Placa de ancoragem para tirante de 250 x 250 x 38 mm;un
+SICRO;GO;10-2020;M2007;Placa de ancoragem para tirante de 300 x 300 x 51 mm;un
+SICRO;GO;10-2020;M2008;Placa de ancoragem para tirante de 350 x 350 x 64 mm;un
+SICRO;GO;10-2020;M2009;Placa de ancoragem para tirantes com 6 cordoalhas - D = 12,7 mm;un
+SICRO;GO;10-2020;M2010;Placa de ancoragem para tirantes com 8 cordoalhas - D = 12,7 mm;un
+SICRO;GO;10-2020;M2011;Placa de ancoragem para tirantes com 10 cordoalhas - D = 12,7 mm;un
+SICRO;GO;10-2020;M2012;Placa de ancoragem para tirantes com 12 cordoalhas - D = 12,7 mm;un
+SICRO;GO;10-2020;M2013;Porca sextavada de 48 x 70 mm para ancoragem de tirantes;un
+SICRO;GO;10-2020;M2014;Mourão de madeira - H = 2,20 m e D = 10 cm;un
+SICRO;GO;10-2020;M2015;Porca sextavada de 50 x 60 mm para ancoragem de tirantes;un
+SICRO;GO;10-2020;M2016;;un
+SICRO;GO;10-2020;M2017;Porca sextavada de 38 x 55 mm para ancoragem de tirantes;un
+SICRO;GO;10-2020;M2018;Gastalho de 10 x 2 cm;m
+SICRO;GO;10-2020;M2019;Porca sextavada de 38 x 60 mm para ancoragem de tirantes;un
+SICRO;GO;10-2020;M2020;Porca sextavada de 48 x 65 mm para ancoragem de tirantes;un
+SICRO;GO;10-2020;M2021;;un
+SICRO;GO;10-2020;M2023;Espoleta comum NR 8;un
+SICRO;GO;10-2020;M2024;Cordel detonante NP 10;m
+SICRO;GO;10-2020;M2025;Retardador de cordel;un
+SICRO;GO;10-2020;M2026;Estopim;m
+SICRO;GO;10-2020;M2027;Tinta refletiva acrílica;l
+SICRO;GO;10-2020;M2028;TCI tricone bits de 76 mm;un
+SICRO;GO;10-2020;M2029;Porca sextavada de 60 x 65 mm para ancoragem de tirantes;un
+SICRO;GO;10-2020;M2030;Porca sextavada de 73 x 80 mm para ancoragem de tirantes;un
+SICRO;GO;10-2020;M2031;Porca sextavada de 73 x 100 mm para ancoragem de tirantes;un
+SICRO;GO;10-2020;M2032;Porca sextavada de 82 x 100 mm para ancoragem de tirantes;un
+SICRO;GO;10-2020;M2033;Porca sextavada de 89 x 100 mm para ancoragem de tirantes;un
+SICRO;GO;10-2020;M2034;Solvente para tinta à base de resina acrílica;l
+SICRO;GO;10-2020;M2035;Porca sextavada de 97 x 100 mm para ancoragem de tirantes;un
+SICRO;GO;10-2020;M2036;Tinta à base de resina acrílica emulsão em água;l
+SICRO;GO;10-2020;M2037;Microesferas de vidro refletiva tipo I-B;kg
+SICRO;GO;10-2020;M2038;Microesferas de vidro refletiva tipo II-A;kg
+SICRO;GO;10-2020;M2039;Massa termoplástica para extrusão;kg
+SICRO;GO;10-2020;M2040;Massa termoplástica para aspersão;kg
+SICRO;GO;10-2020;M2041;Cola poliéster;kg
+SICRO;GO;10-2020;M2042;Emulsão explosiva encartuchada;kg
+SICRO;GO;10-2020;M2044;Tinta para pré-marcação;l
+SICRO;GO;10-2020;M2045;Microesferas de vidro refletiva tipo II-C;kg
+SICRO;GO;10-2020;M2046;TCI tricone bits de 121 mm;un
+SICRO;GO;10-2020;M2047;Tirante autoinjetável de aço - D = 40 mm e seção 684 mm²;m
+SICRO;GO;10-2020;M2048;Tirante autoinjetável de aço - D = 40 mm e seção 822 mm²;m
+SICRO;GO;10-2020;M2049;Tirante autoinjetável de aço - D = 40 mm e seção 936 mm²;m
+SICRO;GO;10-2020;M2050;Geotêxtil não-tecido agulhado RT 09;m²
+SICRO;GO;10-2020;M2051;Geotêxtil não-tecido agulhado RT 14;m²
+SICRO;GO;10-2020;M2052;Tirante autoinjetável de aço - D = 50 mm e seção 1330 mm²;m
+SICRO;GO;10-2020;M2053;Tirante autoinjetável de aço - D = 50 mm e seção 1569 mm²;m
+SICRO;GO;10-2020;M2054;Tirante monobarra de aço - D = 30 mm INCO 22D;m
+SICRO;GO;10-2020;M2055;Tirante monobarra de aço - D = 40 mm INCO 35D;m
+SICRO;GO;10-2020;M2056;Tirante monobarra de aço - D = 44 mm INCO 45D;m
+SICRO;GO;10-2020;M2057;Tirante monobarra de aço - D = 50 mm INCO 50D;m
+SICRO;GO;10-2020;M2058;Tirante monobarra de aço - D = 53 mm INCO 60D;m
+SICRO;GO;10-2020;M2059;Tirante monobarra de aço - D = 57 mm INCO 70D;m
+SICRO;GO;10-2020;M2060;;un
+SICRO;GO;10-2020;M2061;;un
+SICRO;GO;10-2020;M2062;Coroa para perfuratriz T38 - D = 2 1/2";un
+SICRO;GO;10-2020;M2063;Tirante monobarra de aço - D = 63 mm INCO 90D;m
+SICRO;GO;10-2020;M2064;Termoplástico pré-formado;m²
+SICRO;GO;10-2020;M2065;Haste para perfuratriz de esteira T38 de 1 1/2" x 3 m;un
+SICRO;GO;10-2020;M2066;Luva para perfuratriz de esteira T38 - D = 1 1/2";un
+SICRO;GO;10-2020;M2067;Punho para perfuratriz de esteira T38 - D = 1 1/2";un
+SICRO;GO;10-2020;M2069;Tirante monobarra de aço - D = 69 mm INCO 100D;m
+SICRO;GO;10-2020;M2070;Haste para jumbo hidráulico T38 de 1 1/2" x 4,60 m;un
+SICRO;GO;10-2020;M2071;Coroa para jumbo hidráulico T38 - D = 2";un
+SICRO;GO;10-2020;M2072;Luva de acoplamento para jumbo T38 - D = 1 1/2";un
+SICRO;GO;10-2020;M2073;Punho para jumbo hidráulico T38 - D = 1 1/2";un
+SICRO;GO;10-2020;M2074;Cartucho de absorção de energia para amortecedor retrátil - tipo A;un
+SICRO;GO;10-2020;M2075;Cartucho de absorção de energia para amortecedor retrátil - tipo B;un
+SICRO;GO;10-2020;M2079;Fio de nylon Nº 040;m
+SICRO;GO;10-2020;M2085;Tachão refletivo monodirecional;un
+SICRO;GO;10-2020;M2086;Tachão refletivo bidirecional;un
+SICRO;GO;10-2020;M2092;Emulsão asfáltica para imprimação;t
+SICRO;GO;10-2020;M2093;Material fresado;m³
+SICRO;GO;10-2020;M2097;Emulsão asfáltica RR-2C;t
+SICRO;GO;10-2020;M2102;Adesivo PVA;kg
+SICRO;GO;10-2020;M2110;Mandíbula móvel C96 Std;un
+SICRO;GO;10-2020;M2111;Mandíbula fixa C96 Std;un
+SICRO;GO;10-2020;M2112;Manta HP200;un
+SICRO;GO;10-2020;M2113;Revestimento bojo Std HP200;un
+SICRO;GO;10-2020;M2114;Cunha lateral superior C96;un
+SICRO;GO;10-2020;M2115;Cunha lateral inferior C96;un
+SICRO;GO;10-2020;M2117;Meio tubo de concreto - D = 40 cm;m
+SICRO;GO;10-2020;M2118;Calha metálica semicircular corrugada galvanizada e com fixações - D = 40 cm;m
+SICRO;GO;10-2020;M2119;Mourão de madeira - H = 2,80 m e D = 15 cm;un
+SICRO;GO;10-2020;M2128;Tinta esmalte sintético;l
+SICRO;GO;10-2020;M2130;Eletrodo E70 xx;kg
+SICRO;GO;10-2020;M2135;Nonel de coluna (túnel);un
+SICRO;GO;10-2020;M2137;Tubo de PVC rígido - D = 50 mm;m
+SICRO;GO;10-2020;M2138;Nonel de coluna com 12 m;un
+SICRO;GO;10-2020;M2139;Broca integral série S11 - L = 1,6 m;un
+SICRO;GO;10-2020;M2140;Coroa de diamante linha AWG;un
+SICRO;GO;10-2020;M2141;Nonel de iniciação para fogacho com 6 m;un
+SICRO;GO;10-2020;M2142;Nonel de coluna com 4,8 m;un
+SICRO;GO;10-2020;M2143;Nonel de ligação;un
+SICRO;GO;10-2020;M2144;Nonel de coluna com 6 m;un
+SICRO;GO;10-2020;M2145;Série de brocas S12 - D = 22 mm;un
+SICRO;GO;10-2020;M2146;Nonel iniciador com 150 m;un
+SICRO;GO;10-2020;M2147;Bits para recicladora;un
+SICRO;GO;10-2020;M2148;Porta bits para recicladora;un
+SICRO;GO;10-2020;M2150;Selante elástico à base de poliuretano e asfalto, tipo Vedaflex 45 ou similar;kg
+SICRO;GO;10-2020;M2152;Aditivo de cura para concreto;kg
+SICRO;GO;10-2020;M2153;Coroa de diamante linha HWG;un
+SICRO;GO;10-2020;M2155;Grama tipo São Carlos;m²
+SICRO;GO;10-2020;M2156;Coroa de diamante linha NWG;un
+SICRO;GO;10-2020;M2158;Argamassa asfáltica;kg
+SICRO;GO;10-2020;M2159;Tubo de PVC perfurado para drenagem - D = 150 mm;m
+SICRO;GO;10-2020;M2160;Tubo de PEAD corrugado perfurado - D = 100 mm;m
+SICRO;GO;10-2020;M2162;Coroa de widia linha AWG;un
+SICRO;GO;10-2020;M2163;Tubo de concreto armado CA 1 - D = 0,40 m;m
+SICRO;GO;10-2020;M2164;Tubo de concreto armado CA 2 - D = 0,40 m;m
+SICRO;GO;10-2020;M2165;Tubo de concreto armado CA 3 - D = 0,40 m;m
+SICRO;GO;10-2020;M2166;Tubo de concreto armado CA 4 - D = 0,40 m;m
+SICRO;GO;10-2020;M2167;Tubo de concreto armado CA 1 - D = 0,60 m;m
+SICRO;GO;10-2020;M2168;Tubo de concreto armado CA 2 - D = 0,60 m;m
+SICRO;GO;10-2020;M2169;Tubo de concreto armado CA 3 - D = 0,60 m;m
+SICRO;GO;10-2020;M2170;Tubo de concreto armado CA 4 - D = 0,60 m;m
+SICRO;GO;10-2020;M2171;Tubo de concreto armado CA 1 - D = 0,80 m;m
+SICRO;GO;10-2020;M2172;Tubo de concreto armado CA 2 - D = 0,80 m;m
+SICRO;GO;10-2020;M2173;Tubo de concreto armado CA 3 - D = 0,80 m;m
+SICRO;GO;10-2020;M2174;Tubo de concreto armado CA 4 - D = 0,80 m;m
+SICRO;GO;10-2020;M2175;Tubo de concreto armado CA 1 - D = 1,00 m;m
+SICRO;GO;10-2020;M2176;Tubo de concreto armado CA 2 - D = 1,00 m;m
+SICRO;GO;10-2020;M2177;Tubo de concreto armado CA 3 - D = 1,00 m;m
+SICRO;GO;10-2020;M2178;Tubo de concreto armado CA 4 - D = 1,00 m;m
+SICRO;GO;10-2020;M2179;Tubo de concreto armado CA 1 - D = 1,20 m;m
+SICRO;GO;10-2020;M2180;Tubo de concreto armado CA 2 - D = 1,20 m;m
+SICRO;GO;10-2020;M2181;Tubo de concreto armado CA 3 - D = 1,20 m;m
+SICRO;GO;10-2020;M2182;Tubo de concreto armado CA 4 - D = 1,20 m;m
+SICRO;GO;10-2020;M2183;Tubo de concreto armado CA 1 - D = 1,50 m;m
+SICRO;GO;10-2020;M2184;Tubo de concreto armado CA 2 - D = 1,50 m;m
+SICRO;GO;10-2020;M2185;Tubo de concreto armado CA 3 - D = 1,50 m;m
+SICRO;GO;10-2020;M2186;Tubo de concreto armado CA 4 - D = 1,50 m;m
+SICRO;GO;10-2020;M2187;Tubo de concreto armado CA 1 - D = 0,50 m;m
+SICRO;GO;10-2020;M2188;Tubo de concreto armado CA 2 - D = 0,50 m;m
+SICRO;GO;10-2020;M2189;Tubo de concreto armado CA 3 - D = 0,50 m;m
+SICRO;GO;10-2020;M2190;Tubo de concreto armado CA 4 - D = 0,50 m;m
+SICRO;GO;10-2020;M2192;Coroa de widia linha HWG;un
+SICRO;GO;10-2020;M2193;Coroa de widia linha NWG;un
+SICRO;GO;10-2020;M2197;Haste de paredes paralelas com niples linha NW;m
+SICRO;GO;10-2020;M2198;Trilho UIC 60, aço carbono com 12 m de comprimento;t
+SICRO;GO;10-2020;M2200;Trilho TR 45, aço carbono com 12 m de comprimento;t
+SICRO;GO;10-2020;M2202;Trilho TR 57, aço carbono com 12 m de comprimento;t
+SICRO;GO;10-2020;M2204;Trilho TR 68, aço carbono com 12 m de comprimento;t
+SICRO;GO;10-2020;M2206;Lubrificador de trilhos e de flanges de rodas;un
+SICRO;GO;10-2020;M2207;Tirefond de 24 x 188 mm;un
+SICRO;GO;10-2020;M2208;Tirefond de 22,22 x 155 mm;un
+SICRO;GO;10-2020;M2209;Retensor de linha TR 45;un
+SICRO;GO;10-2020;M2210;Retensor de linha TR 57;un
+SICRO;GO;10-2020;M2211;Retensor de linha TR 68;un
+SICRO;GO;10-2020;M2213;Placa de apoio para UIC 60 para fixação rígida tirefond;un
+SICRO;GO;10-2020;M2214;Grampo elástico Pandrol;un
+SICRO;GO;10-2020;M2215;Placa de apoio para TR 45 para fixação elástica;un
+SICRO;GO;10-2020;M2216;Placa de apoio para TR 57 para fixação elástica;un
+SICRO;GO;10-2020;M2217;Placa de apoio para TR 68 para fixação elástica;un
+SICRO;GO;10-2020;M2218;Placa de apoio para TR 45 para fixação rígida tirefond;un
+SICRO;GO;10-2020;M2219;Placa de apoio para TR 57 para fixação rígida tirefond;un
+SICRO;GO;10-2020;M2220;Placa de apoio para TR 68 para fixação rígida tirefond;un
+SICRO;GO;10-2020;M2221;Retensor de linha UIC 60;un
+SICRO;GO;10-2020;M2222;Placa de apoio para UIC 60 para fixação elástica;un
+SICRO;GO;10-2020;M2225;Tala de junção TJ 45 com 6 furos, não isolada;par
+SICRO;GO;10-2020;M2227;Tala de junção TJ 57 com 6 furos, não isolada;par
+SICRO;GO;10-2020;M2229;Tala de junção TJ 68 com 6 furos, não isolada;par
+SICRO;GO;10-2020;M2233;Parafuso - D = 25 mm, com porca e arruela de pressão para tala de junção;un
+SICRO;GO;10-2020;M2234;Tala de junção TJ 60 com 6 furos, não isolada;par
+SICRO;GO;10-2020;M2236;AMV tipo TR 45, abertura 1:8, bitola métrica;un
+SICRO;GO;10-2020;M2237;AMV tipo TR 45, abertura 1:10, bitola métrica;un
+SICRO;GO;10-2020;M2238;AMV tipo TR 45, abertura 1:12, bitola métrica;un
+SICRO;GO;10-2020;M2239;AMV tipo TR 45, abertura 1:14, bitola métrica;un
+SICRO;GO;10-2020;M2240;AMV tipo TR 57, abertura 1:8, bitola métrica;un
+SICRO;GO;10-2020;M2241;AMV tipo TR 57, abertura 1:10, bitola métrica;un
+SICRO;GO;10-2020;M2242;AMV tipo TR 57, abertura 1:12, bitola métrica;un
+SICRO;GO;10-2020;M2243;AMV tipo TR 57, abertura 1:14, bitola métrica;un
+SICRO;GO;10-2020;M2244;AMV tipo TR 57, abertura 1:20, bitola métrica;un
+SICRO;GO;10-2020;M2245;AMV tipo TR 68, abertura 1:10, bitola métrica;un
+SICRO;GO;10-2020;M2246;AMV tipo TR 68, abertura 1:12, bitola métrica;un
+SICRO;GO;10-2020;M2247;AMV tipo TR 68, abertura 1:14, bitola métrica;un
+SICRO;GO;10-2020;M2248;AMV tipo UIC 60, abertura 1:10, bitola métrica;un
+SICRO;GO;10-2020;M2249;AMV tipo TR 68, abertura 1:20, bitola métrica;un
+SICRO;GO;10-2020;M2250;AMV tipo TR 45, abertura 1:8, bitola larga;un
+SICRO;GO;10-2020;M2251;AMV tipo TR 45, abertura 1:10, bitola larga;un
+SICRO;GO;10-2020;M2252;AMV tipo TR 45, abertura 1:12, bitola larga;un
+SICRO;GO;10-2020;M2253;AMV tipo TR 45, abertura 1:14, bitola larga;un
+SICRO;GO;10-2020;M2254;AMV tipo TR 57, abertura 1:8, bitola larga;un
+SICRO;GO;10-2020;M2255;AMV tipo TR 57, abertura 1:10, bitola larga;un
+SICRO;GO;10-2020;M2256;AMV tipo TR 57, abertura 1:12, bitola larga;un
+SICRO;GO;10-2020;M2257;AMV tipo TR 57, abertura 1:14, bitola larga;un
+SICRO;GO;10-2020;M2258;AMV tipo TR 57, abertura 1:20, bitola larga;un
+SICRO;GO;10-2020;M2259;AMV tipo TR 68, abertura 1:10, bitola larga;un
+SICRO;GO;10-2020;M2260;AMV tipo TR 68, abertura 1:12, bitola larga;un
+SICRO;GO;10-2020;M2261;AMV tipo TR 68, abertura 1:14, bitola larga;un
+SICRO;GO;10-2020;M2262;AMV tipo UIC 60, abertura 1:10, bitola larga;un
+SICRO;GO;10-2020;M2263;AMV tipo TR 68, abertura 1:20, bitola larga;un
+SICRO;GO;10-2020;M2264;AMV tipo TR 45, abertura 1:8, bitola mista;un
+SICRO;GO;10-2020;M2265;AMV tipo TR 45, abertura 1:10, bitola mista;un
+SICRO;GO;10-2020;M2266;AMV tipo TR 45, abertura 1:12, bitola mista;un
+SICRO;GO;10-2020;M2267;AMV tipo TR 45, abertura 1:14, bitola mista;un
+SICRO;GO;10-2020;M2268;AMV tipo TR 57, abertura 1:8, bitola mista;un
+SICRO;GO;10-2020;M2269;AMV tipo TR 57, abertura 1:10, bitola mista;un
+SICRO;GO;10-2020;M2270;AMV tipo TR 57, abertura 1:12, bitola mista;un
+SICRO;GO;10-2020;M2271;AMV tipo TR 57, abertura 1:14, bitola mista;un
+SICRO;GO;10-2020;M2272;AMV tipo TR 57, abertura 1:20, bitola mista;un
+SICRO;GO;10-2020;M2273;AMV tipo TR 68, abertura 1:10, bitola mista;un
+SICRO;GO;10-2020;M2274;AMV tipo TR 68, abertura 1:12, bitola mista;un
+SICRO;GO;10-2020;M2275;AMV tipo TR 68, abertura 1:14, bitola mista;un
+SICRO;GO;10-2020;M2276;Revestimento com conector linha AW;m
+SICRO;GO;10-2020;M2277;AMV tipo TR 68, abertura 1:20, bitola mista;un
+SICRO;GO;10-2020;M2278;Porção de solda aluminotérmica para trilho TR 45;un
+SICRO;GO;10-2020;M2279;Porção de solda aluminotérmica para trilho TR 57;un
+SICRO;GO;10-2020;M2280;Porção de solda aluminotérmica para trilho TR 68;un
+SICRO;GO;10-2020;M2281;Dormente de madeira, padrão bitola larga de 17 x 24 x 280 cm;un
+SICRO;GO;10-2020;M2282;Dormente de madeira, padrão bitola métrica de 16 x 22 x 200 cm;un
+SICRO;GO;10-2020;M2284;Revestimento com conector linha HW;m
+SICRO;GO;10-2020;M2285;Revestimento com conector linha NW;m
+SICRO;GO;10-2020;M2292;AMV tipo UIC 60, abertura 1:12, bitola métrica;un
+SICRO;GO;10-2020;M2293;AMV tipo UIC 60, abertura 1:14, bitola métrica;un
+SICRO;GO;10-2020;M2294;AMV tipo UIC 60, abertura 1:20, bitola métrica;un
+SICRO;GO;10-2020;M2298;AMV tipo UIC 60, abertura 1:10, bitola mista;un
+SICRO;GO;10-2020;M2299;AMV tipo UIC 60, abertura 1:12, bitola mista;un
+SICRO;GO;10-2020;M2300;AMV tipo UIC 60, abertura 1:14, bitola mista;un
+SICRO;GO;10-2020;M2301;AMV tipo UIC 60, abertura 1:20, bitola mista;un
+SICRO;GO;10-2020;M2303;Sapata de widia linha NW;un
+SICRO;GO;10-2020;M2304;Tricone de widia com três asas linha NW;un
+SICRO;GO;10-2020;M2308;Dormente de madeira para pontes de 20 x 25 x 300 cm;un
+SICRO;GO;10-2020;M2313;AMV tipo UIC 60, abertura 1:12, bitola larga;un
+SICRO;GO;10-2020;M2314;AMV tipo UIC 60, abertura 1:14, bitola larga;un
+SICRO;GO;10-2020;M2316;AMV tipo UIC 60, abertura 1:20, bitola larga;un
+SICRO;GO;10-2020;M2317;Revestimento para estaca raiz SCH 80 - D Externo = 141,0 mm - 30,94 kg/m;m
+SICRO;GO;10-2020;M2318;Revestimento para estaca raiz SCH 80 - D Externo = 168,3 mm - 42,56 kg/m;m
+SICRO;GO;10-2020;M2319;Revestimento para estaca raiz SCH 80 - D Externo = 219,1 mm - 64,64 kg/m;m
+SICRO;GO;10-2020;M2320;Revestimento para estaca raiz SCH 80 - D Externo = 273,0 mm - 95,97 kg/m;m
+SICRO;GO;10-2020;M2321;Revestimento para estaca raiz SCH 80 - D Externo = 323,8 mm - 132,04 kg/m;m
+SICRO;GO;10-2020;M2334;Coroa de widia linha BWG;un
+SICRO;GO;10-2020;M2356;Brita padrão para lastro ferroviário;m³
+SICRO;GO;10-2020;M2358;Palmilha de borracha para dormente de concreto;un
+SICRO;GO;10-2020;M2359;Porção de solda aluminotérmica para trilho UIC 60;un
+SICRO;GO;10-2020;M2360;Kit para solda aluminotérmica de trilho TR 45;cj
+SICRO;GO;10-2020;M2361;Kit para solda aluminotérmica de trilho TR 57;cj
+SICRO;GO;10-2020;M2362;Kit para solda aluminotérmica de trilho TR 68;cj
+SICRO;GO;10-2020;M2363;Kit para solda aluminotérmica de trilho UIC 60;cj
+SICRO;GO;10-2020;M2364;Broca para furar trilho - D = 1 1/8";un
+SICRO;GO;10-2020;M2365;Disco de corte de 35 cm;un
+SICRO;GO;10-2020;M2370;Dormentes de madeira para AMV;m³
+SICRO;GO;10-2020;M2379;Coroa de diamante linha BWG;un
+SICRO;GO;10-2020;M2383;Revestimento com conector linha BW;m
+SICRO;GO;10-2020;M2386;Corda de nylon torcida com 4 pernas - D = 10 mm;m
+SICRO;GO;10-2020;M2388;Broca de widia de 5/8";un
+SICRO;GO;10-2020;M2389;Broca de widia - D = 19 mm e C = 160 mm;un
+SICRO;GO;10-2020;M2419;Parafuso de cabeça abaulada em aço inox com porca e arruela - D = 6 mm (M6) e C = 30 mm;un
+SICRO;GO;10-2020;M2420;Parafuso de cabeça abaulada em aço inox com porca e arruela - D = 8 mm (M8) e C = 50 mm;un
+SICRO;GO;10-2020;M2421;Mangueira cristal trançada de PVC com pressão de trabalho de 1,50 MPa (250 psi) - D = 9,5 mm (3/8");m
+SICRO;GO;10-2020;M2423;Fôrma plástica para nicho de protensão de cordoalha - D = 15,2 mm;un
+SICRO;GO;10-2020;M2424;Fôrma plástica para nicho de protensão de cordoalha - D = 12,7 mm;un
+SICRO;GO;10-2020;M2425;Cordoalha engraxada tipo CP 190 RB - D = 15,2 mm;kg
+SICRO;GO;10-2020;M2426;Cordoalha engraxada tipo CP 190 RB - D = 12,7 mm;kg
+SICRO;GO;10-2020;M2427;Bainha metálica para protensão - D = 35 mm;m
+SICRO;GO;10-2020;M2428;Bainha metálica para protensão - D = 30 mm;m
+SICRO;GO;10-2020;M2429;Ancoragem passiva aderente para 8 cordoalhas - D = 15,2 mm;un
+SICRO;GO;10-2020;M2430;Ancoragem passiva aderente para 31 cordoalhas - D = 15,2 mm;un
+SICRO;GO;10-2020;M2431;Ancoragem ativa para cordoalha engraxada - D = 12,7 mm;un
+SICRO;GO;10-2020;M2432;Ancoragem ativa para cordoalha engraxada - D = 15,2 mm;un
+SICRO;GO;10-2020;M2433;Ancoragem passiva aderente para 10 cordoalhas - D = 12,7 mm;un
+SICRO;GO;10-2020;M2434;Ancoragem passiva aderente para 12 cordoalhas - D = 12,7 mm;un
+SICRO;GO;10-2020;M2435;Ancoragem passiva aderente para 12 cordoalhas - D = 15,2 mm;un
+SICRO;GO;10-2020;M2436;Ancoragem passiva aderente para 15 cordoalhas - D = 12,7 mm;un
+SICRO;GO;10-2020;M2437;Ancoragem passiva aderente para 15 cordoalhas - D = 15,2 mm;un
+SICRO;GO;10-2020;M2438;Ancoragem passiva aderente para 19 cordoalhas - D = 12,7 mm;un
+SICRO;GO;10-2020;M2439;Ancoragem passiva aderente para 19 cordoalhas - D = 15,2 mm;un
+SICRO;GO;10-2020;M2440;Ancoragem passiva aderente para 22 cordoalhas - D = 12,7 mm;un
+SICRO;GO;10-2020;M2441;Ancoragem passiva aderente para 22 cordoalhas - D = 15,2 mm;un
+SICRO;GO;10-2020;M2442;Ancoragem passiva aderente para 27 cordoalhas - D = 12,7 mm;un
+SICRO;GO;10-2020;M2443;Ancoragem passiva aderente para 27 cordoalhas - D = 15,2 mm;un
+SICRO;GO;10-2020;M2444;Ancoragem passiva aderente para 31 cordoalhas - D = 12,7 mm;un
+SICRO;GO;10-2020;M2445;Ancoragem passiva aderente para 4 cordoalhas - D = 12,7 mm;un
+SICRO;GO;10-2020;M2446;Ancoragem passiva aderente para 4 cordoalhas - D = 15,2 mm;un
+SICRO;GO;10-2020;M2447;Ancoragem passiva aderente para 6 cordoalhas - D = 12,7 mm;un
+SICRO;GO;10-2020;M2448;Ancoragem passiva aderente para 6 cordoalhas - D = 15,2 mm;un
+SICRO;GO;10-2020;M2449;Ancoragem passiva aderente para 7 cordoalhas - D = 12,7 mm;un
+SICRO;GO;10-2020;M2450;Ancoragem passiva aderente para 7 cordoalhas - D = 15,2 mm;un
+SICRO;GO;10-2020;M2451;Ancoragem passiva aderente para 8 cordoalhas - D = 12,7 mm;un
+SICRO;GO;10-2020;M2452;Ancoragem passiva aderente para 9 cordoalhas - D = 12,7 mm;un
+SICRO;GO;10-2020;M2453;Ancoragem passiva aderente para 9 cordoalhas - D = 15,2 mm;un
+SICRO;GO;10-2020;M2454;Ancoragem passiva aderente para lajes para 1 cordoalha - D = 12,7 mm;un
+SICRO;GO;10-2020;M2455;Ancoragem passiva aderente para lajes para 1 cordoalha - D = 15,2 mm;un
+SICRO;GO;10-2020;M2456;Ancoragem passiva aderente para lajes para 2 cordoalhas - D = 12,7 mm;un
+SICRO;GO;10-2020;M2457;Ancoragem passiva aderente para lajes para 2 cordoalhas - D = 15,2 mm;un
+SICRO;GO;10-2020;M2458;Ancoragem passiva aderente para lajes para 3 cordoalhas - D = 12,7 mm;un
+SICRO;GO;10-2020;M2459;Ancoragem passiva aderente para lajes para 3 cordoalhas - D = 15,2 mm;un
+SICRO;GO;10-2020;M2460;Ancoragem passiva aderente para lajes para 4 cordoalhas - D = 12,7 mm;un
+SICRO;GO;10-2020;M2461;Ancoragem passiva aderente para lajes para 4 cordoalhas - D = 15,2 mm;un
+SICRO;GO;10-2020;M2462;Mangueira cristal trançada de PVC com pressão de trabalho de 1,50 MPa (250 psi) - D = 19,0 mm (3/4");m
+SICRO;GO;10-2020;M2465;Bainha metálica para protensão - D = 40 mm;m
+SICRO;GO;10-2020;M2466;Bainha metálica para protensão - D = 45 mm;m
+SICRO;GO;10-2020;M2467;Bainha metálica para protensão - D = 50 mm;m
+SICRO;GO;10-2020;M2468;Bainha metálica para protensão - D = 55 mm;m
+SICRO;GO;10-2020;M2469;Bainha metálica para protensão - D = 60 mm;m
+SICRO;GO;10-2020;M2470;Bainha metálica para protensão - D = 65 mm;m
+SICRO;GO;10-2020;M2471;Bainha metálica para protensão - D = 70 mm;m
+SICRO;GO;10-2020;M2472;Bainha metálica para protensão - D = 75 mm;m
+SICRO;GO;10-2020;M2473;Bainha metálica para protensão - D = 80 mm;m
+SICRO;GO;10-2020;M2474;Bainha metálica para protensão - D = 85 mm;m
+SICRO;GO;10-2020;M2475;Bainha metálica para protensão - D = 90 mm;m
+SICRO;GO;10-2020;M2476;Bainha metálica para protensão - D = 95 mm;m
+SICRO;GO;10-2020;M2477;Bainha metálica para protensão - D = 100 mm;m
+SICRO;GO;10-2020;M2478;Bainha metálica para protensão - D = 110 mm;m
+SICRO;GO;10-2020;M2479;Bainha metálica para protensão - D = 120 mm;m
+SICRO;GO;10-2020;M2480;Bainha metálica para protensão - D = 130 mm;m
+SICRO;GO;10-2020;M2481;Bainha metálica ovalizada para protensão - seção de 19 x 36 mm;m
+SICRO;GO;10-2020;M2482;Bainha metálica ovalizada para protensão - seção de 19 x 48 mm;m
+SICRO;GO;10-2020;M2483;Bainha metálica ovalizada para protensão - seção de 19 x 62 mm;m
+SICRO;GO;10-2020;M2484;Bainha metálica ovalizada para protensão - seção de 22 x 32 mm;m
+SICRO;GO;10-2020;M2485;Bainha metálica ovalizada para protensão - seção de 22 x 55 mm;m
+SICRO;GO;10-2020;M2486;Bainha metálica ovalizada para protensão - seção de 22 x 73 mm;m
+SICRO;GO;10-2020;M2487;Espaçador para grampo de barra de aço de até 25,4 mm de diâmetro e 40 mm de cobrimento;un
+SICRO;GO;10-2020;M2488;Cinta de elevação tipo Grab com 1 ramal anel, gancho de 3 a 5 m e capacidade de 5000 kg - segurança 4:1;un
+SICRO;GO;10-2020;M2489;Cinta de elevação tipo Grab com 2 ramais anel, gancho de 3 a 5 m e capacidade de 5000 kg - segurança 4:1;un
+SICRO;GO;10-2020;M2500;Tunnel liner de chapa galvanizada - E = 2,2 mm e D = 1,2 m;m
+SICRO;GO;10-2020;M2501;Tunnel liner de chapa galvanizada - E = 2,2 mm e D = 1,4 m;m
+SICRO;GO;10-2020;M2502;Tunnel liner de chapa galvanizada - E = 2,2 mm e D = 1,6 m;m
+SICRO;GO;10-2020;M2503;Tunnel liner de chapa galvanizada - E = 2,2 mm e D = 1,8 m;m
+SICRO;GO;10-2020;M2504;Tunnel liner de chapa galvanizada - E = 2,2 mm e D = 2,0 m;m
+SICRO;GO;10-2020;M2505;Tunnel liner de chapa galvanizada - E = 2,2 mm e D = 2,2 m;m
+SICRO;GO;10-2020;M2506;Tunnel liner de chapa galvanizada - E = 2,2 mm e D = 2,4 m;m
+SICRO;GO;10-2020;M2507;Tunnel liner de chapa galvanizada - E = 2,2 mm e D = 2,6 m;m
+SICRO;GO;10-2020;M2508;Tunnel liner de chapa galvanizada - E = 2,2 mm e D = 2,8 m;m
+SICRO;GO;10-2020;M2509;Tunnel liner de chapa galvanizada - E = 2,2 mm e D = 3,0 m;m
+SICRO;GO;10-2020;M2510;Tunnel liner de chapa galvanizada - E = 2,7 mm e D = 3,2 m;m
+SICRO;GO;10-2020;M2511;Tunnel liner de chapa galvanizada - E = 2,7 mm e D = 3,4 m;m
+SICRO;GO;10-2020;M2512;Tunnel liner de chapa galvanizada - E = 2,7 mm e D = 3,6 m;m
+SICRO;GO;10-2020;M2513;Tunnel liner de chapa galvanizada - E = 2,7 mm e D = 3,8 m;m
+SICRO;GO;10-2020;M2514;Tunnel liner de chapa galvanizada - E = 2,7 mm e D = 4,0 m;m
+SICRO;GO;10-2020;M2515;Tunnel liner de chapa galvanizada - E = 3,4 mm e D = 4,2 m;m
+SICRO;GO;10-2020;M2516;Tunnel liner de chapa galvanizada - E = 3,4 mm e D = 4,4 m;m
+SICRO;GO;10-2020;M2517;Tunnel liner de chapa galvanizada - E = 3,4 mm e D = 4,6 m;m
+SICRO;GO;10-2020;M2518;Tunnel liner de chapa galvanizada - E = 3,9 mm e D = 4,8 m;m
+SICRO;GO;10-2020;M2519;Tunnel liner de chapa galvanizada - E = 3,9 mm e D = 5,0 m;m
+SICRO;GO;10-2020;M2520;Tunnel liner de chapa com epóxi - E = 2,2 mm e D = 1,2 m;m
+SICRO;GO;10-2020;M2521;Tunnel liner de chapa com epóxi - E = 2,2 mm e D = 1,4 m;m
+SICRO;GO;10-2020;M2522;Tunnel liner de chapa com epóxi - E = 2,2 mm e D = 1,6 m;m
+SICRO;GO;10-2020;M2523;Tunnel liner de chapa com epóxi - E = 2,2 mm e D = 1,8 m;m
+SICRO;GO;10-2020;M2524;Tunnel liner de chapa com epóxi - E = 2,2 mm e D = 2,0 m;m
+SICRO;GO;10-2020;M2525;Tunnel liner de chapa com epóxi - E = 2,2 mm e D = 2,2 m;m
+SICRO;GO;10-2020;M2526;Tunnel liner de chapa com epóxi - E = 2,2 mm e D = 2,4 m;m
+SICRO;GO;10-2020;M2527;Tunnel liner de chapa com epóxi - E = 2,2 mm e D = 2,6 m;m
+SICRO;GO;10-2020;M2528;Tunnel liner de chapa com epóxi - E = 2,2 mm e D = 2,8 m;m
+SICRO;GO;10-2020;M2529;Tunnel liner de chapa com epóxi - E = 2,2 mm e D = 3,0 m;m
+SICRO;GO;10-2020;M2530;Tunnel liner de chapa com epóxi - E = 2,7 mm e D = 3,2 m;m
+SICRO;GO;10-2020;M2531;Chapa múltipla MP 100 galvanizada - E = 1,6 mm e D = 0,6 m;m
+SICRO;GO;10-2020;M2532;Chapa múltipla MP 100 galvanizada - E = 1,6 mm e D = 0,7 m;m
+SICRO;GO;10-2020;M2533;Chapa múltipla MP 100 galvanizada - E = 1,6 mm e D = 0,8 m;m
+SICRO;GO;10-2020;M2534;Chapa múltipla MP 100 galvanizada - E = 1,6 mm e D = 0,9 m;m
+SICRO;GO;10-2020;M2535;Chapa múltipla MP 100 galvanizada - E = 1,6 mm e D = 1,0 m;m
+SICRO;GO;10-2020;M2536;Chapa múltipla MP 100 galvanizada - E = 1,6 mm e D = 1,1 m;m
+SICRO;GO;10-2020;M2537;Chapa múltipla MP 100 galvanizada - E = 1,6 mm e D = 1,2 m;m
+SICRO;GO;10-2020;M2538;Chapa múltipla MP 100 galvanizada - E = 1,6 mm e D = 1,3 m;m
+SICRO;GO;10-2020;M2539;Chapa múltipla MP 100 galvanizada - E = 1,6 mm e D = 1,4 m;m
+SICRO;GO;10-2020;M2540;Chapa múltipla MP 100 galvanizada - E = 1,6 mm e D = 1,5 m;m
+SICRO;GO;10-2020;M2541;Chapa múltipla MP 100 galvanizada - E = 1,6 mm e D = 1,6 m;m
+SICRO;GO;10-2020;M2542;Chapa múltipla MP 100 galvanizada - E = 1,6 mm e D = 1,7 m;m
+SICRO;GO;10-2020;M2543;Chapa múltipla MP 100 galvanizada - E = 1,6 mm e D = 1,8 m;m
+SICRO;GO;10-2020;M2544;Chapa múltipla MP 100 galvanizada - E = 2,0 mm e D = 1,9 m;m
+SICRO;GO;10-2020;M2545;Chapa múltipla MP 100 galvanizada - E = 2,0 mm e D = 2,0 m;m
+SICRO;GO;10-2020;M2546;Chapa múltipla MP 100 galvanizada - E = 2,0 mm e D = 2,1 m;m
+SICRO;GO;10-2020;M2547;Chapa múltipla MP 100 galvanizada - E = 2,0 mm e D = 2,2 m;m
+SICRO;GO;10-2020;M2548;Chapa múltipla MP 100 galvanizada - E = 2,0 mm e D = 2,3 m;m
+SICRO;GO;10-2020;M2549;Chapa múltipla MP 100 galvanizada - E = 2,7 mm e D = 2,4 m;m
+SICRO;GO;10-2020;M2550;Chapa múltipla MP 100 galvanizada - E = 3,4 mm e D = 2,5 m;m
+SICRO;GO;10-2020;M2551;Chapa múltipla MP 100 galvanizada - E = 3,4 mm e D = 2,6 m;m
+SICRO;GO;10-2020;M2552;Chapa múltipla MP 100 galvanizada - E = 3,4 mm e D = 2,7 m;m
+SICRO;GO;10-2020;M2553;Chapa múltipla MP 100 galvanizada - E = 3,4 mm e D = 2,8 m;m
+SICRO;GO;10-2020;M2554;Chapa múltipla MP 152 galvanizada - E = 2,7 mm e D = 1,50 m;m
+SICRO;GO;10-2020;M2555;Chapa múltipla MP 152 galvanizada - E = 2,7 mm e D = 1,80 m;m
+SICRO;GO;10-2020;M2556;Chapa múltipla MP 152 galvanizada - E = 2,7 mm e D = 1,90 m;m
+SICRO;GO;10-2020;M2557;Chapa múltipla MP 152 galvanizada - E = 2,7 mm e D = 2,15 m;m
+SICRO;GO;10-2020;M2558;Chapa múltipla MP 152 galvanizada - E = 2,7 mm e D = 2,30 m;m
+SICRO;GO;10-2020;M2559;Chapa múltipla MP 152 galvanizada - E = 2,7 mm e D = 2,65 m;m
+SICRO;GO;10-2020;M2560;Chapa múltipla MP 152 galvanizada - E = 2,7 mm e D = 3,05 m;m
+SICRO;GO;10-2020;M2561;Chapa múltipla MP 152 galvanizada - E = 2,7 mm e D = 3,20 m;m
+SICRO;GO;10-2020;M2562;Chapa múltipla MP 152 galvanizada - E = 2,7 mm e D = 3,40 m;m
+SICRO;GO;10-2020;M2563;Chapa múltipla MP 152 galvanizada - E = 2,7 mm e D = 3,65 m;m
+SICRO;GO;10-2020;M2564;Chapa múltipla MP 152 galvanizada - E = 2,7 mm e D = 3,80 m;m
+SICRO;GO;10-2020;M2565;Chapa múltipla MP 152 galvanizada - E = 2,7 mm e D = 4,20 m;m
+SICRO;GO;10-2020;M2566;Chapa múltipla MP 152 galvanizada - E = 2,7 mm e D = 4,60 m;m
+SICRO;GO;10-2020;M2567;Chapa múltipla MP 152 galvanizada - E = 3,4 mm e D = 4,80 m;m
+SICRO;GO;10-2020;M2568;Chapa múltipla MP 152 galvanizada - E = 3,4 mm e D = 5,00 m;m
+SICRO;GO;10-2020;M2569;Chapa múltipla MP 152 galvanizada - E = 3,9 mm e D = 5,35 m;m
+SICRO;GO;10-2020;M2570;Chapa múltipla MP 152 galvanizada - E = 3,9 mm e D = 5,70 m;m
+SICRO;GO;10-2020;M2571;Chapa múltipla MP 152 galvanizada - E = 4,7 mm e D = 6,10 m;m
+SICRO;GO;10-2020;M2572;Chapa múltipla MP 152 galvanizada - E = 6,4 mm e D = 6,50 m;m
+SICRO;GO;10-2020;M2573;Chapa múltipla MP 152 galvanizada - E = 6,4 mm e D = 6,85 m;m
+SICRO;GO;10-2020;M2574;Chapa múltipla MP 152 galvanizada - E = 6,4 mm e D = 7,25 m;m
+SICRO;GO;10-2020;M2580;Parafuso cabeça sextavada - D = 5/16" com porca e arruela de pressão;cj
+SICRO;GO;10-2020;M2584;Vermiculita expandida;m³
+SICRO;GO;10-2020;M2597;Concreto usinado fck = 40 MPa (comercial);m³
+SICRO;GO;10-2020;M2598;Concreto usinado fck = 45 MPa (comercial);m³
+SICRO;GO;10-2020;M2599;Concreto usinado fck = 50 MPa (comercial);m³
+SICRO;GO;10-2020;M2601;Aparelho de apoio metálico esférico fixo com 4 chumbadores e capacidade de 1000 kN;un
+SICRO;GO;10-2020;M2602;Aparelho de apoio metálico esférico unidirecional com 4 chumbadores e capacidade de 1500 kN;un
+SICRO;GO;10-2020;M2603;Aparelho de apoio metálico esférico fixo com 4 chumbadores e capacidade de 1500 kN;un
+SICRO;GO;10-2020;M2604;Aparelho de apoio metálico esférico fixo com 4 chumbadores e capacidade de 2000 kN;un
+SICRO;GO;10-2020;M2605;Aparelho de apoio metálico esférico fixo com 4 chumbadores e capacidade de 2500 kN;un
+SICRO;GO;10-2020;M2606;Aparelho de apoio metálico esférico fixo com 4 chumbadores e capacidade de 3000 kN;un
+SICRO;GO;10-2020;M2607;Aparelho de apoio metálico esférico fixo com 4 chumbadores e capacidade de 3500 kN;un
+SICRO;GO;10-2020;M2608;Aparelho de apoio metálico esférico fixo com 4 chumbadores e capacidade de 4000 kN;un
+SICRO;GO;10-2020;M2609;Aparelho de apoio metálico esférico unidirecional com 4 chumbadores e capacidade de 1000 kN;un
+SICRO;GO;10-2020;M2610;Aparelho de apoio metálico esférico unidirecional com 4 chumbadores e capacidade de 2000 kN;un
+SICRO;GO;10-2020;M2611;Aparelho de apoio metálico esférico unidirecional com 4 chumbadores e capacidade de 2500 kN;un
+SICRO;GO;10-2020;M2612;Aparelho de apoio metálico esférico unidirecional com 4 chumbadores e capacidade de 3000 kN;un
+SICRO;GO;10-2020;M2613;Aparelho de apoio metálico esférico unidirecional com 4 chumbadores e capacidade de 3500 kN;un
+SICRO;GO;10-2020;M2614;Aparelho de apoio metálico esférico unidirecional com 4 chumbadores e capacidade de 4000 kN;un
+SICRO;GO;10-2020;M2615;Aparelho de apoio metálico esférico fixo com 4 chumbadores e capacidade de 4500 kN;un
+SICRO;GO;10-2020;M2616;Aparelho de apoio metálico esférico fixo com 4 chumbadores e capacidade de 5000 kN;un
+SICRO;GO;10-2020;M2617;Aparelho de apoio metálico esférico fixo com 4 chumbadores e capacidade de 5500 kN;un
+SICRO;GO;10-2020;M2618;Aparelho de apoio metálico esférico fixo com 4 chumbadores e capacidade de 6000 kN;un
+SICRO;GO;10-2020;M2619;Aparelho de apoio metálico esférico fixo com 4 chumbadores e capacidade de 6500 kN;un
+SICRO;GO;10-2020;M2620;Aparelho de apoio metálico esférico fixo com 4 chumbadores e capacidade de 7000 kN;un
+SICRO;GO;10-2020;M2621;Aparelho de apoio metálico esférico fixo com 4 chumbadores e capacidade de 7500 kN;un
+SICRO;GO;10-2020;M2622;Aparelho de apoio metálico esférico fixo com 4 chumbadores e capacidade de 8000 kN;un
+SICRO;GO;10-2020;M2623;Grelha metálica simples para boca de lobo de 300 x 900 mm e capacidade de 300 kN;un
+SICRO;GO;10-2020;M2624;Grelha de piso em PVC de 13 x 50 cm para pedestres;un
+SICRO;GO;10-2020;M2625;Marco para grelha de piso em PVC com 2,5 m;un
+SICRO;GO;10-2020;M2626;Grelha de piso em PVC de 13 x 50 cm para veículos de até 3 t;un
+SICRO;GO;10-2020;M2627;Grelha de piso em PVC de 13 x 50 cm para veículos de até 10 t;un
+SICRO;GO;10-2020;M2628;Grelha de piso em PVC de 20 x 50 cm para pedestres;un
+SICRO;GO;10-2020;M2629;Grelha de piso em PVC de 20 x 50 cm para veículos de até 3 t;un
+SICRO;GO;10-2020;M2630;Grelha de piso em PVC de 20 x 50 cm para veículos de até 10 t;un
+SICRO;GO;10-2020;M2631;Grelha metálica para canaletas de 10 x 100 cm;un
+SICRO;GO;10-2020;M2632;Grelha metálica para canaletas de 15 x 100 cm;un
+SICRO;GO;10-2020;M2633;Porta grelha metálica de 15 x 100 cm;m
+SICRO;GO;10-2020;M2634;Grelha metálica para canaletas de 20 x 100 cm;un
+SICRO;GO;10-2020;M2635;Porta grelha metálica de 20 x 100 cm;m
+SICRO;GO;10-2020;M2636;Porta grelha metálica de 10 x 100 cm;m
+SICRO;GO;10-2020;M2637;Aparelho de apoio metálico esférico fixo com 4 chumbadores e capacidade de 8500 kN;un
+SICRO;GO;10-2020;M2638;Aparelho de apoio metálico esférico fixo com 4 chumbadores e capacidade de 9000 kN;un
+SICRO;GO;10-2020;M2639;Aparelho de apoio metálico esférico fixo com 4 chumbadores e capacidade de 9500 kN;un
+SICRO;GO;10-2020;M2640;Aparelho de apoio metálico esférico fixo com 4 chumbadores e capacidade de 10000 kN;un
+SICRO;GO;10-2020;M2641;Aparelho de apoio metálico esférico unidirecional com 4 chumbadores e capacidade de 4500 kN;un
+SICRO;GO;10-2020;M2642;Aparelho de apoio metálico esférico unidirecional com 4 chumbadores e capacidade de 5000 kN;un
+SICRO;GO;10-2020;M2643;Aparelho de apoio metálico esférico unidirecional com 4 chumbadores e capacidade de 5500 kN;un
+SICRO;GO;10-2020;M2644;Aparelho de apoio metálico esférico unidirecional com 4 chumbadores e capacidade de 6000 kN;un
+SICRO;GO;10-2020;M2645;Aparelho de apoio metálico esférico unidirecional com 4 chumbadores e capacidade de 6500 kN;un
+SICRO;GO;10-2020;M2646;Aparelho de apoio metálico esférico unidirecional com 4 chumbadores e capacidade de 7000 kN;un
+SICRO;GO;10-2020;M2647;Aparelho de apoio metálico esférico unidirecional com 4 chumbadores e capacidade de 7500 kN;un
+SICRO;GO;10-2020;M2648;Fincapino e pino com furo 1/4";un
+SICRO;GO;10-2020;M2649;Aparelho de apoio metálico esférico unidirecional com 4 chumbadores e capacidade de 8000 kN;un
+SICRO;GO;10-2020;M2650;Aparelho de apoio metálico esférico unidirecional com 4 chumbadores e capacidade de 8500 kN;un
+SICRO;GO;10-2020;M2651;Chapa múltipla MP 100 revestida em epóxi - E = 1,6 mm e D = 0,6 m;m
+SICRO;GO;10-2020;M2652;Chapa múltipla MP 100 revestida em epóxi - E = 1,6 mm e D = 0,7 m;m
+SICRO;GO;10-2020;M2653;Chapa múltipla MP 100 revestida em epóxi - E = 1,6 mm e D = 0,8 m;m
+SICRO;GO;10-2020;M2654;Chapa múltipla MP 100 revestida em epóxi - E = 1,6 mm e D = 0,9 m;m
+SICRO;GO;10-2020;M2655;Chapa múltipla MP 100 revestida em epóxi - E = 1,6 mm e D = 1,0 m;m
+SICRO;GO;10-2020;M2656;Chapa múltipla MP 100 revestida em epóxi - E = 1,6 mm e D = 1,1 m;m
+SICRO;GO;10-2020;M2657;Chapa múltipla MP 100 revestida em epóxi - E = 1,6 mm e D = 1,2 m;m
+SICRO;GO;10-2020;M2658;Chapa múltipla MP 100 revestida em epóxi - E = 1,6 mm e D = 1,3 m;m
+SICRO;GO;10-2020;M2659;Chapa múltipla MP 100 revestida em epóxi - E = 1,6 mm e D = 1,4 m;m
+SICRO;GO;10-2020;M2660;Chapa múltipla MP 100 revestida em epóxi - E = 1,6 mm e D = 1,5 m;m
+SICRO;GO;10-2020;M2661;Chapa múltipla MP 100 revestida em epóxi - E = 1,6 mm e D = 1,6 m;m
+SICRO;GO;10-2020;M2662;Chapa múltipla MP 100 revestida em epóxi - E = 1,6 mm e D = 1,7 m;m
+SICRO;GO;10-2020;M2663;Chapa múltipla MP 100 revestida em epóxi - E = 1,6 mm e D = 1,8 m;m
+SICRO;GO;10-2020;M2664;Chapa múltipla MP 100 revestida em epóxi - E = 2,0 mm e D = 1,9 m;m
+SICRO;GO;10-2020;M2665;Chapa múltipla MP 100 revestida em epóxi - E = 2,0 mm e D = 2,0 m;m
+SICRO;GO;10-2020;M2666;Chapa múltipla MP 100 revestida em epóxi - E = 2,0 mm e D = 2,1 m;m
+SICRO;GO;10-2020;M2667;Chapa múltipla MP 100 revestida em epóxi - E = 2,0 mm e D = 2,2 m;m
+SICRO;GO;10-2020;M2668;Chapa múltipla MP 100 revestida em epóxi - E = 2,0 mm e D = 2,3 m;m
+SICRO;GO;10-2020;M2669;Chapa múltipla MP 100 revestida em epóxi - E = 2,7 mm e D = 2,4 m;m
+SICRO;GO;10-2020;M2670;Chapa múltipla MP 100 revestida em epóxi - E = 3,4 mm e D = 2,5 m;m
+SICRO;GO;10-2020;M2671;Chapa múltipla MP 100 revestida em epóxi - E = 3,4 mm e D = 2,6 m;m
+SICRO;GO;10-2020;M2672;Chapa múltipla MP 100 revestida em epóxi - E = 3,4 mm e D = 2,7 m;m
+SICRO;GO;10-2020;M2673;Chapa múltipla MP 100 revestida em epóxi - E = 3,4 mm e D = 2,8 m;m
+SICRO;GO;10-2020;M2674;Chapa múltipla MP 152 revestida em epóxi - E = 2,7 mm e D = 1,50 m;m
+SICRO;GO;10-2020;M2675;Chapa múltipla MP 152 revestida em epóxi - E = 2,7 mm e D = 1,80 m;m
+SICRO;GO;10-2020;M2676;Chapa múltipla MP 152 revestida em epóxi - E = 2,7 mm e D = 1,90 m;m
+SICRO;GO;10-2020;M2677;Chapa múltipla MP 152 revestida em epóxi - E = 2,7 mm e D = 2,15 m;m
+SICRO;GO;10-2020;M2678;Chapa múltipla MP 152 revestida em epóxi - E = 2,7 mm e D = 2,30 m;m
+SICRO;GO;10-2020;M2679;Chapa múltipla MP 152 revestida em epóxi - E = 2,7 mm e D = 2,65 m;m
+SICRO;GO;10-2020;M2680;Chapa múltipla MP 152 revestida em epóxi - E = 2,7 mm e D = 3,05 m;m
+SICRO;GO;10-2020;M2681;Chapa múltipla MP 152 revestida em epóxi - E = 2,7 mm e D = 3,20 m;m
+SICRO;GO;10-2020;M2682;Chapa múltipla MP 152 revestida em epóxi - E = 2,7 mm e D = 3,40 m;m
+SICRO;GO;10-2020;M2683;Chapa múltipla MP 152 revestida em epóxi - E = 2,7 mm e D = 3,65 m;m
+SICRO;GO;10-2020;M2684;Chapa múltipla MP 152 revestida em epóxi - E = 2,7 mm e D = 3,80 m;m
+SICRO;GO;10-2020;M2685;Chapa múltipla MP 152 revestida em epóxi - E = 2,7 mm e D = 4,20 m;m
+SICRO;GO;10-2020;M2686;Chapa múltipla MP 152 revestida em epóxi - E = 2,7 mm e D = 4,60 m;m
+SICRO;GO;10-2020;M2687;Chapa múltipla MP 152 revestida em epóxi - E = 3,4 mm e D = 4,80 m;m
+SICRO;GO;10-2020;M2688;Chapa múltipla MP 152 revestida em epóxi - E = 3,4 mm e D = 5,00 m;m
+SICRO;GO;10-2020;M2689;Chapa múltipla MP 152 revestida em epóxi - E = 3,9 mm e D = 5,35 m;m
+SICRO;GO;10-2020;M2690;Chapa múltipla MP 152 revestida em epóxi - E = 3,9 mm e D = 5,70 m;m
+SICRO;GO;10-2020;M2691;Chapa múltipla MP 152 revestida em epóxi - E = 4,7 mm e D = 6,10 m;m
+SICRO;GO;10-2020;M2692;Chapa múltipla MP 152 revestida em epóxi - E = 6,4 mm e D = 6,50 m;m
+SICRO;GO;10-2020;M2693;Chapa múltipla MP 152 revestida em epóxi - E = 6,4 mm e D = 6,85 m;m
+SICRO;GO;10-2020;M2694;Chapa múltipla MP 152 revestida em epóxi - E = 6,4 mm e D = 7,25 m;m
+SICRO;GO;10-2020;M2695;Aparelho de apoio metálico esférico unidirecional com 4 chumbadores e capacidade de 9000 kN;un
+SICRO;GO;10-2020;M2696;Aparelho de apoio metálico esférico unidirecional com 4 chumbadores e capacidade de 9500 kN;un
+SICRO;GO;10-2020;M2697;Aparelho de apoio metálico esférico unidirecional com 4 chumbadores e capacidade de 10000 kN;un
+SICRO;GO;10-2020;M2700;BSCC - seção de 1,5 m x 1,5 m - tipo I - pré-moldado comercial;m
+SICRO;GO;10-2020;M2701;BSCC - seção de 1,5 m x 1,5 m - tipo II - pré-moldado comercial;m
+SICRO;GO;10-2020;M2702;BSCC - seção de 1,5 m x 1,5 m - tipo III - pré-moldado comercial;m
+SICRO;GO;10-2020;M2703;BSCC - seção de 1,5 m x 1,5 m - tipo IV - pré-moldado comercial;m
+SICRO;GO;10-2020;M2704;BSCC - seção de 1,5 m x 1,5 m - tipo V - pré-moldado comercial;m
+SICRO;GO;10-2020;M2705;BSCC - seção de 1,5 m x 1,5 m - tipo VI - pré-moldado comercial;m
+SICRO;GO;10-2020;M2706;BSCC - seção de 1,5 m x 1,5 m - tipo VII - pré-moldado comercial;m
+SICRO;GO;10-2020;M2707;BSCC - seção de 2,0 m x 2,0 m - tipo I - pré-moldado comercial;m
+SICRO;GO;10-2020;M2708;BSCC - seção de 2,0 m x 2,0 m - tipo II - pré-moldado comercial;m
+SICRO;GO;10-2020;M2709;BSCC - seção de 2,0 m x 2,0 m - tipo III - pré-moldado comercial;m
+SICRO;GO;10-2020;M2710;BSCC - seção de 2,0 m x 2,0 m - tipo IV - pré-moldado comercial;m
+SICRO;GO;10-2020;M2711;BSCC - seção de 2,0 m x 2,0 m - tipo V - pré-moldado comercial;m
+SICRO;GO;10-2020;M2712;BSCC - seção de 2,0 m x 2,0 m - tipo VI - pré-moldado comercial;m
+SICRO;GO;10-2020;M2713;BSCC - seção de 2,0 m x 2,0 m - tipo VII - pré-moldado comercial;m
+SICRO;GO;10-2020;M2714;BSCC - seção de 2,5 m x 2,5 m - tipo I - pré-moldado comercial;m
+SICRO;GO;10-2020;M2715;BSCC - seção de 2,5 m x 2,5 m - tipo II - pré-moldado comercial;m
+SICRO;GO;10-2020;M2716;BSCC - seção de 2,5 m x 2,5 m - tipo III - pré-moldado comercial;m
+SICRO;GO;10-2020;M2717;BSCC - seção de 2,5 m x 2,5 m - tipo IV - pré-moldado comercial;m
+SICRO;GO;10-2020;M2718;BSCC - seção de 2,5 m x 2,5 m - tipo V - pré-moldado comercial;m
+SICRO;GO;10-2020;M2719;BSCC - seção de 2,5 m x 2,5 m - tipo VI - pré-moldado comercial;m
+SICRO;GO;10-2020;M2720;BSCC - seção de 2,5 m x 2,5 m - tipo VII - pré-moldado comercial;m
+SICRO;GO;10-2020;M2721;BSCC - seção de 3,0 m x 3,0 m - tipo I - pré-moldado comercial;m
+SICRO;GO;10-2020;M2722;BSCC - seção de 3,0 m x 3,0 m - tipo II - pré-moldado comercial;m
+SICRO;GO;10-2020;M2723;BSCC - seção de 3,0 m x 3,0 m - tipo III - pré-moldado comercial;m
+SICRO;GO;10-2020;M2724;BSCC - seção de 3,0 m x 3,0 m - tipo IV - pré-moldado comercial;m
+SICRO;GO;10-2020;M2725;BSCC - seção de 3,0 m x 3,0 m - tipo V - pré-moldado comercial;m
+SICRO;GO;10-2020;M2726;BSCC - seção de 3,0 m x 3,0 m - tipo VI - pré-moldado comercial;m
+SICRO;GO;10-2020;M2727;BSCC - seção de 3,0 m x 3,0 m - tipo VII - pré-moldado comercial;m
+SICRO;GO;10-2020;M2728;BSCC - seção canal de 1,5 m x 1,5 m - pré-moldado comercial;m
+SICRO;GO;10-2020;M2729;BSCC - seção canal de 2,0 m x 1,5 m - pré-moldado comercial;m
+SICRO;GO;10-2020;M2730;BSCC - seção canal de 2,0 m x 2,0 m - tipo I - pré-moldado comercial;m
+SICRO;GO;10-2020;M2731;BSCC - seção canal de 2,0 m x 2,0 m - tipo II - pré-moldado comercial;m
+SICRO;GO;10-2020;M2732;BSCC - seção canal de 2,5 m x 1,5 m - pré-moldado comercial;m
+SICRO;GO;10-2020;M2733;BSCC - seção canal de 2,5 m x 2,0 m - tipo I - pré-moldado comercial;m
+SICRO;GO;10-2020;M2734;BSCC - seção canal de 2,5 m x 2,0 m - tipo II - pré-moldado comercial;m
+SICRO;GO;10-2020;M2735;BSCC - seção canal de 3,0 m x 1,5 m - pré-moldado comercial;m
+SICRO;GO;10-2020;M2736;BSCC - seção canal de 3,0 m x 2,0 m - tipo I - pré-moldado comercial;m
+SICRO;GO;10-2020;M2737;BSCC - seção canal de 3,0 m x 2,0 m - tipo II - pré-moldado comercial;m
+SICRO;GO;10-2020;M2738;Aparelho de apoio metálico esférico multidirecional com 4 chumbadores e capacidade de 1000 kN;un
+SICRO;GO;10-2020;M2739;Aparelho de apoio metálico esférico multidirecional com 4 chumbadores e capacidade de 1500 kN;un
+SICRO;GO;10-2020;M2740;Aparelho de apoio metálico esférico multidirecional com 4 chumbadores e capacidade de 2000 kN;un
+SICRO;GO;10-2020;M2741;Aparelho de apoio metálico esférico multidirecional com 4 chumbadores e capacidade de 2500 kN;un
+SICRO;GO;10-2020;M2742;Aparelho de apoio metálico esférico multidirecional com 4 chumbadores e capacidade de 3000 kN;un
+SICRO;GO;10-2020;M2743;Aparelho de apoio metálico esférico multidirecional com 4 chumbadores e capacidade de 3500 kN;un
+SICRO;GO;10-2020;M2744;Aparelho de apoio metálico esférico multidirecional com 4 chumbadores e capacidade de 4000 kN;un
+SICRO;GO;10-2020;M2745;Aparelho de apoio metálico esférico multidirecional com 4 chumbadores e capacidade de 4500 kN;un
+SICRO;GO;10-2020;M2746;Aparelho de apoio metálico esférico multidirecional com 4 chumbadores e capacidade de 5000 kN;un
+SICRO;GO;10-2020;M2747;Aparelho de apoio metálico esférico multidirecional com 4 chumbadores e capacidade de 5500 kN;un
+SICRO;GO;10-2020;M2748;Aparelho de apoio metálico esférico multidirecional com 4 chumbadores e capacidade de 6000 kN;un
+SICRO;GO;10-2020;M2749;Aparelho de apoio metálico esférico multidirecional com 4 chumbadores e capacidade de 6500 kN;un
+SICRO;GO;10-2020;M2750;Aparelho de apoio metálico esférico multidirecional com 4 chumbadores e capacidade de 7000 kN;un
+SICRO;GO;10-2020;M2751;Aparelho de apoio metálico esférico multidirecional com 4 chumbadores e capacidade de 7500 kN;un
+SICRO;GO;10-2020;M2752;Aparelho de apoio metálico esférico multidirecional com 4 chumbadores e capacidade de 8000 kN;un
+SICRO;GO;10-2020;M2753;Aparelho de apoio metálico esférico multidirecional com 4 chumbadores e capacidade de 8500 kN;un
+SICRO;GO;10-2020;M2754;Aparelho de apoio metálico esférico multidirecional com 4 chumbadores e capacidade de 9000 kN;un
+SICRO;GO;10-2020;M2755;Aparelho de apoio metálico esférico multidirecional com 4 chumbadores e capacidade de 9500 kN;un
+SICRO;GO;10-2020;M2756;Aparelho de apoio metálico esférico multidirecional com 4 chumbadores e capacidade de 10000 kN;un
+SICRO;GO;10-2020;M2757;Aparelho de apoio metálico elastomérico fixo com 4 chumbadores e capacidade de 700 kN;un
+SICRO;GO;10-2020;M2758;Aparelho de apoio metálico elastomérico fixo com 4 chumbadores e capacidade de 1500 kN;un
+SICRO;GO;10-2020;M2759;Aparelho de apoio metálico elastomérico fixo com 4 chumbadores e capacidade de 2500 kN;un
+SICRO;GO;10-2020;M2760;Aparelho de apoio metálico elastomérico fixo com 4 chumbadores e capacidade de 4000 kN;un
+SICRO;GO;10-2020;M2761;Aparelho de apoio metálico elastomérico fixo com 4 chumbadores e capacidade de 5500 kN;un
+SICRO;GO;10-2020;M2762;Aparelho de apoio metálico elastomérico fixo com 4 chumbadores e capacidade de 7500 kN;un
+SICRO;GO;10-2020;M2763;Aparelho de apoio metálico elastomérico fixo com 4 chumbadores e capacidade de 10000 kN;un
+SICRO;GO;10-2020;M2764;Aparelho de apoio metálico elastomérico unidirecional com 4 chumbadores e capacidade de 700 kN;un
+SICRO;GO;10-2020;M2765;Aparelho de apoio metálico elastomérico unidirecional com 4 chumbadores e capacidade de 1500 kN;un
+SICRO;GO;10-2020;M2766;Aparelho de apoio metálico elastomérico unidirecional com 4 chumbadores e capacidade de 2500 kN;un
+SICRO;GO;10-2020;M2767;Aparelho de apoio metálico elastomérico unidirecional com 4 chumbadores e capacidade de 4000 kN;un
+SICRO;GO;10-2020;M2768;Aparelho de apoio metálico elastomérico unidirecional com 4 chumbadores e capacidade de 5500 kN;un
+SICRO;GO;10-2020;M2769;Aparelho de apoio metálico elastomérico unidirecional com 4 chumbadores e capacidade de 7500 kN;un
+SICRO;GO;10-2020;M2770;Aparelho de apoio metálico elastomérico unidirecional com 4 chumbadores e capacidade de 10000 kN;un
+SICRO;GO;10-2020;M2771;Aparelho de apoio metálico elastomérico multidirecional com 4 chumbadores e capacidade de 700 kN;un
+SICRO;GO;10-2020;M2772;Aparelho de apoio metálico elastomérico multidirecional com 4 chumbadores e capacidade de 1500 kN;un
+SICRO;GO;10-2020;M2773;Aparelho de apoio metálico elastomérico multidirecional com 4 chumbadores e capacidade de 2500 kN;un
+SICRO;GO;10-2020;M2774;Aparelho de apoio metálico elastomérico multidirecional com 4 chumbadores e capacidade de 4000 kN;un
+SICRO;GO;10-2020;M2775;Aparelho de apoio metálico elastomérico multidirecional com 4 chumbadores e capacidade de 5500 kN;un
+SICRO;GO;10-2020;M2776;Aparelho de apoio metálico elastomérico multidirecional com 4 chumbadores e capacidade de 7500 kN;un
+SICRO;GO;10-2020;M2777;Aparelho de apoio metálico elastomérico multidirecional com 4 chumbadores e capacidade de 10000 kN;un
+SICRO;GO;10-2020;M2780;Tunnel liner de chapa galvanizada - E = 2,7 mm e D = 1,2 m;m
+SICRO;GO;10-2020;M2781;Tunnel liner de chapa galvanizada - E = 2,7 mm e D = 1,4 m;m
+SICRO;GO;10-2020;M2782;Tunnel liner de chapa galvanizada - E = 2,7 mm e D = 1,6 m;m
+SICRO;GO;10-2020;M2783;Tunnel liner de chapa galvanizada - E = 2,7 mm e D = 1,8 m;m
+SICRO;GO;10-2020;M2784;Tunnel liner de chapa galvanizada - E = 2,7 mm e D = 2,0 m;m
+SICRO;GO;10-2020;M2785;Tunnel liner de chapa galvanizada - E = 3,4 mm e D = 2,2 m;m
+SICRO;GO;10-2020;M2786;Tunnel liner de chapa galvanizada - E = 3,4 mm e D = 2,4 m;m
+SICRO;GO;10-2020;M2787;Tunnel liner de chapa galvanizada - E = 3,4 mm e D = 2,6 m;m
+SICRO;GO;10-2020;M2788;Tunnel liner de chapa galvanizada - E = 3,4 mm e D = 2,8 m;m
+SICRO;GO;10-2020;M2789;Tunnel liner de chapa galvanizada - E = 3,4 mm e D = 3,0 m;m
+SICRO;GO;10-2020;M2790;Tunnel liner de chapa galvanizada - E = 3,4 mm e D = 3,2 m;m
+SICRO;GO;10-2020;M2791;Tunnel liner de chapa galvanizada - E = 3,9 mm e D = 3,4 m;m
+SICRO;GO;10-2020;M2792;Tunnel liner de chapa galvanizada - E = 3,9 mm e D = 3,6 m;m
+SICRO;GO;10-2020;M2793;Tunnel liner de chapa galvanizada - E = 3,9 mm e D = 3,8 m;m
+SICRO;GO;10-2020;M2794;Tunnel liner de chapa galvanizada - E = 3,9 mm e D = 4,0 m;m
+SICRO;GO;10-2020;M2795;Tunnel liner de chapa galvanizada - E = 3,9 mm e D = 4,2 m;m
+SICRO;GO;10-2020;M2796;Tunnel liner de chapa galvanizada - E = 3,9 mm e D = 4,4 m;m
+SICRO;GO;10-2020;M2797;Tunnel liner de chapa galvanizada - E = 3,9 mm e D = 4,6 m;m
+SICRO;GO;10-2020;M2798;Tunnel liner de chapa galvanizada - E = 4,7 mm e D = 4,8 m;m
+SICRO;GO;10-2020;M2799;Tunnel liner de chapa galvanizada - E = 4,7 mm e D = 5,0 m;m
+SICRO;GO;10-2020;M2800;Tunnel liner de chapa com epóxi - E = 2,7 mm e D = 1,2 m;m
+SICRO;GO;10-2020;M2801;Tunnel liner de chapa com epóxi - E = 2,7 mm e D = 1,4 m;m
+SICRO;GO;10-2020;M2802;Tunnel liner de chapa com epóxi - E = 2,7 mm e D = 1,6 m;m
+SICRO;GO;10-2020;M2803;Tunnel liner de chapa com epóxi - E = 2,7 mm e D = 1,8 m;m
+SICRO;GO;10-2020;M2804;Tunnel liner de chapa com epóxi - E = 2,7 mm e D = 2,0 m;m
+SICRO;GO;10-2020;M2805;Tunnel liner de chapa com epóxi - E = 3,4 mm e D = 2,2 m;m
+SICRO;GO;10-2020;M2806;Tunnel liner de chapa com epóxi - E = 3,4 mm e D = 2,4 m;m
+SICRO;GO;10-2020;M2807;Tunnel liner de chapa com epóxi - E = 3,4 mm e D = 2,6 m;m
+SICRO;GO;10-2020;M2808;Tunnel liner de chapa com epóxi - E = 3,4 mm e D = 2,8 m;m
+SICRO;GO;10-2020;M2809;Tunnel liner de chapa com epóxi - E = 3,4 mm e D = 3,0 m;m
+SICRO;GO;10-2020;M2810;Tunnel liner de chapa com epóxi - E = 3,4 mm e D = 3,2 m;m
+SICRO;GO;10-2020;M2811;Chapa múltipla MP 152 galvanizada lenticular - E = 2,7 mm, vão = 1,95 m e H = 1,40 m;m
+SICRO;GO;10-2020;M2812;Chapa múltipla MP 152 galvanizada lenticular - E = 2,7 mm, vão = 2,15 m e H = 1,50 m;m
+SICRO;GO;10-2020;M2813;Chapa múltipla MP 152 galvanizada lenticular - E = 2,7 mm, vão = 2,30 m e H = 1,60 m;m
+SICRO;GO;10-2020;M2814;Chapa múltipla MP 152 galvanizada lenticular - E = 2,7 mm, vão = 2,55 m e H = 1,65 m;m
+SICRO;GO;10-2020;M2815;Chapa múltipla MP 152 galvanizada lenticular - E = 2,7 mm, vão = 2,70 m e H = 1,85 m;m
+SICRO;GO;10-2020;M2816;Chapa múltipla MP 152 galvanizada lenticular - E = 2,7 mm, vão = 2,75 m e H = 1,90 m;m
+SICRO;GO;10-2020;M2817;Chapa múltipla MP 152 galvanizada lenticular - E = 2,7 mm, vão = 3,00 m e H = 2,00 m;m
+SICRO;GO;10-2020;M2818;Chapa múltipla MP 152 galvanizada lenticular - E = 2,7 mm, vão = 3,20 m e H = 2,10 m;m
+SICRO;GO;10-2020;M2819;Chapa múltipla MP 152 galvanizada lenticular - E = 2,7 mm, vão = 3,35 m e H = 2,15 m;m
+SICRO;GO;10-2020;M2820;Chapa múltipla MP 152 galvanizada lenticular - E = 2,7 mm, vão = 3,55 m e H = 2,25 m;m
+SICRO;GO;10-2020;M2821;Chapa múltipla MP 152 galvanizada lenticular - E = 2,7 mm, vão = 3,70 m e H = 2,35 m;m
+SICRO;GO;10-2020;M2822;Chapa múltipla MP 152 galvanizada lenticular - E = 2,7 mm, vão = 3,90 m e H = 2,45 m;m
+SICRO;GO;10-2020;M2823;Chapa múltipla MP 152 galvanizada lenticular - E = 2,7 mm, vão = 4,00 m e H = 2,55 m;m
+SICRO;GO;10-2020;M2824;Chapa múltipla MP 152 galvanizada lenticular - E = 2,7 mm, vão = 4,15 m e H = 2,80 m;m
+SICRO;GO;10-2020;M2825;Chapa múltipla MP 152 galvanizada lenticular - E = 2,7 mm, vão = 4,40 m e H = 2,90 m;m
+SICRO;GO;10-2020;M2826;Chapa múltipla MP 152 galvanizada lenticular - E = 2,7 mm, vão = 4,60 m e H = 3,00 m;m
+SICRO;GO;10-2020;M2827;Chapa múltipla MP 152 galvanizada lenticular - E = 3,4 mm, vão = 4,80 m e H = 3,05 m;m
+SICRO;GO;10-2020;M2828;Chapa múltipla MP 152 galvanizada lenticular - E = 3,4 mm, vão = 5,05 m e H = 3,15 m;m
+SICRO;GO;10-2020;M2829;Chapa múltipla MP 152 galvanizada lenticular - E = 3,4 mm, vão = 5,25 m e H = 3,25 m;m
+SICRO;GO;10-2020;M2830;Chapa múltipla MP 152 galvanizada lenticular - E = 3,9 mm, vão = 5,45 m e H = 3,35 m;m
+SICRO;GO;10-2020;M2831;Chapa múltipla MP 152 galvanizada lenticular - E = 3,9 mm, vão = 5,60 m e H = 3,40 m;m
+SICRO;GO;10-2020;M2832;Chapa múltipla MP 152 galvanizada lenticular - E = 4,7 mm, vão = 5,80 m e H = 3,50 m;m
+SICRO;GO;10-2020;M2833;Chapa múltipla MP 152 galvanizada lenticular - E = 4,7 mm, vão = 5,90 m e H = 3,55 m;m
+SICRO;GO;10-2020;M2834;Chapa múltipla MP 152 galvanizada lenticular - E = 4,7 mm, vão = 6,10 m e H = 3,65 m;m
+SICRO;GO;10-2020;M2835;Chapa múltipla MP 152 galvanizada lenticular - E = 4,7 mm, vão = 6,25 m e H = 3,65 m;m
+SICRO;GO;10-2020;M2836;Chapa múltipla MP 152 galvanizada lenticular - E = 6,4 mm, vão = 6,40 m e H = 3,75 m;m
+SICRO;GO;10-2020;M2837;Chapa múltipla MP 152 galvanizada lenticular - E = 6,4 mm, vão = 6,60 m e H = 3,85 m;m
+SICRO;GO;10-2020;M2838;Chapa múltipla MP 152 galvanizada para passagem de gado - E = 2,7 mm, vão = 2,20 m e H = 2,25 m;m
+SICRO;GO;10-2020;M2839;Chapa múltipla MP 152 galvanizada para passagem de gado - E = 2,7 mm, vão = 2,90 m e H = 3,10 m;m
+SICRO;GO;10-2020;M2840;Chapa múltipla MP 152 galvanizada para passagem inferior - E = 2,7 mm, vão = 3,70 m e H = 3,50 m;m
+SICRO;GO;10-2020;M2841;Chapa múltipla MP 152 galvanizada para passagem inferior - E = 2,7 mm, vão = 3,90 m e H = 3,60 m;m
+SICRO;GO;10-2020;M2842;Chapa múltipla MP 152 galvanizada para passagem inferior - E = 2,7 mm, vão = 4,00 m e H = 3,75 m;m
+SICRO;GO;10-2020;M2843;Chapa múltipla MP 152 galvanizada para passagem inferior - E = 2,7 mm, vão = 4,20 m e H = 3,90 m;m
+SICRO;GO;10-2020;M2844;Chapa múltipla MP 152 galvanizada para passagem inferior - E = 2,7 mm, vão = 4,25 m e H = 4,10 m;m
+SICRO;GO;10-2020;M2845;Chapa múltipla MP 152 galvanizada para passagem inferior - E = 2,7 mm, vão = 4,40 m e H = 4,25 m;m
+SICRO;GO;10-2020;M2846;Chapa múltipla MP 152 galvanizada para passagem inferior - E = 2,7 mm, vão = 4,50 m e H = 4,40 m;m
+SICRO;GO;10-2020;M2847;Chapa múltipla MP 152 galvanizada para passagem inferior - E = 3,4 mm, vão = 4,70 m e H = 4,50 m;m
+SICRO;GO;10-2020;M2848;Chapa múltipla MP 152 galvanizada para passagem inferior - E = 3,4 mm, vão = 4,80 m e H = 4,75 m;m
+SICRO;GO;10-2020;M2849;Chapa múltipla MP 152 galvanizada para passagem inferior - E = 3,4 mm, vão = 5,00 m e H = 4,85 m;m
+SICRO;GO;10-2020;M2850;Chapa múltipla MP 152 galvanizada para passagem inferior - E = 3,4 mm, vão = 5,15 m e H = 4,90 m;m
+SICRO;GO;10-2020;M2851;Chapa múltipla MP 152 galvanizada para passagem inferior - E = 3,4 mm, vão = 5,25 m e H = 5,00 m;m
+SICRO;GO;10-2020;M2852;Chapa múltipla MP 152 galvanizada para passagem inferior - E = 3,4 mm, vão = 5,30 m e H = 5,30 m;m
+SICRO;GO;10-2020;M2853;Chapa múltipla MP 152 galvanizada para passagem inferior - E = 3,9 mm, vão = 5,65 m e H = 5,25 m;m
+SICRO;GO;10-2020;M2854;Chapa múltipla MP 152 galvanizada para passagem inferior - E = 4,7 mm, vão = 5,85 m e H = 5,30 m;m
+SICRO;GO;10-2020;M2855;Chapa múltipla MP 152 galvanizada para passagem inferior - E = 4,7 mm, vão = 6,00 m e H = 5,45 m;m
+SICRO;GO;10-2020;M2856;Chapa múltipla MP 152 galvanizada para passagem inferior - E = 4,7 mm, vão = 6,25 m e H = 5,50 m;m
+SICRO;GO;10-2020;M2857;Chapa múltipla MP 152S galvanizada de arco alto - E = 4,7 mm, vão = 6,12 m e H = 2,77 m;m
+SICRO;GO;10-2020;M2858;Chapa múltipla MP 152S galvanizada de arco alto - E = 4,7 mm, vão = 6,30 m e H = 3,68 m;m
+SICRO;GO;10-2020;M2859;Chapa múltipla MP 152S galvanizada de arco alto - E = 4,7 mm, vão = 6,55 m e H = 3,56 m;m
+SICRO;GO;10-2020;M2860;Chapa múltipla MP 152S galvanizada de arco alto - E = 4,7 mm, vão = 6,96 m e H = 4,42 m;m
+SICRO;GO;10-2020;M2861;Chapa múltipla MP 152S galvanizada de arco alto - E = 4,7 mm, vão = 6,78 m e H = 3,61 m;m
+SICRO;GO;10-2020;M2862;Chapa múltipla MP 152S galvanizada de arco alto - E = 4,7 mm, vão = 6,99 m e H = 4,27 m;m
+SICRO;GO;10-2020;M2863;Chapa múltipla MP 152S galvanizada de arco alto - E = 4,7 mm, vão = 7,01 m e H = 3,63 m;m
+SICRO;GO;10-2020;M2864;Chapa múltipla MP 152S galvanizada de arco alto - E = 4,7 mm, vão = 7,42 m e H = 4,52 m;m
+SICRO;GO;10-2020;M2865;Chapa múltipla MP 152S galvanizada de arco alto - E = 4,7 mm, vão = 7,24 m e H = 3,68 m;m
+SICRO;GO;10-2020;M2866;Chapa múltipla MP 152S galvanizada de arco alto - E = 4,7 mm, vão = 7,47 m e H = 4,19 m;m
+SICRO;GO;10-2020;M2867;Chapa múltipla MP 152S galvanizada de arco alto - E = 4,7 mm, vão = 7,85 m e H = 4,60 m;m
+SICRO;GO;10-2020;M2868;Chapa múltipla MP 152S galvanizada de arco alto - E = 4,7 mm, vão = 7,67 m e H = 3,99 m;m
+SICRO;GO;10-2020;M2869;Chapa múltipla MP 152S galvanizada de arco alto - E = 4,7 mm, vão = 8,08 m e H = 4,65 m;m
+SICRO;GO;10-2020;M2870;Chapa múltipla MP 152S galvanizada de arco alto - E = 4,7 mm, vão = 7,90 m e H = 4,04 m;m
+SICRO;GO;10-2020;M2871;Chapa múltipla MP 152S galvanizada de arco alto - E = 4,7 mm, vão = 8,31 m e H = 4,70 m;m
+SICRO;GO;10-2020;M2872;Chapa múltipla MP 152S galvanizada de arco alto - E = 4,7 mm, vão = 8,36 m e H = 4,11 m;m
+SICRO;GO;10-2020;M2873;Chapa múltipla MP 152S galvanizada de arco alto - E = 4,7 mm, vão = 8,97 m e H = 5,00 m;m
+SICRO;GO;10-2020;M2874;Chapa múltipla MP 152S galvanizada de arco alto - E = 4,7 mm, vão = 8,59 m e H = 4,39 m;m
+SICRO;GO;10-2020;M2875;Chapa múltipla MP 152S galvanizada de arco alto - E = 4,7 mm, vão = 9,17 m e H = 5,49 m;m
+SICRO;GO;10-2020;M2876;Chapa múltipla MP 152S galvanizada de arco alto - E = 4,7 mm, vão = 9,22 m e H = 4,70 m;m
+SICRO;GO;10-2020;M2877;Chapa múltipla MP 152S galvanizada de arco alto - E = 4,7 mm, vão = 9,63 m e H = 5,59 m;m
+SICRO;GO;10-2020;M2878;Chapa múltipla MP 152S galvanizada de arco alto - E = 4,7 mm, vão = 9,45 m e H = 4,75 m;m
+SICRO;GO;10-2020;M2879;Chapa múltipla MP 152S galvanizada de arco alto - E = 4,7 mm, vão = 9,65 m e H = 5,41 m;m
+SICRO;GO;10-2020;M2880;Chapa múltipla MP 152S galvanizada de arco alto - E = 4,7 mm, vão = 9,86 m e H = 6,07 m;m
+SICRO;GO;10-2020;M2881;Chapa múltipla MP 152S galvanizada de arco alto - E = 4,7 mm, vão = 9,68 m e H = 5,23 m;m
+SICRO;GO;10-2020;M2882;Chapa múltipla MP 152S galvanizada de arco alto - E = 4,7 mm, vão = 10,08 m e H = 6,12 m;m
+SICRO;GO;10-2020;M2883;Chapa múltipla MP 152S galvanizada de arco alto - E = 4,7 mm, vão = 9,91 m e H = 5,28 m;m
+SICRO;GO;10-2020;M2884;Chapa múltipla MP 152S galvanizada de arco alto - E = 4,7 mm, vão = 10,31 m e H = 6,17 m;m
+SICRO;GO;10-2020;M2885;Chapa múltipla MP 152S galvanizada de arco alto - E = 4,7 mm, vão = 10,36 m e H = 5,38 m;m
+SICRO;GO;10-2020;M2886;Chapa múltipla MP 152S galvanizada de arco alto - E = 4,7 mm, vão = 10,54 m e H = 6,05 m;m
+SICRO;GO;10-2020;M2887;Chapa múltipla MP 152S galvanizada de arco alto - E = 4,7 mm, vão = 10,74 m e H = 6,48 m;m
+SICRO;GO;10-2020;M2888;Chapa múltipla MP 152S galvanizada de arco alto - E = 4,7 mm, vão = 11,35 m e H = 7,12 m;m
+SICRO;GO;10-2020;M2889;Chapa múltipla MP 152S galvanizada de arco alto - E = 6,4 mm, vão = 10,57 m e H = 5,41 m;m
+SICRO;GO;10-2020;M2890;Chapa múltipla MP 152S galvanizada de arco alto - E = 6,4 mm, vão = 10,77 m e H = 6,10 m;m
+SICRO;GO;10-2020;M2891;Chapa múltipla MP 152S galvanizada de arco alto - E = 6,4 mm, vão = 10,97 m e H = 6,53 m;m
+SICRO;GO;10-2020;M2892;Chapa múltipla MP 152S galvanizada de arco alto - E = 6,4 mm, vão = 11,58 m e H = 7,16 m;m
+SICRO;GO;10-2020;M2893;Chapa múltipla MP 152S galvanizada ovoide - E = 4,7 mm, vão = 7,21 m e H = 7,82 m;m
+SICRO;GO;10-2020;M2894;Chapa múltipla MP 152S galvanizada ovoide - E = 4,7 mm, vão = 7,31 m e H = 7,87 m;m
+SICRO;GO;10-2020;M2895;Chapa múltipla MP 152S galvanizada ovoide - E = 4,7 mm, vão = 7,70 m e H = 7,90 m;m
+SICRO;GO;10-2020;M2896;Chapa múltipla MP 152S galvanizada ovoide - E = 4,7 mm, vão = 7,57 m e H = 8,44 m;m
+SICRO;GO;10-2020;M2897;Chapa múltipla MP 152S galvanizada ovoide - E = 4,7 mm, vão = 8,36 m e H = 8,23 m;m
+SICRO;GO;10-2020;M2898;Chapa múltipla MP 152S galvanizada ovoide - E = 4,7 mm, vão = 8,13 m e H = 8,01 m;m
+SICRO;GO;10-2020;M2899;Chapa múltipla MP 152S galvanizada ovoide - E = 4,7 mm, vão = 8,56 m e H = 8,48 m;m
+SICRO;GO;10-2020;M2900;Chapa múltipla MP 152S galvanizada ovoide - E = 4,7 mm, vão = 8,71 m e H = 9,32 m;m
+SICRO;GO;10-2020;M2901;Chapa múltipla MP 152S galvanizada ovoide - E = 4,7 mm, vão = 9,15 m e H = 9,04 m;m
+SICRO;GO;10-2020;M2902;Chapa múltipla MP 152S galvanizada ovoide - E = 4,7 mm, vão = 9,15 m e H = 9,50 m;m
+SICRO;GO;10-2020;M2908;Terminal absorvedor de energia de abertura com nível de contenção TL3 para defensa metálica;un
+SICRO;GO;10-2020;M2909;Terminal absorvedor de energia de não abertura com nível de contenção TL3 para defensa metálica;un
+SICRO;GO;10-2020;M2979;Chumbador em aço CA 25;kg
+SICRO;GO;10-2020;M3035;Mão francesa em aço;kg
+SICRO;GO;10-2020;M3087;Anel de compensação angular em chapa de aço ASTM A36;kg
+SICRO;GO;10-2020;M3089;Arame liso galvanizado 18 BWG;kg
+SICRO;GO;10-2020;M3090;Placa de ancoragem para tirante de 160 x 160 x 20 mm;un
+SICRO;GO;10-2020;M3091;Porca sextavada de 20 mm a 40 mm para ancoragem de tirantes;un
+SICRO;GO;10-2020;M3093;Tela de nylon gramatura 60 fios;m²
+SICRO;GO;10-2020;M3094;Tirante de aço ST 50/55 de capacidade 210 kN - D = 32 mm;kg
+SICRO;GO;10-2020;M3095;Válvula manchete - D = 20 mm;un
+SICRO;GO;10-2020;M3126;Barra de aço galvanizado;kg
+SICRO;GO;10-2020;M3127;Luva para bainha metálica - D = 30 mm;un
+SICRO;GO;10-2020;M3128;Luva para bainha metálica - D = 35 mm;un
+SICRO;GO;10-2020;M3129;Luva para bainha metálica - D = 40 mm;un
+SICRO;GO;10-2020;M3130;Luva para bainha metálica - D = 45 mm;un
+SICRO;GO;10-2020;M3131;Luva para bainha metálica - D = 50 mm;un
+SICRO;GO;10-2020;M3132;Luva para bainha metálica - D = 55 mm;un
+SICRO;GO;10-2020;M3133;Luva para bainha metálica - D = 60 mm;un
+SICRO;GO;10-2020;M3134;Luva para bainha metálica - D = 65 mm;un
+SICRO;GO;10-2020;M3135;Luva para bainha metálica - D = 70 mm;un
+SICRO;GO;10-2020;M3136;Luva para bainha metálica - D = 75 mm;un
+SICRO;GO;10-2020;M3137;Luva para bainha metálica - D = 80 mm;un
+SICRO;GO;10-2020;M3138;Luva para bainha metálica - D = 85 mm;un
+SICRO;GO;10-2020;M3139;Luva para bainha metálica - D = 90 mm;un
+SICRO;GO;10-2020;M3140;Luva para bainha metálica - D = 95 mm;un
+SICRO;GO;10-2020;M3141;Luva para bainha metálica - D = 100 mm;un
+SICRO;GO;10-2020;M3142;Luva para bainha metálica - D = 110 mm;un
+SICRO;GO;10-2020;M3143;Luva para bainha metálica - D = 120 mm;un
+SICRO;GO;10-2020;M3144;Luva para bainha metálica - D = 130 mm;un
+SICRO;GO;10-2020;M3145;Luva para bainha metálica ovalizada de 19 x 36 mm;un
+SICRO;GO;10-2020;M3146;Luva para bainha metálica ovalizada de 19 x 48 mm;un
+SICRO;GO;10-2020;M3147;Luva para bainha metálica ovalizada de 19 x 62 mm;un
+SICRO;GO;10-2020;M3148;Luva para bainha metálica ovalizada de 22 x 32 mm;un
+SICRO;GO;10-2020;M3149;Luva para bainha metálica ovalizada de 22 x 55 mm;un
+SICRO;GO;10-2020;M3150;Luva para bainha metálica ovalizada de 22 x 73 mm;un
+SICRO;GO;10-2020;M3153;Tinta poliéster em pó;kg
+SICRO;GO;10-2020;M3165;Concertina galvanizada com 4 espiras por metro - D = 450 mm;m
+SICRO;GO;10-2020;M3170;Apoio de neoprene simples de 100 x 100 x 20 mm;un
+SICRO;GO;10-2020;M3171;Porca sextavada de 3/8";un
+SICRO;GO;10-2020;M3172;Porca sextavada galvanizada M12, classe 88 - D = 13 mm;un
+SICRO;GO;10-2020;M3173;Parafuso cabeça sextavada zincado a fogo M12 x 30, classe 88 - D = 13 mm;un
+SICRO;GO;10-2020;M3174;Chumbador em aço SAE 1010/1020, barra chata galvanizada, de 60 x 4 mm;kg
+SICRO;GO;10-2020;M3177;Fita metálica SAE 1010/1020, barra chata galvanizada, de 50 x 4 mm;kg
+SICRO;GO;10-2020;M3178;Material para aterro reforçado com fitas metálicas;m³
+SICRO;GO;10-2020;M3179;Tubo PEAD para estais - D = 140 mm;m
+SICRO;GO;10-2020;M3180;Tubo PEAD para estais - D = 160 mm;m
+SICRO;GO;10-2020;M3181;Tubo PEAD para estais - D = 180 mm;m
+SICRO;GO;10-2020;M3182;Tubo PEAD para estais - D = 200 mm;m
+SICRO;GO;10-2020;M3183;Tubo PEAD para estais - D = 225 mm;m
+SICRO;GO;10-2020;M3184;Tubo PEAD para estais - D = 250 mm;m
+SICRO;GO;10-2020;M3185;Tubo PEAD para estais - D = 280 mm;m
+SICRO;GO;10-2020;M3186;Tubo PEAD para estais - D = 315 mm;m
+SICRO;GO;10-2020;M3187;Tubo antivandalismo para estais em aço galvanizado para 12 cordoalhas - D = 15,7 mm;m
+SICRO;GO;10-2020;M3188;Tubo antivandalismo para estais em aço galvanizado para 19 cordoalhas - D = 15,7 mm;m
+SICRO;GO;10-2020;M3189;Tubo antivandalismo para estais em aço galvanizado para 22 cordoalhas - D = 15,7 mm;m
+SICRO;GO;10-2020;M3190;Tubo antivandalismo para estais em aço galvanizado para 31 cordoalhas - D = 15,7 mm;m
+SICRO;GO;10-2020;M3191;Tubo antivandalismo para estais em aço galvanizado para 37 cordoalhas - D = 15,7 mm;m
+SICRO;GO;10-2020;M3192;Tubo antivandalismo para estais em aço galvanizado para 43 cordoalhas - D = 15,7 mm;m
+SICRO;GO;10-2020;M3193;Tubo antivandalismo para estais em aço galvanizado para 55 cordoalhas - D = 15,7 mm;m
+SICRO;GO;10-2020;M3194;Tubo antivandalismo para estais em aço galvanizado para 61 cordoalhas - D = 15,7 mm;m
+SICRO;GO;10-2020;M3195;Tubo antivandalismo para estais em aço galvanizado para 73 cordoalhas - D = 15,7 mm;m
+SICRO;GO;10-2020;M3196;Tubo antivandalismo para estais em aço galvanizado para 85 cordoalhas - D = 15,7 mm;m
+SICRO;GO;10-2020;M3197;Tubo antivandalismo para estais em aço galvanizado para 91 cordoalhas - D = 15,7 mm;m
+SICRO;GO;10-2020;M3198;Tubo forma lado fixo para estais em aço galvanizado para 12 cordoalhas - D = 15,7 mm;m
+SICRO;GO;10-2020;M3199;Tubo forma lado fixo para estais em aço galvanizado para 19 cordoalhas - D = 15,7 mm;m
+SICRO;GO;10-2020;M3200;Tubo forma lado fixo para estais em aço galvanizado para 22 cordoalhas - D = 15,7 mm;m
+SICRO;GO;10-2020;M3201;Tubo forma lado fixo para estais em aço galvanizado para 31 cordoalhas - D = 15,7 mm;m
+SICRO;GO;10-2020;M3202;Tubo forma lado fixo para estais em aço galvanizado para 37 cordoalhas - D = 15,7 mm;m
+SICRO;GO;10-2020;M3203;Tubo forma lado fixo para estais em aço galvanizado para 43 cordoalhas - D = 15,7 mm;m
+SICRO;GO;10-2020;M3204;Tubo forma lado fixo para estais em aço galvanizado para 55 cordoalhas - D = 15,7 mm;m
+SICRO;GO;10-2020;M3205;Tubo forma lado fixo para estais em aço galvanizado para 61 cordoalhas - D = 15,7 mm;m
+SICRO;GO;10-2020;M3206;Tubo forma lado fixo para estais em aço galvanizado para 73 cordoalhas - D = 15,7 mm;m
+SICRO;GO;10-2020;M3207;Tubo forma lado fixo para estais em aço galvanizado para 85 cordoalhas - D = 15,7 mm;m
+SICRO;GO;10-2020;M3208;Tubo forma lado fixo para estais em aço galvanizado para 91 cordoalhas - D = 15,7 mm;m
+SICRO;GO;10-2020;M3209;Tubo forma lado regulável para estais em aço galvanizado para 12 cordoalhas - D = 15,7 mm;m
+SICRO;GO;10-2020;M3210;Tubo forma lado regulável para estais em aço galvanizado para 19 cordoalhas - D = 15,7 mm;m
+SICRO;GO;10-2020;M3211;Tubo forma lado regulável para estais em aço galvanizado para 22 cordoalhas - D = 15,7 mm;m
+SICRO;GO;10-2020;M3212;Tubo forma lado regulável para estais em aço galvanizado para 31 cordoalhas - D = 15,7 mm;m
+SICRO;GO;10-2020;M3213;Tubo forma lado regulável para estais em aço galvanizado para 37 cordoalhas - D = 15,7 mm;m
+SICRO;GO;10-2020;M3214;Tubo forma lado regulável para estais em aço galvanizado para 43 cordoalhas - D = 15,7 mm;m
+SICRO;GO;10-2020;M3215;Tubo forma lado regulável para estais em aço galvanizado para 55 cordoalhas - D = 15,7 mm;m
+SICRO;GO;10-2020;M3216;Tubo forma lado regulável para estais em aço galvanizado para 61 cordoalhas - D = 15,7 mm;m
+SICRO;GO;10-2020;M3217;Tubo forma lado regulável para estais em aço galvanizado para 73 cordoalhas - D = 15,7 mm;m
+SICRO;GO;10-2020;M3218;Tubo forma lado regulável para estais em aço galvanizado para 85 cordoalhas - D = 15,7 mm;m
+SICRO;GO;10-2020;M3219;Tubo forma lado regulável para estais em aço galvanizado para 91 cordoalhas - D = 15,7 mm;m
+SICRO;GO;10-2020;M3220;Ring bit - D = 104 mm;un
+SICRO;GO;10-2020;M3221;Bit de botão com rosca T38 - D = 64 mm;un
+SICRO;GO;10-2020;M3227;Revestimento - D = 104 mm;m
+SICRO;GO;10-2020;M3228;Cimento asfáltico CAP 50/70 com 15% de asfalto borracha;t
+SICRO;GO;10-2020;M3229;Película retrorrefletiva tipo I + SI;m²
+SICRO;GO;10-2020;M3230;Chapa de poliéster reforçada com fibra de vidro de 2 mm;m²
+SICRO;GO;10-2020;M3231;Chapa de alumínio composto (ACM) - E = 3 mm;m²
+SICRO;GO;10-2020;M3233;Fita adesiva estrutural dupla-face de 25 x 2 mm;m
+SICRO;GO;10-2020;M3234;Cantoneira em aço de abas iguais de 1 1/4" x 1/8";m
+SICRO;GO;10-2020;M3235;Película retrorrefletiva tipo I;m²
+SICRO;GO;10-2020;M3236;Película retrorrefletiva Tipo III + SI;m²
+SICRO;GO;10-2020;M3237;Película retrorrefletiva Tipo III;m²
+SICRO;GO;10-2020;M3238;Película não retrorrefletiva tipo IV;m²
+SICRO;GO;10-2020;M3239;Película retrorrefletiva tipo X;m²
+SICRO;GO;10-2020;M3240;Duto flexível sem isolamento de poliéster aluminizado - D = 200 mm;m
+SICRO;GO;10-2020;M3241;Cabo antichama flexível de 2 x 6 mm²;m
+SICRO;GO;10-2020;M3242;Cabo antichama flexível de 4 x 6 mm²;m
+SICRO;GO;10-2020;M3244;Plástico a frio plano por extrusão;kg
+SICRO;GO;10-2020;M3245;Plástico a frio spray por aspersão;kg
+SICRO;GO;10-2020;M3270;Ancoragem fixa para estais TSR para 12 cordoalhas - D = 15,7 mm;un
+SICRO;GO;10-2020;M3271;Ancoragem fixa para estais TSR para 22 cordoalhas - D = 15,7 mm;un
+SICRO;GO;10-2020;M3272;Ancoragem fixa para estais TSR para 43 cordoalhas - D = 15,7 mm;un
+SICRO;GO;10-2020;M3273;Ancoragem fixa para estais TSR para 85 cordoalhas - D = 15,7 mm;un
+SICRO;GO;10-2020;M3274;Ancoragem regulável para estais TSR para 12 cordoalhas - D = 15,7 mm;un
+SICRO;GO;10-2020;M3275;Ancoragem regulável para estais TSR para 22 cordoalhas - D = 15,7 mm;un
+SICRO;GO;10-2020;M3276;Ancoragem regulável para estais TSR para 43 cordoalhas - D = 15,7 mm;un
+SICRO;GO;10-2020;M3277;Ancoragem regulável para estais TSR para 85 cordoalhas - D = 15,7 mm;un
+SICRO;GO;10-2020;M3278;Tubo PEAD para estais - D = 110 mm;m
+SICRO;GO;10-2020;M3279;Arruela lisa 3/8";un
+SICRO;GO;10-2020;M3280;Viga de madeira de 5 x 11 cm;m
+SICRO;GO;10-2020;M3353;Purgador plástico;un
+SICRO;GO;10-2020;M3360;Chumbador para concreto Tecbolt de 8 mm;un
+SICRO;GO;10-2020;M3361;Corrente de elo soldado em aço SAE 1010/1020 espessura 1" - acabamento polido;m
+SICRO;GO;10-2020;M3362;Corrente de elo soldado em aço SAE 1010/1020 espessura 1/2" - acabamento polido;m
+SICRO;GO;10-2020;M3363;Corrente de elo soldado em aço SAE 1010/1020 espessura 3/4" - acabamento polido;m
+SICRO;GO;10-2020;M3364;Lanterna de sinalização náutica c/ acessórios de fixação - alcance 2 MN;un
+SICRO;GO;10-2020;M3365;Lanterna de sinalização náutica c/ acessórios de fixação - alcance 3 MN;un
+SICRO;GO;10-2020;M3366;Lanterna de sinalização náutica c/ acessórios de fixação - alcance 4 MN;un
+SICRO;GO;10-2020;M3367;Lanterna de sinalização náutica c/ acessórios de fixação - alcance 5 MN;un
+SICRO;GO;10-2020;M3368;Lanterna de sinalização náutica c/ acessórios de fixação - alcance 8 MN;un
+SICRO;GO;10-2020;M3369;Manilha âncora de 5/8" em aço forjado com porca e cupilha;un
+SICRO;GO;10-2020;M3370;Manilha reta de 1 1/2" em aço forjado com porca e cupilha;un
+SICRO;GO;10-2020;M3371;Manilha reta de 1" em aço forjado com porca e cupilha;un
+SICRO;GO;10-2020;M3372;Suporte polimérico ecológico maciço colapsível para placa de sinalização - seção quadrada de 10 cm;m
+SICRO;GO;10-2020;M3501;Placa de ancoragem para tirante de 160 x 160 x 12,5 mm;un
+SICRO;GO;10-2020;M3502;Mistura betuminosa;m³
+SICRO;GO;10-2020;M3503;Material de base;m³
+SICRO;GO;10-2020;M3504;Concreto;m³
+SICRO;GO;10-2020;M3505;Material demolido - concreto simples;m³
+SICRO;GO;10-2020;M3506;Material demolido - madeira;m³
+SICRO;GO;10-2020;M3507;Revestimento asfáltico;m³
+SICRO;GO;10-2020;M3508;Camada granular (base);m³
+SICRO;GO;10-2020;M3509;Remendo profundo;m³
+SICRO;GO;10-2020;M3510;Material demolido - alvenaria;m³
+SICRO;GO;10-2020;M3511;Acessórios e materiais metálicos;t
+SICRO;GO;10-2020;M3512;Material demolido - concreto armado;m³
+SICRO;GO;10-2020;M3513;Material de 3ª categoria, rocha ou matacão;m³
+SICRO;GO;10-2020;M3514;Solo;m³
+SICRO;GO;10-2020;M3515;Grãos, agregados e solos derramados na pista em rodovias;t
+SICRO;GO;10-2020;M3516;Veículos de pequeno porte incendiados em rodovia;t
+SICRO;GO;10-2020;M3518;Tinta à base de resina epóxi bicomponente;l
+SICRO;GO;10-2020;M3519;Tinta à base de resina epóxi poliamida bicomponente para fundo preparador de pintura;l
+SICRO;GO;10-2020;M3520;Tinta anticorrosiva à base de resina epóxi poliamida bicomponente;l
+SICRO;GO;10-2020;M3521;Guincho manual com capacidade de tração de 100 kN com cabo de aço;un
+SICRO;GO;10-2020;M3522;Guincho manual com capacidade de tração de 200 kN com cabo de aço;un
+SICRO;GO;10-2020;M3523;Pneu reaproveitado;un
+SICRO;GO;10-2020;M3524;Sapatilha em aço inox - D = 13 mm (1/2");un
+SICRO;GO;10-2020;M3525;Molinete manual com capacidade de tração de 70 kN;un
+SICRO;GO;10-2020;M3526;Ânodo de sacrifício em liga de zinco - peso = 20 kg;un
+SICRO;GO;10-2020;M3527;Cabo de aço - D = 42 mm (1 5/8");m
+SICRO;GO;10-2020;M3528;Terminal soquete fechado em aço galvanizado compatível com cabo de aço de D = 42 mm;un
+SICRO;GO;10-2020;M3529;Manilha reta em aço forjado com porca e cupilha - D = 57,2 mm (2 1/4");un
+SICRO;GO;10-2020;M3530;Tubo mecânico em aço-carbono;kg
+SICRO;GO;10-2020;M3720;Material asfáltico removido;t
+SICRO;GO;10-2020;M3795;Instalações do Estaleiro Padrão para beneficiamento de estruturas navais,                         inclusive mobiliário, equipamentos de informática e de segurança;m²
+SICRO;GO;10-2020;M3801;Animais de grande porte mortos em rodovia;t
+SICRO;GO;10-2020;M3802;Animais de pequeno porte mortos em rodovia;t
+SICRO;GO;10-2020;M3803;Emborrachados de pneus espalhados em rodovia;t
+SICRO;GO;10-2020;M3804;Espécimes arbóreos de até 20 m tombados na pista;t
+SICRO;GO;10-2020;M3805;Espécimes arbóreos de 20 a 40 m tombados na pista;t
+SICRO;GO;10-2020;M3806;Sucatas derramadas em rodovia;t
+SICRO;GO;10-2020;M3807;Veículos de grande porte incendiados em rodovia;t
+SICRO;GO;10-2020;M3808;Veículos de médio porte incendiados em rodovia;t
+SICRO;GO;10-2020;M3809;Veículos de grande porte tombados em rodovia;t
+SICRO;GO;10-2020;M3810;Veículos de médio porte tombados em rodovia;t
+SICRO;GO;10-2020;M3811;Veículos de pequeno porte tombados em rodovia;t
+SICRO;GO;10-2020;M3813;Vidros, caixas e engradados derramados na pista em rodovia;t
+SICRO;GO;10-2020;M3821;Tacha refletiva em plástico injetado bidirecional com um pino - tipo I;un
+SICRO;GO;10-2020;M3822;Tacha refletiva em plástico injetado bidirecional com um pino - tipo II;un
+SICRO;GO;10-2020;M3823;Tacha refletiva em plástico injetado bidirecional com um pino - tipo III;un
+SICRO;GO;10-2020;M3824;Tacha refletiva em plástico injetado bidirecional com um pino - tipo IV;un
+SICRO;GO;10-2020;M3825;Tacha refletiva em plástico injetado bidirecional sem pino - tipo I;un
+SICRO;GO;10-2020;M3826;Tacha refletiva em plástico injetado bidirecional sem pino - tipo II;un
+SICRO;GO;10-2020;M3827;Tacha refletiva em plástico injetado bidirecional sem pino - tipo III;un
+SICRO;GO;10-2020;M3828;Tacha refletiva em plástico injetado bidirecional sem pino - tipo IV;un
+SICRO;GO;10-2020;M3829;Tacha refletiva em plástico injetado monodirecional com um pino - tipo I;un
+SICRO;GO;10-2020;M3830;Tacha refletiva em plástico injetado monodirecional com um pino - tipo II;un
+SICRO;GO;10-2020;M3831;Tacha refletiva em plástico injetado monodirecional com um pino - tipo III;un
+SICRO;GO;10-2020;M3832;Tacha refletiva em plástico injetado monodirecional com um pino - tipo IV;un
+SICRO;GO;10-2020;M3833;Tacha refletiva em plástico injetado monodirecional sem pino - tipo I;un
+SICRO;GO;10-2020;M3834;Tacha refletiva em plástico injetado monodirecional sem pino - tipo II;un
+SICRO;GO;10-2020;M3835;Tacha refletiva em plástico injetado monodirecional sem pino - tipo III;un
+SICRO;GO;10-2020;M3836;Tacha refletiva em plástico injetado monodirecional sem pino - tipo IV;un
+SICRO;GO;10-2020;M3837;Tacha refletiva em resina sintética bidirecional com um pino - tipo I;un
+SICRO;GO;10-2020;M3838;Tacha refletiva em resina sintética bidirecional com um pino - tipo II;un
+SICRO;GO;10-2020;M3839;Tacha refletiva em resina sintética bidirecional com um pino - tipo III;un
+SICRO;GO;10-2020;M3840;Tacha refletiva em resina sintética bidirecional com um pino - tipo IV;un
+SICRO;GO;10-2020;M3841;Tacha refletiva em resina sintética bidirecional sem pino - tipo I;un
+SICRO;GO;10-2020;M3842;Tacha refletiva em resina sintética bidirecional sem pino - tipo II;un
+SICRO;GO;10-2020;M3843;Tacha refletiva em resina sintética bidirecional sem pino - tipo III;un
+SICRO;GO;10-2020;M3844;Tacha refletiva em resina sintética bidirecional sem pino - tipo IV;un
+SICRO;GO;10-2020;M3845;Tacha refletiva em resina sintética monodirecional com um pino - tipo I;un
+SICRO;GO;10-2020;M3846;Tacha refletiva em resina sintética monodirecional com um pino - tipo II;un
+SICRO;GO;10-2020;M3847;Tacha refletiva em resina sintética monodirecional com um pino - tipo III;un
+SICRO;GO;10-2020;M3848;Tacha refletiva em resina sintética monodirecional com um pino - tipo IV;un
+SICRO;GO;10-2020;M3851;Tacha refletiva em resina sintética monodirecional sem pino - tipo I;un
+SICRO;GO;10-2020;M3852;Tacha refletiva em resina sintética monodirecional sem pino - tipo II;un
+SICRO;GO;10-2020;M3853;Tacha refletiva em resina sintética monodirecional sem pino - tipo III;un
+SICRO;GO;10-2020;M3854;Tacha refletiva em resina sintética monodirecional sem pino - tipo IV;un
+SICRO;GO;10-2020;M3855;Tacha refletiva metálica bidirecional com dois pinos - tipo II;un
+SICRO;GO;10-2020;M3856;Tacha refletiva metálica bidirecional com dois pinos - tipo III;un
+SICRO;GO;10-2020;M3857;Tacha refletiva metálica bidirecional com dois pinos - tipo IV;un
+SICRO;GO;10-2020;M3858;Tacha refletiva metálica bidirecional com um pino - tipo II;un
+SICRO;GO;10-2020;M3859;Tacha refletiva metálica bidirecional com um pino - tipo III;un
+SICRO;GO;10-2020;M3860;Tacha refletiva metálica bidirecional com um pino - tipo IV;un
+SICRO;GO;10-2020;M3861;Tacha refletiva metálica monodirecional com dois pinos - tipo II;un
+SICRO;GO;10-2020;M3862;Tacha refletiva metálica monodirecional com dois pinos - tipo III;un
+SICRO;GO;10-2020;M3863;Tacha refletiva metálica monodirecional com dois pinos - tipo IV;un
+SICRO;GO;10-2020;M3864;Tacha refletiva metálica monodirecional com um pino - tipo II;un
+SICRO;GO;10-2020;M3865;Tacha refletiva metálica monodirecional com um pino - tipo III;un
+SICRO;GO;10-2020;M3866;Tacha refletiva metálica monodirecional com um pino - tipo IV;un
+SICRO;GO;10-2020;M3867;Tachão refletivo em plástico injetado bidirecional;un
+SICRO;GO;10-2020;M3868;Tachão refletivo em plástico injetado monodirecional;un
+SICRO;GO;10-2020;M3869;Tachão refletivo em resina sintética bidirecional;un
+SICRO;GO;10-2020;M3870;Tachão refletivo em resina sintética monodirecional;un
+SICRO;GO;10-2020;M3900;Emulsão asfáltica RR-1C com polímero;t
+SICRO;GO;10-2020;M3901;Reservatório metálico tipo taça - 5000 l;un
+SICRO;GO;10-2020;M3902;Reservatório metálico tipo taça - 10000 l;un
+SICRO;GO;10-2020;M3903;Reservatório metálico tipo taça - 20000 l;un
+SICRO;GO;10-2020;M3904;Reservatório metálico tipo taça - 30000 l;un
+SICRO;GO;10-2020;M3905;AMV tipo TR 37, abertura 1:8, bitola métrica;un
+SICRO;GO;10-2020;M3906;AMV tipo TR 37, abertura 1:10, bitola métrica;un
+SICRO;GO;10-2020;M3907;AMV tipo TR 37, abertura 1:12, bitola métrica;un
+SICRO;GO;10-2020;M3908;AMV tipo TR 37, abertura 1:14, bitola métrica;un
+SICRO;GO;10-2020;M3909;Bico de corte a plasma - 65A;un
+SICRO;GO;10-2020;M3910;Bico de corte a plasma - 45A;un
+SICRO;GO;10-2020;M3911;Bocal de corte a plasma manual;un
+SICRO;GO;10-2020;M3912;Capa de retenção 45A/65A/85A/105A;un
+SICRO;GO;10-2020;M3913;Eletrodo;un
+SICRO;GO;10-2020;M3914;Distribuidor de gás;un
+SICRO;GO;10-2020;M3915;Parafuso sextavado em aço inox de 1/2" x 1 1/2";un
+SICRO;GO;10-2020;M3916;Porca em aço inox - D = 1/2";un
+SICRO;GO;10-2020;M3917;Arruela lisa em aço inox - D = 1/2";un
+SICRO;GO;10-2020;M3918;Disco de serra circular com 80 dentes multi material - D = 10";un
+SICRO;GO;10-2020;M3919;Lixa nº 360;un
+SICRO;GO;10-2020;M3920;Diluente para tinta epóxi de dois ou três componentes;l
+SICRO;GO;10-2020;M3921;Tinta epóxi óxido de ferro;l
+SICRO;GO;10-2020;M3922;Diluente para esmalte poliuretano de dois componentes;l
+SICRO;GO;10-2020;M3923;Tinta esmalte poliuretano de dois componentes;l
+SICRO;GO;10-2020;M3924;Catalisador primer;l
+SICRO;GO;10-2020;M3925;Tinta fundo fosfatizante;l
+SICRO;GO;10-2020;M3926;Luva de aço - D = 1/2";un
+SICRO;GO;10-2020;M3927;Plug ou bujão de aço - D = 1/2";un
+SICRO;GO;10-2020;M3928;Tubo de aço - E = 3,35 mm e D = 3";m
+SICRO;GO;10-2020;M3929;Tubo de aço - E = 3 mm e D = 6";m
+SICRO;GO;10-2020;M3930;Cantoneira em aço de abas iguais de 2" x 3/16";m
+SICRO;GO;10-2020;M3931;Cantoneira em alumínio de abas iguais de 11/2" x 3/16";kg
+SICRO;GO;10-2020;M3932;Parafuso sextavado em aço inox M8 x 20mm;un
+SICRO;GO;10-2020;M3933;Porca em aço inox M8 para parafuso sextavado;un
+SICRO;GO;10-2020;M3934;Arruela lisa em aço inox para parafuso sextavado M8;un
+SICRO;GO;10-2020;M3935;Arruela de pressão em aço inox para parafuso sextavado M8;un
+SICRO;GO;10-2020;M3936;Parafuso sextavado em aço inox de 1/2" X 1/2";un
+SICRO;GO;10-2020;M3939;Barra redonda de aço SAE 1020 - D = 1";m
+SICRO;GO;10-2020;M4412;Conjunto de consumíveis para corte a plasma em aço carbono;un
+SICRO;GO;10-2020;M4413;Eletrodo E70S6 diâmetro 0,9 mm;kg

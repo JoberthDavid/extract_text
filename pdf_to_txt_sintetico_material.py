@@ -4,19 +4,16 @@ from datetime import datetime
 from progress.bar import Bar
 from progress.bar import PixelBar
 
-from funcoes import (
+from classes import (
                         Arquivo,
                         Material,
                         RegexMaterial,
                         RegexArquivo,
                     )
 
+##### Extraindo dados arquivo PDF
+
 pdf_file = "SICRO/GO 10-2020 Relatório Sintético de Materiais.pdf"
-
-obj_regex_arquivo = RegexArquivo( pdf_file )
-
-if ( obj_regex_arquivo.regex is not None ):
-    obj_arquivo = Arquivo( obj_regex_arquivo.regex )
 
 with open( pdf_file, "rb" ) as f:
     cadastro = pdftotext.PDF( f )
@@ -39,10 +36,16 @@ with PixelBar('Extraindo dados do PDF', max=num_pages, suffix='%(index)d/%(max)d
                 if ( obj_regex.principal is not None ) and ( len( obj_regex.principal.groups() ) == 4 ):
 
                     obj_material = Material( obj_regex.principal )
-                    lista_material.append( obj_material )
+                    lista_material.append( obj_material )               
 
         bar.next()
 
+##### Escrevendo arquivo TXT
+
+obj_regex_arquivo = RegexArquivo( pdf_file )
+
+if ( obj_regex_arquivo.regex is not None ):
+    obj_arquivo = Arquivo( obj_regex_arquivo.regex )
 
 with PixelBar('Escrevendo TXT', max=len( lista_material ), suffix='%(index)d/%(max)d - %(percent).1f%% - %(eta)ds') as bar:
 
