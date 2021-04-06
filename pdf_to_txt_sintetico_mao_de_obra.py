@@ -22,78 +22,59 @@ from funcoes import (
                         escrever_arquivo_custos,
                         escrever_arquivo_detalhamento_custos
                     )
+from classes import (
+                        RegexArquivo,
+                        Arquivo,
+                        RegexMaoDeObra,
+                        MaoDeObra,
+                    )
 
 pdf_file = "SICRO/GO 10-2020 Relatório Sintético de Mao de Obra.pdf"
-
-pdf_file_desonerado = "SICRO/GO 10-2020 Relatório Sintético de Mao de Obra - com desoneracao.pdf"
-
-d_arquivo = iniciar_dicionario_arquivo()
-regex_arquivo = retornar_regex_arquivo( pdf_file )
-
-if ( regex_arquivo is not None ):
-    configurar_dicionario_arquivo( d_arquivo, regex_arquivo )
-
-item = retornar_item( d_arquivo )
-
-path =  retornar_path( d_arquivo )
-
-origem_dados = retornar_origem( d_arquivo )
-
-arquivo_mao_de_obra = gerar_arquivo_dados_basicos( path )
-
-custos_unitarios = gerar_arquivo_custos_unitarios_insumos( path )
-
-detalhamento_custos = gerar_arquivo_detalhamento_custos_mao_de_obra( path )
-
 
 with open( pdf_file, "rb" ) as f:
     cadastro = pdftotext.PDF( f )
     num_pages = len( cadastro )
 
-with open( pdf_file_desonerado, "rb" ) as f_desonerado:
-    cadastro_desonerado = pdftotext.PDF( f_desonerado )
-    num_pages_desonerado = len( cadastro_desonerado )
+#####################
+
+obj_regex_arquivo = RegexArquivo( pdf_file )
+
+if ( obj_regex_arquivo.regex is not None ):
+    obj_arquivo = Arquivo( obj_regex_arquivo.regex )
 
 with PixelBar('Extraindo dados do PDF', max=num_pages, suffix='%(index)d/%(max)d - %(percent).1f%% - %(eta)ds') as bar:
 
-    lista_dicionarios_onerado = list()
+    lista_mao_de_obra = list()
 
     lista_dicionarios = list()
 
-    for j in range( len( cadastro ) ):
+    for pagina in cadastro:
+        linhas_pagina_atual_pdf_file = pagina.split('\n')
+        linhas_pagina_atual_pdf_file.pop(-2)
 
 
-        linhas_pagina_atual_pdf_onerado = cadastro[j].split('\n')
-        linhas_pagina_atual_pdf_onerado.pop(-2)
+        for linha in linhas_pagina_atual_pdf_file:
 
-
-        for k in range( len( linhas_pagina_atual_pdf_onerado ) ):
-
-            d = iniciar_dicionario( item )
+            d = iniciar_dicionario( obj_arquivo.item )
             
-            regex_onerado = retornar_regex( item, linhas_pagina_atual_pdf_onerado[k] )
+            obj_regex = RegexMaoDeObra( linha )
 
-            cabecalho_onerado = retornar_regex_cabecalho( linhas_pagina_atual_pdf_onerado[k] )
+            if ( obj_regex.cabecalho is None ) and ( obj_regex.principal is not None ):
 
+                configurar_dicionario( obj_arquivo.item, d, obj_regex.principal )
 
-            if ( cabecalho_onerado is None ):
-
-                if regex_onerado is not None:
-
-                    configurar_dicionario( item, d, regex_onerado )
-
-                    if d['codigo'] not in lista_dicionarios:
-                        lista_dicionarios.append( d['codigo'] )
-                        lista_dicionarios_onerado.append( d )
+                if d['codigo'] not in lista_dicionarios:
+                    lista_dicionarios.append( d['codigo'] )
+                    lista_mao_de_obra.append( d )
 
         bar.next()
 
 
-with PixelBar('Escrevendo TXT', max=len( lista_dicionarios_onerado ), suffix='%(index)d/%(max)d - %(percent).1f%% - %(eta)ds') as bar:
+with PixelBar('Escrevendo TXT', max=len( lista_mao_de_obra ), suffix='%(index)d/%(max)d - %(percent).1f%% - %(eta)ds') as bar:
 
-    for d_mao_de_obra in lista_dicionarios_onerado:  
-        escrever_arquivo_cadastro( item, arquivo_mao_de_obra, origem_dados, d_mao_de_obra )
-        escrever_arquivo_custos( item, custos_unitarios, origem_dados, d_mao_de_obra )
-        escrever_arquivo_detalhamento_custos( item, detalhamento_custos, origem_dados, d_mao_de_obra )
+    for mao_de_obra in lista_mao_de_obra:  
+        escrever_arquivo_cadastro( obj_arquivo.item, obj_arquivo.arquivo_dado_basico, obj_arquivo.origem, mao_de_obra )
+        escrever_arquivo_custos( obj_arquivo.item, obj_arquivo.arquivo_custo_unitario, obj_arquivo.origem, mao_de_obra )
+        escrever_arquivo_detalhamento_custos( obj_arquivo.item, obj_arquivo.arquivo_detalhamento_custo_mao_de_obra, obj_arquivo.origem, mao_de_obra )
 
         bar.next()

@@ -467,6 +467,5 @@ def gerar_arquivo_custos_unitarios_insumos( path: str ) -> TextIOWrapper:
 def gerar_arquivo_detalhamento_custos_mao_de_obra( path: str) -> TextIOWrapper:
     return open( ''.join( [ path, '_detalhamento_mao_de_obra_custo_unitario.txt' ] ), 'w', encoding="utf-8" )
 
-
 def gerar_arquivo_detalhamento_custos_equipamento( path: str) -> TextIOWrapper:
     return open( ''.join( [ path, '_detalhamento_equipamento_custo_unitario.txt' ] ), 'w', encoding="utf-8" )

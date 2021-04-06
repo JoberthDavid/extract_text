@@ -45,8 +45,9 @@ class Arquivo:
         self.item = self.preparar_grupo_regex_arquivo( regex.group('re_item_a'), regex.group('re_item_b') )
         self.data_base = self.retornar_data_base()
         self.origem = self.retornar_origem()
-        self.arquivo_dado_basico = self.gerar_arquivo_dados_basicos()
-        self.arquivo_custo_unitario = self.gerar_arquivo_custos_unitarios_insumos()
+        self.arquivo_dado_basico = self.gerar_arquivo_dado_basico()
+        self.arquivo_custo_unitario = self.gerar_arquivo_custo_unitario_insumo()
+        self.arquivo_detalhamento_custo_mao_de_obra = self.gerar_arquivo_detalhamento_custo_mao_de_obra()
 
     def preparar_grupo_regex_arquivo( self, item_a, item_b ) -> str:
         grupo = ''.join( [ item_a, item_b ] )
@@ -73,11 +74,14 @@ class Arquivo:
     def retornar_path( self ) -> str:
         return '_'.join( [ self.retornar_raiz(), self.estado, self.mes_base, self.ano_base ] )
 
-    def gerar_arquivo_dados_basicos( self ) -> TextIOWrapper:
+    def gerar_arquivo_dado_basico( self ) -> TextIOWrapper:
         return open( ''.join( [ self.retornar_path(), '_dados_basicos.txt' ] ), 'a', encoding="utf-8" )
 
-    def gerar_arquivo_custos_unitarios_insumos( self ) -> TextIOWrapper:
+    def gerar_arquivo_custo_unitario_insumo( self ) -> TextIOWrapper:
         return open( ''.join( [ self.retornar_path(), '_insumos_custos_unitarios.txt' ] ), 'a', encoding="utf-8" )
+
+    def gerar_arquivo_detalhamento_custo_mao_de_obra( self ) -> TextIOWrapper:
+        return open( ''.join( [ self.retornar_path(), '_detalhamento_mao_de_obra_custo_unitario.txt' ] ), 'w', encoding="utf-8" )
 
 
 class RegexArquivo:
@@ -129,7 +133,6 @@ class RegexMaterial(Regex):
         if regex_alfa is not None:
             return regex_alfa
         elif regex_beta is not None:
-            # print( avaliado )
             return regex_beta
 
 
@@ -193,68 +196,63 @@ class RegexMaoDeObra(Regex):
 
     def obter_regex( self, avaliado ) -> Match:
         regex_alfa = re.match( self.retornar_pattern_alfa_mao_de_obra(), avaliado )
-        # regex_beta = re.match( self.retornar_pattern_beta_mao_de_obra(), avaliado )
+        regex_beta = re.match( self.retornar_pattern_beta_mao_de_obra(), avaliado )
         if regex_alfa is not None:
             return regex_alfa
-        # elif regex_beta is not None:
-        #     return regex_beta
+        elif regex_beta is not None:
+            return regex_beta
 
 
 class MaoDeObra:
 
     def __init__( self, regex: Match ) -> None:
         self.regex = regex
-        self.configurar_mao_de_obra()
+        self.codigo = self.obter_codigo()
+        obj_descricao = DescricaoNormalizada( self.obter_descricao() )
+        self.descricao = obj_descricao.descricao
+        self.unidade = self.obter_unidade()
+        obj_periculosidade = PercentualNormalizado( self.obter_periculosidade() )
+        self.periculosidade = obj_periculosidade.percentual
+        obj_salario = NumeroNormalizado( self.obter_salario() )
+        self.salario = obj_salario.numero
+        obj_custo_onerado = NumeroNormalizado( self.obter_custo_onerado() )
+        self.custo_onerado = obj_custo_onerado.numero
+        obj_custo_desonerado = NumeroNormalizado( self.obter_custo_desonerado() )
+        self.custo_desonerado = obj_custo_desonerado.numero
+        obj_encargos_sociais_onerado = PercentualNormalizado( self.obter_encargos_sociais_onerado() )
+        self.encargos_sociais_onerado = obj_encargos_sociais_onerado.percentual
+        obj_encargos_sociais_desonerado = PercentualNormalizado( self.obter_encargos_sociais_desonerado() )
+        self.encargos_sociais_desonerado = obj_encargos_sociais_desonerado.percentual
+        self.categoria = str(MAO_DE_OBRA)
 
     def obter_codigo( self ):
-        return self.regex.group('re_codigo')    
-    
-    def obter_descricao( self ):
-        return self.regex.group('re_descricao')
+        return self.regex.group('re_codigo')
+
+    def obter_descricao( self ) -> str:
+        if self.obter_codigo() == 'M3795':
+            retorno = 'Instalações do Estaleiro Padrão para beneficiamento de estruturas navais, \
+                        inclusive mobiliário, equipamentos de informática e de segurança '
+        else:
+            retorno = self.regex.group('re_descricao')
+        return retorno
 
     def obter_unidade( self ):
         return self.regex.group('re_unidade')
 
     def obter_periculosidade( self ):
-        return self.regex.group('re_periculosidade')
+        pass
 
     def obter_salario( self ):
-        return self.regex.group('re_salario')
+        pass
 
-    def obter_encargos_sociais( self ):
-        return self.regex.group('re_encargos_sociais')
-
-    def obter_custo( self ):
+    def obter_custo_onerado( self ):
         return self.regex.group('re_custo')
     
-    def configurar_mao_de_obra( self ):
-        self.codigo = self.obter_codigo()
-        obj_descricao = DescricaoNormalizada( self.obter_descricao() )
-        self.descricao = obj_descricao.descricao
-        obj_unidade = DescricaoNormalizada( self.obter_unidade() )
-        self.unidade = obj_unidade.descricao
-        obj_periculosidade = PercentualNormalizado( self.obter_periculosidade() )
-        self.periculosidade = obj_periculosidade.percentual
-        obj_encargos_sociais = PercentualNormalizado( self.obter_encargos_sociais() )
-        self.encargos_sociais = obj_encargos_sociais.percentual
-        obj_salario = NumeroNormalizado( self.obter_salario() )
-        self.salario = obj_salario.numero
-        obj_custo = NumeroNormalizado( self.obter_custo() )
-        self.custo = obj_custo.numero
-        self.categoria = str(MAO_DE_OBRA)
+    def obter_custo_desonerado( self ):
+        pass
 
-    def retornar_dados_cadastro_mao_de_obra( self, origem_dados: str ) -> str:
-        dados = ';'.join( [origem_dados, self.codigo, self.descricao, self.unidade] )
-        dados = '{}{}'.format( dados, '\n' )
-        return dados
+    def obter_encargos_sociais_onerado( self ):
+        pass
 
-    def escrever_arquivo_cadastro( self, arquivo: TextIOWrapper, origem_dados: str ) -> None:
-        arquivo.write( self.retornar_dados_cadastro_mao_de_obra( origem_dados ) )
-
-    def retornar_dados_custos_mao_de_obra( self, origem_dados: str ) -> str:
-        dados = ';'.join( [origem_dados, self.codigo, self.custo,'','','','', self.categoria] )
-        dados = '{}{}'.format( dados, '\n' )
-        return dados
-
-    def escrever_arquivo_custo( self, custos_unitarios: TextIOWrapper, origem_dados: str ) -> None:
-        custos_unitarios.write( self.retornar_dados_custos_mao_de_obra( origem_dados ) )
+    def obter_encargos_sociais_desonerado( self ):
+        pass

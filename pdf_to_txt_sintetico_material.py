@@ -31,12 +31,10 @@ with PixelBar('Extraindo dados do PDF', max=num_pages, suffix='%(index)d/%(max)d
 
             obj_regex = RegexMaterial( linha )
 
-            if ( obj_regex.cabecalho is None ):
+            if ( obj_regex.cabecalho is None ) and ( obj_regex.principal is not None ) and ( len( obj_regex.principal.groups() ) == 4 ):
 
-                if ( obj_regex.principal is not None ) and ( len( obj_regex.principal.groups() ) == 4 ):
-
-                    obj_material = Material( obj_regex.principal )
-                    lista_material.append( obj_material )               
+                obj_material = Material( obj_regex.principal )
+                lista_material.append( obj_material )               
 
         bar.next()
 
