@@ -25,7 +25,6 @@ pdf_file_desonerado = "SICRO/GO 10-2020 Relatório Sintético de Mao de Obra - c
 
 with open( pdf_file_desonerado, "rb" ) as f:
     cadastro_desonerado = pdftotext.PDF( f )
-    num_pages = len( cadastro_desonerado )
 
 ##### Extraindo dados dos PDF
 

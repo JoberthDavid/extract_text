@@ -22,14 +22,32 @@ from funcoes import (
                         escrever_arquivo_custos,
                         escrever_arquivo_detalhamento_custos
                     )
+from classes import (
+                        RegexEquipamento,
+                        Equipamento,
+                        RegexArquivo,
+                        Arquivo,
+                    )
 
-pdf_file = "SICRO/GO 10-2020 Relatório Sintético de Equipamentos.pdf"
+##### Abrindo arquivo PDF onerado
+
+pdf_file_onerado = "SICRO/GO 10-2020 Relatório Sintético de Equipamentos.pdf"
+
+with open( pdf_file_onerado, "rb" ) as f_onerado:
+    cadastro_onerado = pdftotext.PDF( f_onerado )
+    num_pages = len( cadastro_onerado )
+
+##### Abrindo arquivo PDF desonerado
 
 pdf_file_desonerado = "SICRO/GO 10-2020 Relatório Sintético de Equipamentos - com desoneraç╞o.pdf"
 
+with open( pdf_file_desonerado, "rb" ) as f:
+    cadastro_desonerado = pdftotext.PDF( f )
+
+##### Extraindo dados dos PDF
 
 d_arquivo = iniciar_dicionario_arquivo()
-regex_arquivo = retornar_regex_arquivo( pdf_file )
+regex_arquivo = retornar_regex_arquivo( pdf_file_onerado )
 
 if ( regex_arquivo is not None ):
     configurar_dicionario_arquivo( d_arquivo, regex_arquivo )
@@ -46,60 +64,68 @@ custos_unitarios = gerar_arquivo_custos_unitarios_insumos( path )
 
 detalhamento_custos = gerar_arquivo_detalhamento_custos_equipamento( path )
 
-with open( pdf_file, "rb" ) as f:
-    cadastro = pdftotext.PDF( f )
-    num_pages = len( cadastro )
-
-with open( pdf_file_desonerado, "rb" ) as f_desonerado:
-    cadastro_desonerado = pdftotext.PDF( f_desonerado )
-    num_pages_desonerado = len( cadastro_desonerado )
 
 with PixelBar('Extraindo dados do PDF', max=num_pages, suffix='%(index)d/%(max)d - %(percent).1f%% - %(eta)ds') as bar:
 
-    lista_dicionarios_onerado = list()
+###### Populando lista com instância de Equipamento
 
-    lista_dicionarios_desonerado = list()
+    lista_equipamento = list()
 
-    lista_dicionarios = list()
+    for pagina in cadastro_onerado:
+        linhas_pagina_atual_pdf_file_onerado = pagina.split('\n')
+        linhas_pagina_atual_pdf_file_onerado.pop(-2)
 
-    for j in range( len( cadastro ) ):
+        for linha in linhas_pagina_atual_pdf_file_onerado:
+            
+            obj_regex_onerado = RegexEquipamento( linha )
+
+            if ( obj_regex_onerado.cabecalho is None ) and ( obj_regex_onerado.principal is not None ):
+
+                obj_equipamento = Equipamento( obj_regex_onerado.principal )
+                lista_equipamento.append( obj_equipamento )
 
 
-        linhas_desonerado = cadastro_desonerado[j].split('\n')
-        linhas_desonerado.pop(-2)
+###### fazendo o mesmo para o arquivo desonerado
 
+    lista_equipamento_auxiliar = list()
 
-        linhas_pagina_atual_pdf_onerado = cadastro[j].split('\n')
-        linhas_pagina_atual_pdf_onerado.pop(-2)
+    for pagina in cadastro_desonerado:
+        linhas_pagina_atual_pdf_file_desonerado = pagina.split('\n')
+        linhas_pagina_atual_pdf_file_desonerado.pop(-2)
 
+        for linha in linhas_pagina_atual_pdf_file_desonerado:
+            
+            obj_regex_desonerado = RegexEquipamento( linha )
 
-        for k in range( len( linhas_pagina_atual_pdf_onerado ) ):
+            if ( obj_regex_desonerado.cabecalho is None ) and ( obj_regex_desonerado.principal is not None ):
 
-            d = iniciar_dicionario( item )
+                obj_equipamento = Equipamento( obj_regex_desonerado.principal )
+                lista_equipamento_auxiliar.append( obj_equipamento )  
 
-            regex_onerado = retornar_regex( item, linhas_pagina_atual_pdf_onerado[k] )
-            regex_desonerado = retornar_regex( item, linhas_desonerado[k] )
+###### compilando os dados na lista_equipamento
 
-            cabecalho_onerado = retornar_regex_cabecalho( linhas_pagina_atual_pdf_onerado[k] )
-            cabecalho_desonerado = retornar_regex_cabecalho( linhas_desonerado[k] )
-
-            if ( cabecalho_onerado is None ) and ( cabecalho_desonerado is None ):
-
-                if regex_onerado is not None:
-                    configurar_dicionario( item, d, regex_onerado, regex_desonerado )
-                    
-                    if d['codigo'] not in lista_dicionarios:
-                        lista_dicionarios.append( d['codigo'] )
-                        lista_dicionarios_onerado.append( d )
-
+    for item_onerado in lista_equipamento:
+        for item_desonerado in lista_equipamento_auxiliar:
+            if item_onerado.codigo == item_desonerado.codigo:
+                item_onerado.custo_produtivo_desonerado = item_desonerado.custo_produtivo_onerado
+                item_onerado.custo_improdutivo_desonerado = item_desonerado.custo_improdutivo_onerado
+                item_onerado.mao_de_obra_desonerado = item_desonerado.mao_de_obra_onerado
+                
         bar.next()
 
 
-with PixelBar('Escrevendo TXT', max=len( lista_dicionarios_onerado ), suffix='%(index)d/%(max)d - %(percent).1f%% - %(eta)ds') as bar:
-    
-    for d_equipamento in lista_dicionarios_onerado:
-        escrever_arquivo_cadastro( item, arquivo_equipamento, origem_dados, d_equipamento )
-        escrever_arquivo_custos( item, custos_unitarios, origem_dados, d_equipamento )
-        escrever_arquivo_detalhamento_custos( item, detalhamento_custos, origem_dados, d_equipamento )
+##### Escrevendo arquivo TXT
+
+obj_regex_arquivo = RegexArquivo( pdf_file_onerado )
+
+if ( obj_regex_arquivo.regex is not None ):
+    obj_arquivo = Arquivo( obj_regex_arquivo.regex )
+
+with PixelBar('Escrevendo TXT', max=len( lista_equipamento ), suffix='%(index)d/%(max)d - %(percent).1f%% - %(eta)ds') as bar:
+
+    for equipamento in lista_equipamento:  
+        equipamento.escrever_arquivo_cadastro( obj_arquivo.arquivo_dado_basico, obj_arquivo.origem )
+        equipamento.escrever_arquivo_custo( obj_arquivo.arquivo_custo_unitario, obj_arquivo.origem )
+        equipamento.escrever_arquivo_detalhamento_custos( obj_arquivo.arquivo_detalhamento_custo_equipamento, obj_arquivo.origem )
 
         bar.next()

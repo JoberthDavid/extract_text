@@ -5,6 +5,7 @@ from typing import Match, Union
 from constantes import (
                         MATERIAL,
                         MAO_DE_OBRA,
+                        EQUIPAMENTO,
                     )
 
 
@@ -48,6 +49,7 @@ class Arquivo:
         self.arquivo_dado_basico = self.gerar_arquivo_dado_basico()
         self.arquivo_custo_unitario = self.gerar_arquivo_custo_unitario_insumo()
         self.arquivo_detalhamento_custo_mao_de_obra = self.gerar_arquivo_detalhamento_custo_mao_de_obra()
+        self.arquivo_detalhamento_custo_equipamento = self.gerar_arquivo_detalhamento_custo_equipamento()
 
     def preparar_grupo_regex_arquivo( self, item_a, item_b ) -> str:
         grupo = ''.join( [ item_a, item_b ] )
@@ -81,7 +83,11 @@ class Arquivo:
         return open( ''.join( [ self.retornar_path(), '_insumos_custos_unitarios.txt' ] ), 'a', encoding="utf-8" )
 
     def gerar_arquivo_detalhamento_custo_mao_de_obra( self ) -> TextIOWrapper:
-        return open( ''.join( [ self.retornar_path(), '_detalhamento_mao_de_obra_custo_unitario.txt' ] ), 'w', encoding="utf-8" )
+        return open( ''.join( [ self.retornar_path(), '_detalhamento_mao_de_obra_custo_unitario.txt' ] ), 'a', encoding="utf-8" )
+
+    def gerar_arquivo_detalhamento_custo_equipamento( self ) -> TextIOWrapper:
+        return open( ''.join( [ self.retornar_path(), '_detalhamento_equipamento_custo_unitario.txt' ] ), 'a', encoding="utf-8" )
+
 
 
 class RegexArquivo:
@@ -136,52 +142,6 @@ class RegexMaterial(Regex):
             return regex_beta
 
 
-class Material:
-
-    def __init__( self, regex: Match ) -> None:
-        self.regex = regex
-        self.codigo = self.obter_codigo()
-        obj_descricao = DescricaoNormalizada( self.obter_descricao() )
-        self.descricao = obj_descricao.descricao
-        self.unidade = self.obter_unidade()
-        obj_custo = NumeroNormalizado( self.obter_custo() )
-        self.custo = obj_custo.numero
-        self.categoria = str(MATERIAL)
-
-    def obter_codigo( self ):
-        return self.regex.group('re_codigo')
-
-    def obter_descricao( self ) -> str:
-        if self.obter_codigo() == 'M3795':
-            retorno = 'Instalações do Estaleiro Padrão para beneficiamento de estruturas navais, \
-                        inclusive mobiliário, equipamentos de informática e de segurança '
-        else:
-            retorno = self.regex.group('re_descricao')
-        return retorno
-
-    def obter_unidade( self ):
-        return self.regex.group('re_unidade')
-
-    def obter_custo( self ):
-        return self.regex.group('re_custo')
-
-    def retornar_dados_cadastro_material( self, origem_dados: str ) -> str:
-        dados = ';'.join( [origem_dados, self.codigo, self.descricao, self.unidade] )
-        dados = '{}{}'.format( dados, '\n' )
-        return dados
-
-    def escrever_arquivo_cadastro( self, arquivo: TextIOWrapper, origem_dados: str ) -> None:
-        arquivo.write( self.retornar_dados_cadastro_material( origem_dados ) )
-
-    def retornar_dados_custos_material( self, origem_dados: str ) -> str:
-        dados = ';'.join( [origem_dados, self.codigo, '','','','', self.custo, self.categoria] )
-        dados = '{}{}'.format( dados, '\n' )
-        return dados
-
-    def escrever_arquivo_custo( self, custos_unitarios: TextIOWrapper, origem_dados: str ) -> None:
-        custos_unitarios.write( self.retornar_dados_custos_material( origem_dados ) )
-
-
 class RegexMaoDeObra(Regex):
 
     def __init__(self, avaliado: str ) -> None:
@@ -203,12 +163,60 @@ class RegexMaoDeObra(Regex):
             return regex_beta
 
 
-class MaoDeObra:
+class Insumo:
 
     def __init__( self, regex: Match ) -> None:
         self.regex = regex
         self.codigo = self.obter_codigo()
+        self.unidade = ''
         self.descricao = self.obter_descricao()
+
+    def obter_codigo( self ):
+        return self.regex.group('re_codigo')
+
+    def obter_descricao( self ) -> str:
+        obj_descricao = DescricaoNormalizada( self.regex.group('re_descricao') )
+        return obj_descricao.descricao
+
+    def retornar_dados_cadastro( self, origem_dados: str ) -> str:
+        dados = ';'.join( [origem_dados, self.codigo, self.descricao, self.unidade] )
+        dados = '{}{}'.format( dados, '\n' )
+        return dados
+
+    def escrever_arquivo_cadastro( self, arquivo: TextIOWrapper, origem_dados: str ) -> None:
+        arquivo.write( self.retornar_dados_cadastro( origem_dados ) )
+
+
+class Material(Insumo):
+
+    def __init__( self, regex: Match ) -> None:
+        super().__init__( regex )
+        self.regex = regex
+        obj_custo = NumeroNormalizado( self.obter_custo() )
+        self.unidade = self.obter_unidade()
+        self.custo = obj_custo.numero
+        self.categoria = str(MATERIAL)
+
+    def obter_unidade( self ) -> str:
+        return self.regex.group('re_unidade')
+
+    def obter_custo( self ):
+        return self.regex.group('re_custo')
+
+    def retornar_dados_custos_material( self, origem_dados: str ) -> str:
+        dados = ';'.join( [origem_dados, self.codigo, '','','','', self.custo, self.categoria] )
+        dados = '{}{}'.format( dados, '\n' )
+        return dados
+
+    def escrever_arquivo_custo( self, custos_unitarios: TextIOWrapper, origem_dados: str ) -> None:
+        custos_unitarios.write( self.retornar_dados_custos_material( origem_dados ) )
+
+
+class MaoDeObra(Insumo):
+
+    def __init__( self, regex: Match ) -> None:
+        super().__init__( regex )
+        self.regex = regex
         self.unidade = self.obter_unidade()
         self.periculosidade = self.obter_periculosidade()
         self.salario = self.obter_salario()
@@ -217,13 +225,6 @@ class MaoDeObra:
         self.encargos_sociais_onerado = self.obter_encargos_sociais_onerado()
         self.encargos_sociais_desonerado = ''
         self.categoria = str(MAO_DE_OBRA)
-
-    def obter_codigo( self ):
-        return self.regex.group('re_codigo')
-
-    def obter_descricao( self ) -> str:
-        obj_descricao = DescricaoNormalizada( self.regex.group('re_descricao') )
-        return obj_descricao.descricao
 
     def obter_unidade( self ) -> str:
         return self.regex.group('re_unidade')
@@ -244,14 +245,6 @@ class MaoDeObra:
         obj_encargos_sociais_onerado = PercentualNormalizado( self.regex.group('re_encargos_sociais') )
         return obj_encargos_sociais_onerado.percentual
 
-    def retornar_dados_cadastro_mao_de_obra( self, origem_dados: str ) -> str:
-        dados = ';'.join( [origem_dados, self.codigo, self.descricao, self.unidade] )
-        dados = '{}{}'.format( dados, '\n' )
-        return dados
-
-    def escrever_arquivo_cadastro( self, arquivo: TextIOWrapper, origem_dados: str ) -> None:
-        arquivo.write( self.retornar_dados_cadastro_mao_de_obra( origem_dados ) )
-
     def retornar_dados_custos_mao_de_obra( self, origem_dados: str ) -> str:
         dados = ';'.join( [origem_dados, self.codigo, self.custo_onerado,'',self.custo_desonerado,'','', self.categoria] )
         dados = '{}{}'.format( dados, '\n' )
@@ -267,3 +260,133 @@ class MaoDeObra:
 
     def escrever_arquivo_detalhamento_custos( self, detalhamento_custos: TextIOWrapper, origem_dados: str ) -> None:
         detalhamento_custos.write( self.retornar_detalhamento_custos_mao_de_obra( origem_dados ) )
+
+
+class RegexEquipamento(Regex):
+
+    def __init__(self, avaliado: str ) -> None:
+        super().__init__( avaliado )
+        self.principal = self.obter_regex( avaliado )
+
+    def retornar_pattern_alfa_equipamento( self ) -> str:
+        return r'(?P<re_codigo>[E|A]\d{4}) (?P<re_descricao>.+) (?P<re_aquisicao>\d*.*\d*.\d+,\d{2,4}|\s*-) (?P<re_depreciacao>\d*.*\d*.\d+,\d{2,4}|\s*-) (?P<re_oportunidade_capital>\d*.*\d*.\d+,\d{2,4}|\s*-) (?P<re_seguros_impostos>\d*.*\d*.\d+,\d{2,4}|\s*-) (?P<re_manutencao>\d*.*\d*.\d+,\d{2,4}|\s*-) (?P<re_operacao>\d*.*\d*.\d+,\d{2,4}|\s*-) (?P<re_mao_de_obra>\d*.*\d*.\d+,\d{2,4}|\s*-) (?P<re_custo_produtivo>\d*.*\d*.\d+,\d{2,4}|\s*-) (?P<re_custo_improdutivo>\d*.*\d*.\d+,\d{2,4}|\s*-)'
+
+    def retornar_pattern_beta_equipamento( self ) -> str:
+        return r'(?P<re_codigo>[E|A]\d{4}) (?P<re_descricao>.+) (?P<re_custo_produtivo>\d*.*\d*.\d+,\d{2,4}|\s*-) (?P<re_custo_improdutivo>\d*.*\d*.\d+,\d{2,4}|\s*-)'
+
+    def obter_regex( self, avaliado ) -> Match:
+        regex_alfa = re.match( self.retornar_pattern_alfa_equipamento(), avaliado )
+        regex_beta = re.match( self.retornar_pattern_beta_equipamento(), avaliado )
+        if regex_alfa is not None:
+            return regex_alfa
+        elif regex_beta is not None:
+            return regex_beta
+
+
+class Equipamento(Insumo):
+
+    def __init__( self, regex: Match ) -> None:
+        super().__init__( regex )
+        self.regex = regex
+        self.unidade = 'h'
+        self.aquisicao = self.obter_aquisicao()
+        self.depreciacao = self.obter_depreciacao()
+        self.oportunidade_capital = self.obter_oportunidade_capital()
+        self.seguros_impostos = self.obter_seguros_impostos()
+        self.manutencao = self.obter_manutencao()
+        self.operacao = self.obter_operacao()
+        self.mao_de_obra_onerado = self.obter_mao_de_obra_onerado()
+        self.mao_de_obra_desonerado = ''
+        self.custo_produtivo_onerado = self.obter_custo_produtivo_onerado()
+        self.custo_improdutivo_onerado = self.obter_custo_improdutivo_onerado()
+        self.custo_produtivo_desonerado = ''
+        self.custo_improdutivo_desonerado = ''
+        self.categoria = str(EQUIPAMENTO)
+
+    def obter_aquisicao( self ) -> str:
+        grupo = 're_aquisicao'
+        if grupo in self.regex.groupdict():
+            obj_aquisicao = PercentualNormalizado( self.regex.group( grupo ) )
+            return obj_aquisicao.percentual
+        else:
+            return ''
+
+    def obter_depreciacao( self ) -> str:
+        grupo = 're_depreciacao'
+        if grupo in self.regex.groupdict():
+            obj_depreciacao = NumeroNormalizado( self.regex.group( grupo ) )
+            return obj_depreciacao.numero
+        else:
+            return ''
+
+    def obter_oportunidade_capital( self ) -> str:
+        grupo = 're_oportunidade_capital'
+        if grupo in self.regex.groupdict():
+            obj_oportunidade_capital = NumeroNormalizado( self.regex.group( grupo ) )
+            return obj_oportunidade_capital.numero
+        else:
+            return ''
+
+    def obter_seguros_impostos( self ) -> str:
+        grupo = 're_seguros_impostos'
+        if grupo in self.regex.groupdict():
+            obj_seguros_impostos = NumeroNormalizado( self.regex.group( grupo ) )
+            return obj_seguros_impostos.numero
+        else:
+            return ''
+
+    def obter_manutencao( self ) -> str:
+        grupo = 're_manutencao'
+        if grupo in self.regex.groupdict():
+            obj_manutencao = NumeroNormalizado( self.regex.group( grupo ) )
+            return obj_manutencao.numero
+        else:
+            return ''
+
+    def obter_operacao( self ) -> str:
+        grupo = 're_operacao'
+        if grupo in self.regex.groupdict():
+            obj_operacao = NumeroNormalizado( self.regex.group( grupo ) )
+            return obj_operacao.numero
+        else:
+            return ''
+
+    def obter_mao_de_obra_onerado( self ) -> str:
+        grupo = 're_mao_de_obra'
+        if grupo in self.regex.groupdict():
+            obj_mao_de_obra_onerado = NumeroNormalizado( self.regex.group( grupo ) )
+            return obj_mao_de_obra_onerado.numero
+        else:
+            return ''
+
+    def obter_custo_produtivo_onerado( self ) -> str:
+        grupo = 're_custo_produtivo'
+        if grupo in self.regex.groupdict():
+            obj_custo_produtivo_onerado = NumeroNormalizado( self.regex.group( grupo ) )
+            return obj_custo_produtivo_onerado.numero
+        else:
+            return ''
+
+    def obter_custo_improdutivo_onerado( self ) -> str:
+        grupo = 're_custo_improdutivo'
+        if grupo in self.regex.groupdict():
+            obj_custo_improdutivo_onerado = NumeroNormalizado( self.regex.group( grupo ) )
+            return obj_custo_improdutivo_onerado.numero
+        else:
+            return ''
+
+    def retornar_dados_custos_equipamento( self, origem_dados: str ) -> str:
+        dados = ';'.join( [origem_dados, self.codigo, self.custo_produtivo_onerado,self.custo_improdutivo_onerado,self.custo_produtivo_desonerado,self.custo_improdutivo_desonerado,'',self.categoria] )
+        dados = '{}{}'.format( dados, '\n' )
+        return dados
+
+    def escrever_arquivo_custo( self, custos_unitarios: TextIOWrapper, origem_dados: str ) -> None:
+        custos_unitarios.write( self.retornar_dados_custos_equipamento( origem_dados ) )
+
+    def retornar_detalhamento_custos_equipamento( self, origem_dados: str ) -> str:
+        detalhes = ';'.join([origem_dados, self.codigo, self.aquisicao, self.depreciacao, self.oportunidade_capital, self.seguros_impostos, self.manutencao, self.operacao, self.mao_de_obra_onerado, self.mao_de_obra_desonerado] )
+        detalhes = '{}{}'.format( detalhes, '\n' )
+        return detalhes
+
+    def escrever_arquivo_detalhamento_custos( self, detalhamento_custos: TextIOWrapper, origem_dados: str ) -> None:
+        detalhamento_custos.write( self.retornar_detalhamento_custos_equipamento( origem_dados ) )
