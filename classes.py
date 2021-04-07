@@ -208,49 +208,41 @@ class MaoDeObra:
     def __init__( self, regex: Match ) -> None:
         self.regex = regex
         self.codigo = self.obter_codigo()
-        obj_descricao = DescricaoNormalizada( self.obter_descricao() )
-        self.descricao = obj_descricao.descricao
+        self.descricao = self.obter_descricao()
         self.unidade = self.obter_unidade()
-        obj_periculosidade = PercentualNormalizado( self.obter_periculosidade() )
-        self.periculosidade = obj_periculosidade.percentual
-        obj_salario = NumeroNormalizado( self.obter_salario() )
-        self.salario = obj_salario.numero
-        obj_custo_onerado = NumeroNormalizado( self.obter_custo_onerado() )
-        self.custo_onerado = obj_custo_onerado.numero
-        obj_custo_desonerado = NumeroNormalizado( self.obter_custo_desonerado() )
-        self.custo_desonerado = obj_custo_desonerado.numero
-        obj_encargos_sociais_onerado = PercentualNormalizado( self.obter_encargos_sociais_onerado() )
-        self.encargos_sociais_onerado = obj_encargos_sociais_onerado.percentual
-        obj_encargos_sociais_desonerado = PercentualNormalizado( self.obter_encargos_sociais_desonerado() )
-        self.encargos_sociais_desonerado = obj_encargos_sociais_desonerado.percentual
+        self.periculosidade = self.obter_periculosidade()
+        self.salario = self.obter_salario()
+        self.custo_onerado = self.obter_custo_onerado()
+        self.custo_desonerado = ''
+        self.encargos_sociais_onerado = self.obter_encargos_sociais_onerado()
+        self.encargos_sociais_desonerado = ''
         self.categoria = str(MAO_DE_OBRA)
 
     def obter_codigo( self ):
         return self.regex.group('re_codigo')
 
     def obter_descricao( self ) -> str:
-        return self.regex.group('re_descricao')
+        obj_descricao = DescricaoNormalizada( self.regex.group('re_descricao') )
+        return obj_descricao.descricao
 
     def obter_unidade( self ) -> str:
         return self.regex.group('re_unidade')
 
     def obter_periculosidade( self ) -> str:
-        return self.regex.group('re_periculosidade')
+        obj_periculosidade = PercentualNormalizado( self.regex.group('re_periculosidade') )
+        return obj_periculosidade.percentual
 
     def obter_salario( self ) -> str:
-        return self.regex.group('re_salario')
+        obj_salario = NumeroNormalizado( self.regex.group('re_salario') )
+        return obj_salario.numero
 
     def obter_custo_onerado( self ) -> str:
-        return self.regex.group('re_custo')
-    
-    def obter_custo_desonerado( self ) -> str:
-        return ''
+        obj_custo_onerado = NumeroNormalizado( self.regex.group('re_custo') )
+        return obj_custo_onerado.numero
 
     def obter_encargos_sociais_onerado( self ) -> str:
-        return self.regex.group('re_encargos_sociais')
-
-    def obter_encargos_sociais_desonerado( self ) -> str:
-        return ''
+        obj_encargos_sociais_onerado = PercentualNormalizado( self.regex.group('re_encargos_sociais') )
+        return obj_encargos_sociais_onerado.percentual
 
     def retornar_dados_cadastro_mao_de_obra( self, origem_dados: str ) -> str:
         dados = ';'.join( [origem_dados, self.codigo, self.descricao, self.unidade] )

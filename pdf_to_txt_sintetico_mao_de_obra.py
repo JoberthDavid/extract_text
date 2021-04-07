@@ -11,37 +11,73 @@ from classes import (
                         MaoDeObra,
                     )
 
-##### Extraindo dados arquivo PDF
+##### Abrindo arquivo PDF onerado
 
-pdf_file = "SICRO/GO 10-2020 Relatório Sintético de Mao de Obra.pdf"
+pdf_file_onerado = "SICRO/GO 10-2020 Relatório Sintético de Mao de Obra.pdf"
 
-with open( pdf_file, "rb" ) as f:
-    cadastro = pdftotext.PDF( f )
-    num_pages = len( cadastro )
+with open( pdf_file_onerado, "rb" ) as f:
+    cadastro_onerado = pdftotext.PDF( f )
+    num_pages = len( cadastro_onerado )
+
+##### Abrindo arquivo PDF desonerado
+
+pdf_file_desonerado = "SICRO/GO 10-2020 Relatório Sintético de Mao de Obra - com desoneracao.pdf"
+
+with open( pdf_file_desonerado, "rb" ) as f:
+    cadastro_desonerado = pdftotext.PDF( f )
+    num_pages = len( cadastro_desonerado )
+
+##### Extraindo dados dos PDF
 
 with PixelBar('Extraindo dados do PDF', max=num_pages, suffix='%(index)d/%(max)d - %(percent).1f%% - %(eta)ds') as bar:
 
+###### Populando lista com instância de MaoDeObra
+
     lista_mao_de_obra = list()
 
-    for pagina in cadastro:
-        linhas_pagina_atual_pdf_file = pagina.split('\n')
-        linhas_pagina_atual_pdf_file.pop(-2)
+    for pagina in cadastro_onerado:
+        linhas_pagina_atual_pdf_file_onerado = pagina.split('\n')
+        linhas_pagina_atual_pdf_file_onerado.pop(-2)
 
-
-        for linha in linhas_pagina_atual_pdf_file:
+        for linha in linhas_pagina_atual_pdf_file_onerado:
             
-            obj_regex = RegexMaoDeObra( linha )
+            obj_regex_onerado = RegexMaoDeObra( linha )
 
-            if ( obj_regex.cabecalho is None ) and ( obj_regex.principal is not None ):
+            if ( obj_regex_onerado.cabecalho is None ) and ( obj_regex_onerado.principal is not None ):
 
-                obj_mao_de_obra = MaoDeObra( obj_regex.principal )
+                obj_mao_de_obra = MaoDeObra( obj_regex_onerado.principal )
                 lista_mao_de_obra.append( obj_mao_de_obra )  
+
+###### fazendo o mesmo para o arquivo desonerado
+
+    lista_mao_de_obra_auxiliar = list()
+
+    for pagina in cadastro_desonerado:
+        linhas_pagina_atual_pdf_file_desonerado = pagina.split('\n')
+        linhas_pagina_atual_pdf_file_desonerado.pop(-2)
+
+        for linha in linhas_pagina_atual_pdf_file_desonerado:
+            
+            obj_regex_desonerado = RegexMaoDeObra( linha )
+
+            if ( obj_regex_desonerado.cabecalho is None ) and ( obj_regex_desonerado.principal is not None ):
+
+                obj_mao_de_obra = MaoDeObra( obj_regex_desonerado.principal )
+                lista_mao_de_obra_auxiliar.append( obj_mao_de_obra )  
+
+###### compilando os dados na lista_mao_de_obra
+
+    for item_onerado in lista_mao_de_obra:
+        for item_desonerado in lista_mao_de_obra_auxiliar:
+            if item_onerado.codigo == item_desonerado.codigo:
+                item_onerado.custo_desonerado = item_desonerado.custo_onerado
+                item_onerado.encargos_sociais_desonerado = item_desonerado.encargos_sociais_onerado
 
         bar.next()
 
 ##### Escrevendo arquivo TXT
 
-obj_regex_arquivo = RegexArquivo( pdf_file )
+obj_regex_arquivo = RegexArquivo( pdf_file_onerado )
 
 if ( obj_regex_arquivo.regex is not None ):
     obj_arquivo = Arquivo( obj_regex_arquivo.regex )
