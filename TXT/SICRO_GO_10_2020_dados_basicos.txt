@@ -1,110 +1,110 @@
-SICRO;GO;10-2020;P9801;Ajudante;h;
-SICRO;GO;10-2020;P9802;Ajudante especializado;h;
-SICRO;GO;10-2020;P9803;Almoxarife;mês;
-SICRO;GO;10-2020;P9804;Apontador;mês;
-SICRO;GO;10-2020;P9805;Armador;h;
-SICRO;GO;10-2020;P9806;Auxiliar administrativo;mês;
-SICRO;GO;10-2020;P9807;Bombeiro hidráulico;h;
-SICRO;GO;10-2020;P9808;Carpinteiro;h;
-SICRO;GO;10-2020;P9809;Encarregado administrativo;mês;
-SICRO;GO;10-2020;P9810;Eletricista;h;
-SICRO;GO;10-2020;P9811;Encarregado especializado;mês;
-SICRO;GO;10-2020;P9812;Engenheiro;mês;
-SICRO;GO;10-2020;P9814;Operacional;mês;
-SICRO;GO;10-2020;P9815;Jardineiro;h;
-SICRO;GO;10-2020;P9816;Encarregado de mergulho;mês;
-SICRO;GO;10-2020;P9819;Engenheiro supervisor;mês;
-SICRO;GO;10-2020;P9821;Pedreiro;h;
-SICRO;GO;10-2020;P9822;Pintor;h;
-SICRO;GO;10-2020;P9823;Serralheiro;h;
-SICRO;GO;10-2020;P9824;Servente;h;
-SICRO;GO;10-2020;P9825;Soldador;h;
-SICRO;GO;10-2020;P9826;Chefe setor de finanças;mês;
-SICRO;GO;10-2020;P9827;Vigia;mês;
-SICRO;GO;10-2020;P9830;Montador;h;
-SICRO;GO;10-2020;P9833;Auxiliar de laboratório;mês;
-SICRO;GO;10-2020;P9835;Perfurador de tubulão a ar comprimido com insalubridade;h;
-SICRO;GO;10-2020;P9836;Geólogo;h;
-SICRO;GO;10-2020;P9837;Oceanógrafo;mês;
-SICRO;GO;10-2020;P9840;Encarregado geral;mês;
-SICRO;GO;10-2020;P9842;Faxineiro;mês;
-SICRO;GO;10-2020;P9843;Operador de equipamento leve;h;
-SICRO;GO;10-2020;P9844;Capitão fluvial;mês;
-SICRO;GO;10-2020;P9845;Operador de equipamento pesado;h;
-SICRO;GO;10-2020;P9846;Operador de equipamento especial;h;
-SICRO;GO;10-2020;P9847;Perfurador de tubulão;h;
-SICRO;GO;10-2020;P9848;Desenhista;mês;
-SICRO;GO;10-2020;P9849;Condutor maquinista fluvial;mês;
-SICRO;GO;10-2020;P9850;Copeiro;mês;
-SICRO;GO;10-2020;P9851;Médico do trabalho;mês;
-SICRO;GO;10-2020;P9852;Blaster;h;
-SICRO;GO;10-2020;P9853;Pré-marcador;h;
-SICRO;GO;10-2020;P9854;Recepcionista;mês;
-SICRO;GO;10-2020;P9855;Marinheiro de máquinas;mês;
-SICRO;GO;10-2020;P9856;Marinheiro de convés;h;
-SICRO;GO;10-2020;P9857;Marinheiro de convés - mensalista;mês;
-SICRO;GO;10-2020;P9858;Laboratorista;mês;
-SICRO;GO;10-2020;P9859;Trabalhador de via;h;
-SICRO;GO;10-2020;P9860;Mergulhador;h;
-SICRO;GO;10-2020;P9861;Selecionador de material pétreo;h;
-SICRO;GO;10-2020;P9864;Engenheiro de segurança do trabalho;mês;
-SICRO;GO;10-2020;P9865;Técnico em enfermagem;mês;
-SICRO;GO;10-2020;P9866;Motorista de caminhão;h;
-SICRO;GO;10-2020;P9867;Técnico especializado - mensalista;mês;
-SICRO;GO;10-2020;P9869;Encarregado de obras de artes especiais;mês;
-SICRO;GO;10-2020;P9870;Motorista de veículo leve;h;
-SICRO;GO;10-2020;P9871;Motorista de veículo especial;h;
-SICRO;GO;10-2020;P9875;Encarregado de turma;mês;
-SICRO;GO;10-2020;P9876;Técnico de segurança do trabalho;mês;
-SICRO;GO;10-2020;P9878;Secretária;mês;
-SICRO;GO;10-2020;P9880;Piloto fluvial;mês;
-SICRO;GO;10-2020;P9882;Técnico especializado;h;
-SICRO;GO;10-2020;P9883;Chefe do setor administrativo;mês;
-SICRO;GO;10-2020;P9884;Encarregado de terraplenagem;mês;
-SICRO;GO;10-2020;P9885;Frentista de túnel;h;
-SICRO;GO;10-2020;P9889;Técnico da qualidade;mês;
-SICRO;GO;10-2020;P9891;Engenheiro mecânico;mês;
-SICRO;GO;10-2020;P9892;Auxiliar de blaster;h;
-SICRO;GO;10-2020;P9893;Encarregado de pavimentação;mês;
-SICRO;GO;10-2020;P9896;Porteiro;mês;
-SICRO;GO;10-2020;P9897;Técnico de meio ambiente;mês;
-SICRO;GO;10-2020;P9900;Comprador;mês;
-SICRO;GO;10-2020;P9901;Encarregado de superestrutura ferroviária;mês;
-SICRO;GO;10-2020;P9903;Auxiliar técnico;mês;
-SICRO;GO;10-2020;P9907;Comandante de longo curso;mês;
-SICRO;GO;10-2020;P9908;Imediato;mês;
-SICRO;GO;10-2020;P9909;Oficial de náutica;mês;
-SICRO;GO;10-2020;P9910;Oficial de máquinas;mês;
-SICRO;GO;10-2020;P9911;Condutor de máquinas;mês;
-SICRO;GO;10-2020;P9912;Capitão fluvial com periculosidade;h;
-SICRO;GO;10-2020;P9913;Draguista;mês;
-SICRO;GO;10-2020;P9915;Maquinista;h;
-SICRO;GO;10-2020;P9916;Encarregado de conservação rodoviária;mês;
-SICRO;GO;10-2020;P9920;Mestre fluvial;mês;
-SICRO;GO;10-2020;P9923;Mergulhador com periculosidade;h;
-SICRO;GO;10-2020;P9927;Frentista de túnel com periculosidade;h;
-SICRO;GO;10-2020;P9928;Servente com periculosidade;h;
-SICRO;GO;10-2020;P9929;Bombeiro hidráulico com periculosidade;h;
-SICRO;GO;10-2020;P9930;Eletricista com periculosidade;h;
-SICRO;GO;10-2020;P9932;Operador de equipamento pesado com periculosidade;h;
-SICRO;GO;10-2020;P9934;Motorista de veículo especial com periculosidade;h;
-SICRO;GO;10-2020;P9938;Operador de equipamento leve com periculosidade;h;
-SICRO;GO;10-2020;P9939;Operador de equipamento leve com insalubridade;h;
-SICRO;GO;10-2020;P9940;Piloto fluvial com periculosidade;h;
-SICRO;GO;10-2020;P9941;Mestre fluvial com periculosidade;h;
-SICRO;GO;10-2020;P9942;Marinheiro de convés com periculosidade;h;
-SICRO;GO;10-2020;P9943;Técnico de batimetria com periculosidade;h;
-SICRO;GO;10-2020;P9944;Operador de equipamento especial com periculosidade;h;
-SICRO;GO;10-2020;P9945;Draguista com periculosidade;h;
-SICRO;GO;10-2020;P9946;Engenheiro auxiliar;mês;
-SICRO;GO;10-2020;P9947;Técnico florestal;mês;
-SICRO;GO;10-2020;P9948;Motorista de veículo leve - mensalista;mês;
-SICRO;GO;10-2020;P9949;Topógrafo;mês;
-SICRO;GO;10-2020;P9950;Auxiliar de topografia;mês;
-SICRO;GO;10-2020;P9951;Médico de câmara hiperbárica;mês;
-SICRO;GO;10-2020;P9952;Pedreiro - mensalista;mês;
-SICRO;GO;10-2020;P9953;Eletricista - mensalista;mês;
-SICRO;GO;10-2020;P9954;Servente - mensalista;mês;
-SICRO;GO;10-2020;P9955;Engenheiro chefe;mês;
-SICRO;GO;10-2020;P9956;Motorista de caminhão com periculosidade;h;
-SICRO;GO;10-2020;P9972;Técnico de batimetria;mês;
+SICRO;GO;10-2020;P9801;Ajudante;h
+SICRO;GO;10-2020;P9802;Ajudante especializado;h
+SICRO;GO;10-2020;P9803;Almoxarife;mês
+SICRO;GO;10-2020;P9804;Apontador;mês
+SICRO;GO;10-2020;P9805;Armador;h
+SICRO;GO;10-2020;P9806;Auxiliar administrativo;mês
+SICRO;GO;10-2020;P9807;Bombeiro hidráulico;h
+SICRO;GO;10-2020;P9808;Carpinteiro;h
+SICRO;GO;10-2020;P9809;Encarregado administrativo;mês
+SICRO;GO;10-2020;P9810;Eletricista;h
+SICRO;GO;10-2020;P9811;Encarregado especializado;mês
+SICRO;GO;10-2020;P9812;Engenheiro;mês
+SICRO;GO;10-2020;P9814;Operacional;mês
+SICRO;GO;10-2020;P9815;Jardineiro;h
+SICRO;GO;10-2020;P9816;Encarregado de mergulho;mês
+SICRO;GO;10-2020;P9819;Engenheiro supervisor;mês
+SICRO;GO;10-2020;P9821;Pedreiro;h
+SICRO;GO;10-2020;P9822;Pintor;h
+SICRO;GO;10-2020;P9823;Serralheiro;h
+SICRO;GO;10-2020;P9824;Servente;h
+SICRO;GO;10-2020;P9825;Soldador;h
+SICRO;GO;10-2020;P9826;Chefe setor de finanças;mês
+SICRO;GO;10-2020;P9827;Vigia;mês
+SICRO;GO;10-2020;P9830;Montador;h
+SICRO;GO;10-2020;P9833;Auxiliar de laboratório;mês
+SICRO;GO;10-2020;P9835;Perfurador de tubulão a ar comprimido com insalubridade;h
+SICRO;GO;10-2020;P9836;Geólogo;h
+SICRO;GO;10-2020;P9837;Oceanógrafo;mês
+SICRO;GO;10-2020;P9840;Encarregado geral;mês
+SICRO;GO;10-2020;P9842;Faxineiro;mês
+SICRO;GO;10-2020;P9843;Operador de equipamento leve;h
+SICRO;GO;10-2020;P9844;Capitão fluvial;mês
+SICRO;GO;10-2020;P9845;Operador de equipamento pesado;h
+SICRO;GO;10-2020;P9846;Operador de equipamento especial;h
+SICRO;GO;10-2020;P9847;Perfurador de tubulão;h
+SICRO;GO;10-2020;P9848;Desenhista;mês
+SICRO;GO;10-2020;P9849;Condutor maquinista fluvial;mês
+SICRO;GO;10-2020;P9850;Copeiro;mês
+SICRO;GO;10-2020;P9851;Médico do trabalho;mês
+SICRO;GO;10-2020;P9852;Blaster;h
+SICRO;GO;10-2020;P9853;Pré-marcador;h
+SICRO;GO;10-2020;P9854;Recepcionista;mês
+SICRO;GO;10-2020;P9855;Marinheiro de máquinas;mês
+SICRO;GO;10-2020;P9856;Marinheiro de convés;h
+SICRO;GO;10-2020;P9857;Marinheiro de convés - mensalista;mês
+SICRO;GO;10-2020;P9858;Laboratorista;mês
+SICRO;GO;10-2020;P9859;Trabalhador de via;h
+SICRO;GO;10-2020;P9860;Mergulhador;h
+SICRO;GO;10-2020;P9861;Selecionador de material pétreo;h
+SICRO;GO;10-2020;P9864;Engenheiro de segurança do trabalho;mês
+SICRO;GO;10-2020;P9865;Técnico em enfermagem;mês
+SICRO;GO;10-2020;P9866;Motorista de caminhão;h
+SICRO;GO;10-2020;P9867;Técnico especializado - mensalista;mês
+SICRO;GO;10-2020;P9869;Encarregado de obras de artes especiais;mês
+SICRO;GO;10-2020;P9870;Motorista de veículo leve;h
+SICRO;GO;10-2020;P9871;Motorista de veículo especial;h
+SICRO;GO;10-2020;P9875;Encarregado de turma;mês
+SICRO;GO;10-2020;P9876;Técnico de segurança do trabalho;mês
+SICRO;GO;10-2020;P9878;Secretária;mês
+SICRO;GO;10-2020;P9880;Piloto fluvial;mês
+SICRO;GO;10-2020;P9882;Técnico especializado;h
+SICRO;GO;10-2020;P9883;Chefe do setor administrativo;mês
+SICRO;GO;10-2020;P9884;Encarregado de terraplenagem;mês
+SICRO;GO;10-2020;P9885;Frentista de túnel;h
+SICRO;GO;10-2020;P9889;Técnico da qualidade;mês
+SICRO;GO;10-2020;P9891;Engenheiro mecânico;mês
+SICRO;GO;10-2020;P9892;Auxiliar de blaster;h
+SICRO;GO;10-2020;P9893;Encarregado de pavimentação;mês
+SICRO;GO;10-2020;P9896;Porteiro;mês
+SICRO;GO;10-2020;P9897;Técnico de meio ambiente;mês
+SICRO;GO;10-2020;P9900;Comprador;mês
+SICRO;GO;10-2020;P9901;Encarregado de superestrutura ferroviária;mês
+SICRO;GO;10-2020;P9903;Auxiliar técnico;mês
+SICRO;GO;10-2020;P9907;Comandante de longo curso;mês
+SICRO;GO;10-2020;P9908;Imediato;mês
+SICRO;GO;10-2020;P9909;Oficial de náutica;mês
+SICRO;GO;10-2020;P9910;Oficial de máquinas;mês
+SICRO;GO;10-2020;P9911;Condutor de máquinas;mês
+SICRO;GO;10-2020;P9912;Capitão fluvial com periculosidade;h
+SICRO;GO;10-2020;P9913;Draguista;mês
+SICRO;GO;10-2020;P9915;Maquinista;h
+SICRO;GO;10-2020;P9916;Encarregado de conservação rodoviária;mês
+SICRO;GO;10-2020;P9920;Mestre fluvial;mês
+SICRO;GO;10-2020;P9923;Mergulhador com periculosidade;h
+SICRO;GO;10-2020;P9927;Frentista de túnel com periculosidade;h
+SICRO;GO;10-2020;P9928;Servente com periculosidade;h
+SICRO;GO;10-2020;P9929;Bombeiro hidráulico com periculosidade;h
+SICRO;GO;10-2020;P9930;Eletricista com periculosidade;h
+SICRO;GO;10-2020;P9932;Operador de equipamento pesado com periculosidade;h
+SICRO;GO;10-2020;P9934;Motorista de veículo especial com periculosidade;h
+SICRO;GO;10-2020;P9938;Operador de equipamento leve com periculosidade;h
+SICRO;GO;10-2020;P9939;Operador de equipamento leve com insalubridade;h
+SICRO;GO;10-2020;P9940;Piloto fluvial com periculosidade;h
+SICRO;GO;10-2020;P9941;Mestre fluvial com periculosidade;h
+SICRO;GO;10-2020;P9942;Marinheiro de convés com periculosidade;h
+SICRO;GO;10-2020;P9943;Técnico de batimetria com periculosidade;h
+SICRO;GO;10-2020;P9944;Operador de equipamento especial com periculosidade;h
+SICRO;GO;10-2020;P9945;Draguista com periculosidade;h
+SICRO;GO;10-2020;P9946;Engenheiro auxiliar;mês
+SICRO;GO;10-2020;P9947;Técnico florestal;mês
+SICRO;GO;10-2020;P9948;Motorista de veículo leve - mensalista;mês
+SICRO;GO;10-2020;P9949;Topógrafo;mês
+SICRO;GO;10-2020;P9950;Auxiliar de topografia;mês
+SICRO;GO;10-2020;P9951;Médico de câmara hiperbárica;mês
+SICRO;GO;10-2020;P9952;Pedreiro - mensalista;mês
+SICRO;GO;10-2020;P9953;Eletricista - mensalista;mês
+SICRO;GO;10-2020;P9954;Servente - mensalista;mês
+SICRO;GO;10-2020;P9955;Engenheiro chefe;mês
+SICRO;GO;10-2020;P9956;Motorista de caminhão com periculosidade;h
+SICRO;GO;10-2020;P9972;Técnico de batimetria;mês

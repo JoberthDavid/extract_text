@@ -229,30 +229,49 @@ class MaoDeObra:
         return self.regex.group('re_codigo')
 
     def obter_descricao( self ) -> str:
-        if self.obter_codigo() == 'M3795':
-            retorno = 'Instalações do Estaleiro Padrão para beneficiamento de estruturas navais, \
-                        inclusive mobiliário, equipamentos de informática e de segurança '
-        else:
-            retorno = self.regex.group('re_descricao')
-        return retorno
+        return self.regex.group('re_descricao')
 
-    def obter_unidade( self ):
+    def obter_unidade( self ) -> str:
         return self.regex.group('re_unidade')
 
-    def obter_periculosidade( self ):
-        pass
+    def obter_periculosidade( self ) -> str:
+        return self.regex.group('re_periculosidade')
 
-    def obter_salario( self ):
-        pass
+    def obter_salario( self ) -> str:
+        return self.regex.group('re_salario')
 
-    def obter_custo_onerado( self ):
+    def obter_custo_onerado( self ) -> str:
         return self.regex.group('re_custo')
     
-    def obter_custo_desonerado( self ):
-        pass
+    def obter_custo_desonerado( self ) -> str:
+        return ''
 
-    def obter_encargos_sociais_onerado( self ):
-        pass
+    def obter_encargos_sociais_onerado( self ) -> str:
+        return self.regex.group('re_encargos_sociais')
 
-    def obter_encargos_sociais_desonerado( self ):
-        pass
+    def obter_encargos_sociais_desonerado( self ) -> str:
+        return ''
+
+    def retornar_dados_cadastro_mao_de_obra( self, origem_dados: str ) -> str:
+        dados = ';'.join( [origem_dados, self.codigo, self.descricao, self.unidade] )
+        dados = '{}{}'.format( dados, '\n' )
+        return dados
+
+    def escrever_arquivo_cadastro( self, arquivo: TextIOWrapper, origem_dados: str ) -> None:
+        arquivo.write( self.retornar_dados_cadastro_mao_de_obra( origem_dados ) )
+
+    def retornar_dados_custos_mao_de_obra( self, origem_dados: str ) -> str:
+        dados = ';'.join( [origem_dados, self.codigo, self.custo_onerado,'',self.custo_desonerado,'','', self.categoria] )
+        dados = '{}{}'.format( dados, '\n' )
+        return dados
+
+    def escrever_arquivo_custo( self, custos_unitarios: TextIOWrapper, origem_dados: str ) -> None:
+        custos_unitarios.write( self.retornar_dados_custos_mao_de_obra( origem_dados ) )
+
+    def retornar_detalhamento_custos_mao_de_obra( self, origem_dados: str ) -> str:
+        detalhes = ';'.join([origem_dados, self.codigo, self.salario, self.periculosidade, self.encargos_sociais_onerado, self.encargos_sociais_desonerado] )
+        detalhes = '{}{}'.format( detalhes, '\n' )
+        return detalhes
+
+    def escrever_arquivo_detalhamento_custos( self, detalhamento_custos: TextIOWrapper, origem_dados: str ) -> None:
+        detalhamento_custos.write( self.retornar_detalhamento_custos_mao_de_obra( origem_dados ) )
