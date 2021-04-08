@@ -28,7 +28,7 @@ with open( pdf_file_desonerado, "rb" ) as f:
 
 ##### Extraindo dados dos PDF
 
-with PixelBar('Extraindo dados do PDF', max=num_pages, suffix='%(index)d/%(max)d - %(percent).1f%% - %(eta)ds') as bar:
+with PixelBar('Extraindo dados do PDF', max=2*num_pages, suffix='%(index)d/%(max)d - %(percent).1f%% - %(eta)ds') as bar:
 
 ###### Populando lista com instância de MaoDeObra
 
@@ -47,6 +47,8 @@ with PixelBar('Extraindo dados do PDF', max=num_pages, suffix='%(index)d/%(max)d
                 obj_mao_de_obra = MaoDeObra( obj_regex_onerado.principal )
                 lista_mao_de_obra.append( obj_mao_de_obra )  
 
+        bar.next()
+
 ###### fazendo o mesmo para o arquivo desonerado
 
     lista_mao_de_obra_auxiliar = list()
@@ -64,6 +66,8 @@ with PixelBar('Extraindo dados do PDF', max=num_pages, suffix='%(index)d/%(max)d
                 obj_mao_de_obra = MaoDeObra( obj_regex_desonerado.principal )
                 lista_mao_de_obra_auxiliar.append( obj_mao_de_obra )  
 
+        bar.next()
+
 ###### compilando os dados na lista_mao_de_obra
 
     for item_onerado in lista_mao_de_obra:
@@ -72,7 +76,7 @@ with PixelBar('Extraindo dados do PDF', max=num_pages, suffix='%(index)d/%(max)d
                 item_onerado.custo_desonerado = item_desonerado.custo_onerado
                 item_onerado.encargos_sociais_desonerado = item_desonerado.encargos_sociais_onerado
 
-        bar.next()
+
 
 ##### Escrevendo arquivo TXT
 
