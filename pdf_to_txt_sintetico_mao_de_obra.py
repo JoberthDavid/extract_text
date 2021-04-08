@@ -15,20 +15,13 @@ from classes import (
 
 pdf_file_onerado = "SICRO/GO 10-2020 Relatório Sintético de Mao de Obra.pdf"
 
-with open( pdf_file_onerado, "rb" ) as f:
-    cadastro_onerado = pdftotext.PDF( f )
-    num_pages = len( cadastro_onerado )
+with open( pdf_file_onerado, "rb" ) as f_onerado:
+    cadastro_onerado = pdftotext.PDF( f_onerado )
+    num_pages_onerado = len( cadastro_onerado )
 
-##### Abrindo arquivo PDF desonerado
+##### Extraindo dados do PDF onerado
 
-pdf_file_desonerado = "SICRO/GO 10-2020 Relatório Sintético de Mao de Obra - com desoneracao.pdf"
-
-with open( pdf_file_desonerado, "rb" ) as f:
-    cadastro_desonerado = pdftotext.PDF( f )
-
-##### Extraindo dados dos PDF
-
-with PixelBar('Extraindo dados do PDF', max=2*num_pages, suffix='%(index)d/%(max)d - %(percent).1f%% - %(eta)ds') as bar:
+with PixelBar('Extraindo dados do PDF onerado', max=num_pages_onerado, suffix='%(index)d/%(max)d - %(percent).1f%% - %(eta)ds') as bar:
 
 ###### Populando lista com instância de MaoDeObra
 
@@ -49,6 +42,19 @@ with PixelBar('Extraindo dados do PDF', max=2*num_pages, suffix='%(index)d/%(max
 
         bar.next()
 
+
+##### Abrindo arquivo PDF desonerado
+
+pdf_file_desonerado = "SICRO/GO 10-2020 Relatório Sintético de Mao de Obra - com desoneracao.pdf"
+
+with open( pdf_file_desonerado, "rb" ) as f_desonerado:
+    cadastro_desonerado = pdftotext.PDF( f_desonerado )
+    num_pages_desonerado = len( cadastro_desonerado )
+
+##### Extraindo dados do PDF desonerado
+
+with PixelBar('Extraindo dados do PDF desonerado', max=num_pages_desonerado, suffix='%(index)d/%(max)d - %(percent).1f%% - %(eta)ds') as bar:
+
 ###### fazendo o mesmo para o arquivo desonerado
 
     lista_mao_de_obra_auxiliar = list()
@@ -68,6 +74,9 @@ with PixelBar('Extraindo dados do PDF', max=2*num_pages, suffix='%(index)d/%(max
 
         bar.next()
 
+
+with PixelBar('Compilando dados dos PDF onerado e desonerado', max=len( lista_mao_de_obra ), suffix='%(index)d/%(max)d - %(percent).1f%% - %(eta)ds') as bar:
+
 ###### compilando os dados na lista_mao_de_obra
 
     for item_onerado in lista_mao_de_obra:
@@ -75,7 +84,7 @@ with PixelBar('Extraindo dados do PDF', max=2*num_pages, suffix='%(index)d/%(max
             if item_onerado.codigo == item_desonerado.codigo:
                 item_onerado.custo_desonerado = item_desonerado.custo_onerado
                 item_onerado.encargos_sociais_desonerado = item_desonerado.encargos_sociais_onerado
-
+        bar.next()
 
 
 ##### Escrevendo arquivo TXT

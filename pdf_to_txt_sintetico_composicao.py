@@ -4,85 +4,54 @@ from datetime import datetime
 from progress.bar import Bar
 from progress.bar import PixelBar
 
-from funcoes import (
-                        iniciar_dicionario_arquivo,
-                        retornar_regex_arquivo,
-                        configurar_dicionario_arquivo,
-                        retornar_item,
-                        retornar_path,
-                        retornar_origem,
-                        gerar_arquivo_dados_basicos,
-                        gerar_arquivo_custos_unitarios_composicoes,
-                        iniciar_dicionario,
-                        retornar_regex,
-                        retornar_regex_cabecalho,
-                        configurar_dicionario,
-                        escrever_arquivo_cadastro,
-                        escrever_arquivo_custos
+from classes import (
+                        RegexComposicao,
+                        Composicao,
+                        RegexArquivo,
+                        Arquivo,
                     )
 
-pdf_file = "SICRO/GO 10-2020 Relatório Sintético de ComposiçΣes de Custos.pdf"
+##### Extraindo dados arquivo PDF
 
+pdf_file_onerado = "SICRO/GO 10-2020 Relatório Sintético de ComposiçΣes de Custos.pdf"
 
-d_arquivo = iniciar_dicionario_arquivo()
-regex_arquivo = retornar_regex_arquivo( pdf_file )
+with open( pdf_file_onerado, "rb" ) as f:
+    cadastro_onerado = pdftotext.PDF( f )
+    num_pages_onerado = len( cadastro_onerado )
 
-if ( regex_arquivo is not None ):
-    configurar_dicionario_arquivo( d_arquivo, regex_arquivo )
+with PixelBar('Extraindo dados do PDF', max=num_pages_onerado, suffix='%(index)d/%(max)d - %(percent).1f%% - %(eta)ds') as bar:
 
-item = retornar_item( d_arquivo )
+    lista_composicao = list()
 
-path =  retornar_path( d_arquivo )
+    for pagina in cadastro_onerado:
+        linhas_pagina_atual_pdf = pagina.split('\n') 
+        linhas_pagina_atual_pdf.pop(-2)
 
-origem_dados = retornar_origem( d_arquivo )
+        for linha in linhas_pagina_atual_pdf:
 
-arquivo_composicao = gerar_arquivo_dados_basicos( path )
+            obj_regex = RegexComposicao( linha )
 
-custos_unitarios = gerar_arquivo_custos_unitarios_composicoes( path )
-
-with open( pdf_file, "rb" ) as f:
-    cadastro = pdftotext.PDF( f )
-    num_pages = len( cadastro )
-
-
-with PixelBar('Extraindo dados do PDF', max=num_pages, suffix='%(index)d/%(max)d - %(percent).1f%% - %(eta)ds') as bar:
-
-
-    lista_dicionarios_onerado = list()
-
-    for pagina in cadastro:
-        linhas_pagina_atual_pdf_onerado = pagina.split('\n')
-
-
-        linhas_pagina_atual_pdf_onerado.pop(-2)
-
-
-        for k in range( len( linhas_pagina_atual_pdf_onerado ) ):
-
-            d = iniciar_dicionario( item )
-
-            regex = retornar_regex( item, linhas_pagina_atual_pdf_onerado[k] )
-
-            cabecalho = retornar_regex_cabecalho( linhas_pagina_atual_pdf_onerado[k] )
-
-            if ( cabecalho is None ):
-                
-                if ( regex is not None ) and ( len( regex.groups() ) > 4 ):
-                    configurar_dicionario( item, d, regex )
-                    lista_dicionarios_onerado.append( d )
-
-                elif ( regex is not None ) and ( len( regex.groups() ) <= 4 ) and ( len( lista_dicionarios_onerado ) > 1 ):
-                    descricao_anterior = lista_dicionarios_onerado[-1]['descricao']
-                    descricao_atual = regex.group('re_descricao')
-                    lista_dicionarios_onerado[-1]['descricao'] = ' '.join( [ descricao_anterior, descricao_atual ] )
+            if ( obj_regex.cabecalho is None ) and ( obj_regex.principal is not None ) and ( len( obj_regex.principal.groups() ) > 4 ):
+                obj_composicao = Composicao( obj_regex.principal )
+                lista_composicao.append( obj_composicao )   
+            elif ( obj_regex.cabecalho is None ) and ( obj_regex.principal is not None ) and ( len( obj_regex.principal.groups() ) <= 4 ) and ( len( lista_composicao ) > 1 ):
+                descricao_anterior = lista_composicao[-1].descricao
+                descricao_atual = obj_regex.principal.group('re_descricao').strip()
+                lista_composicao[-1].descricao = ' '.join( [ descricao_anterior, descricao_atual ] )
 
         bar.next()
 
+##### Escrevendo arquivo TXT
 
-with PixelBar('Escrevendo TXT', max=len( lista_dicionarios_onerado ), suffix='%(index)d/%(max)d - %(percent).1f%% - %(eta)ds') as bar:
+obj_regex_arquivo = RegexArquivo( pdf_file_onerado )
 
-    for d_composicao in lista_dicionarios_onerado:  
-        escrever_arquivo_cadastro( item, arquivo_composicao, origem_dados, d_composicao )
-        escrever_arquivo_custos( item, custos_unitarios, origem_dados, d_composicao )
+if ( obj_regex_arquivo.regex is not None ):
+    obj_arquivo = Arquivo( obj_regex_arquivo.regex )
+
+with PixelBar('Escrevendo TXT', max=len( lista_composicao ), suffix='%(index)d/%(max)d - %(percent).1f%% - %(eta)ds') as bar:
+
+    for composicao in lista_composicao:  
+        composicao.escrever_arquivo_cadastro( obj_arquivo.arquivo_dado_basico, obj_arquivo.origem )
+        composicao.escrever_arquivo_custo( obj_arquivo.arquivo_custo_unitario, obj_arquivo.origem )
 
         bar.next()

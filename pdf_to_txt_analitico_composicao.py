@@ -52,6 +52,7 @@ with PixelBar('Escrevendo TXT', max=num_pages, suffix='%(index)d/%(max)d - %(per
             replace('   ', ' ').\
             replace('  ', ' ').\
             split('\n')
+        # rows = page.strip().split('\n')
         
         d = dict(
             uf = '',
@@ -83,17 +84,17 @@ with PixelBar('Escrevendo TXT', max=num_pages, suffix='%(index)d/%(max)d - %(per
 
             #fic
             if regex_fic is not None:
-                d['fic'] = regex_fic.group(4).replace(',', '.')
+                d['fic'] = regex_fic.group(4)#.replace(',', '.')
                 d['uf'] = regex_fic.group(2)
 
             #produção da equipe e unidade
             elif regex_producao is not None:
-                d['producao'] = regex_producao.group(4).replace('.', '').replace(',', '.')
+                d['producao'] = regex_producao.group(4)#.replace('.', '').replace(',', '.')
                 d['unidade'] = regex_producao.group(5)
                 d['data_base'] = regex_producao.group(2)
 
                 #classifica a composição como unitária ou horária
-                if d['producao'] == '1.00000':
+                if d['producao'] == '1,00000':
                     tipo = 'unitária'
                 else:
                     tipo = 'horária'
@@ -102,13 +103,13 @@ with PixelBar('Escrevendo TXT', max=num_pages, suffix='%(index)d/%(max)d - %(per
                 d['composicao'] = regex_codigo.group(1)
 
                 if d['fic'] == '':
-                    fic = '0.00000'
+                    fic = '0,00000'
                 else:
                     fic = d['fic']
 
                 #grava no arquivo
                 composicao.write(
-                    ','.join([origem_dados,
+                    ';'.join([origem_dados,
                     d['composicao'],
                     fic,
                     d['producao'],
@@ -124,11 +125,11 @@ with PixelBar('Escrevendo TXT', max=num_pages, suffix='%(index)d/%(max)d - %(per
                 
                 #acrescentando dados a um arquivo composicao txt #o índice -1 pega o último elemento da lista e os índices 0,1,2 são as posições na tupla
                 apropriacao.write(
-                    ','.join([origem_dados,
+                    ';'.join([origem_dados,
                     d['composicao'],
-                    d['lista_insumo'][-1][0].strip(' '),
-                    d['lista_insumo'][-1][1].replace(',', '.'),
-                    d['lista_insumo'][-1][2].replace('.', '').replace(',', '.'),
+                    d['lista_insumo'][-1][0].strip(),
+                    d['lista_insumo'][-1][1],#.replace(',', '.')
+                    d['lista_insumo'][-1][2],#.replace('.', '').replace(',', '.')
                     '',
                     str(EQUIPAMENTO),
                     '\n']))
@@ -139,10 +140,10 @@ with PixelBar('Escrevendo TXT', max=num_pages, suffix='%(index)d/%(max)d - %(per
 
                 #acrescentando dados a um arquivo composicao txt
                 apropriacao.write(
-                    ','.join([origem_dados,
+                    ';'.join([origem_dados,
                     d['composicao'],
-                    d['lista_insumo'][-1][0].strip(' '),
-                    d['lista_insumo'][-1][1].replace('.', '').replace(',', '.'),
+                    d['lista_insumo'][-1][0].strip(),
+                    d['lista_insumo'][-1][1],#.replace('.', '').replace(',', '.')
                     '',
                     '',
                     str(MAO_DE_OBRA),
@@ -166,42 +167,42 @@ with PixelBar('Escrevendo TXT', max=num_pages, suffix='%(index)d/%(max)d - %(per
                 d['lista_transporte'].append( regex_transporte_rodoviario.group(7,3,1) )
                 
                 apropriacao.write(
-                    ','.join([origem_dados,
+                    ';'.join([origem_dados,
                     d['composicao'],
                     tf,
-                    d['lista_transporte'][-3][1].replace('.', '').replace(',', '.'),
+                    d['lista_transporte'][-3][1],#.replace('.', '').replace(',', '.')
                     '',
-                    d['lista_transporte'][-3][2].strip(' '),
+                    d['lista_transporte'][-3][2].strip(),
                     str(TEMPO_FIXO),
                     '\n']))
 
                 apropriacao.write(
-                    ','.join([origem_dados,
+                    ';'.join([origem_dados,
                     d['composicao'],
                     d['lista_transporte'][-3][0],
-                    d['lista_transporte'][-3][1].replace('.', '').replace(',', '.'),
+                    d['lista_transporte'][-3][1],#.replace('.', '').replace(',', '.')
                     '',
-                    d['lista_transporte'][-3][2].strip(' '),
+                    d['lista_transporte'][-3][2].strip(),
                     str(TRANSPORTE),
                     '\n']))
 
                 apropriacao.write(
-                    ','.join([origem_dados,
+                    ';'.join([origem_dados,
                     d['composicao'],
                     d['lista_transporte'][-2][0],
-                    d['lista_transporte'][-3][1].replace('.', '').replace(',', '.'),
+                    d['lista_transporte'][-3][1],#.replace('.', '').replace(',', '.')
                     '',
-                    d['lista_transporte'][-3][2].strip(' '),
+                    d['lista_transporte'][-3][2].strip(),
                     str(TRANSPORTE),
                     '\n']))
 
                 apropriacao.write(
-                    ','.join([origem_dados,
+                    ';'.join([origem_dados,
                     d['composicao'],
                     d['lista_transporte'][-1][0],
-                    d['lista_transporte'][-3][1].replace('.', '').replace(',', '.'),
+                    d['lista_transporte'][-3][1],#.replace('.', '').replace(',', '.')
                     '',
-                    d['lista_transporte'][-3][2].strip(' '),
+                    d['lista_transporte'][-3][2].strip(),
                     str(TRANSPORTE),
                     '\n']))
 
@@ -216,22 +217,22 @@ with PixelBar('Escrevendo TXT', max=num_pages, suffix='%(index)d/%(max)d - %(per
                 d['lista_transporte'].append( regex_transporte_ferroviario.group(5,3,1) )
 
                 apropriacao.write(
-                    ','.join([origem_dados,
+                    ';'.join([origem_dados,
                     d['composicao'],
                     tf,
-                    d['lista_transporte'][-1][1].replace(',', '.'),
+                    d['lista_transporte'][-1][1],#.replace(',', '.')
                     '',
-                    d['lista_transporte'][-1][2].strip(' '),
+                    d['lista_transporte'][-1][2].strip(),
                     str(TEMPO_FIXO),
                     '\n']))
 
                 apropriacao.write(
-                    ','.join([origem_dados,
+                    ';'.join([origem_dados,
                     d['composicao'],
                     d['lista_transporte'][-1][0],
-                    d['lista_transporte'][-1][1].replace(',', '.'),
+                    d['lista_transporte'][-1][1],#.replace(',', '.')
                     '',
-                    d['lista_transporte'][-1][2].strip(' '),
+                    d['lista_transporte'][-1][2].strip(),
                     str(TRANSPORTE),
                     '\n']))
 
@@ -240,10 +241,10 @@ with PixelBar('Escrevendo TXT', max=num_pages, suffix='%(index)d/%(max)d - %(per
                 d['lista_atitivade_auxiliar'].append( regex_atividade_auxiliar.group(1,3) )
 
                 apropriacao.write(
-                    ','.join([origem_dados,
+                    ';'.join([origem_dados,
                     d['composicao'],
-                    d['lista_atitivade_auxiliar'][-1][0].strip(' '),
-                    d['lista_atitivade_auxiliar'][-1][1].replace('.', '').replace(',', '.'),
+                    d['lista_atitivade_auxiliar'][-1][0].strip(),
+                    d['lista_atitivade_auxiliar'][-1][1],#.replace('.', '').replace(',', '.')
                     '',
                     '',
                     str(ATIVIDADE_AUXILIAR),
@@ -254,10 +255,10 @@ with PixelBar('Escrevendo TXT', max=num_pages, suffix='%(index)d/%(max)d - %(per
                 d['lista_insumo'].append( regex_material.group(1,3) )
 
                 apropriacao.write(
-                    ','.join([origem_dados,
+                    ';'.join([origem_dados,
                     d['composicao'],
-                    d['lista_insumo'][-1][0].strip(' '),
-                    d['lista_insumo'][-1][1].replace('.', '').replace(',', '.'),
+                    d['lista_insumo'][-1][0].strip(),
+                    d['lista_insumo'][-1][1],#.replace('.', '').replace(',', '.')
                     '',
                     '',
                     str(MATERIAL),

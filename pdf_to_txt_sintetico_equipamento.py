@@ -17,17 +17,12 @@ pdf_file_onerado = "SICRO/GO 10-2020 Relatório Sintético de Equipamentos.pdf"
 
 with open( pdf_file_onerado, "rb" ) as f_onerado:
     cadastro_onerado = pdftotext.PDF( f_onerado )
-    num_pages = len( cadastro_onerado )
+    num_pages_onerado = len( cadastro_onerado )
 
-##### Abrindo arquivo PDF desonerado
+##### Extraindo dados do PDF onerado
 
-pdf_file_desonerado = "SICRO/GO 10-2020 Relatório Sintético de Equipamentos - com desoneraç╞o.pdf"
+with PixelBar('Extraindo dados do PDF onerado', max=num_pages_onerado, suffix='%(index)d/%(max)d - %(percent).1f%% - %(eta)ds') as bar:
 
-with open( pdf_file_desonerado, "rb" ) as f:
-    cadastro_desonerado = pdftotext.PDF( f )
-
-
-with PixelBar('Extraindo dados do PDF', max=2*num_pages, suffix='%(index)d/%(max)d - %(percent).1f%% - %(eta)ds') as bar:
 
 ###### Populando lista com instância de Equipamento
 
@@ -48,6 +43,19 @@ with PixelBar('Extraindo dados do PDF', max=2*num_pages, suffix='%(index)d/%(max
 
         bar.next()
 
+
+##### Abrindo arquivo PDF desonerado
+
+pdf_file_desonerado = "SICRO/GO 10-2020 Relatório Sintético de Equipamentos - com desoneraç╞o.pdf"
+
+with open( pdf_file_desonerado, "rb" ) as f_desonerado:
+    cadastro_desonerado = pdftotext.PDF( f_desonerado )
+    num_pages_desonerado = len( cadastro_desonerado )
+
+##### Extraindo dados do PDF desonerado
+
+with PixelBar('Extraindo dados do PDF desonerado', max=num_pages_desonerado, suffix='%(index)d/%(max)d - %(percent).1f%% - %(eta)ds') as bar:
+
 ###### fazendo o mesmo para o arquivo desonerado
 
     lista_equipamento_auxiliar = list()
@@ -67,6 +75,9 @@ with PixelBar('Extraindo dados do PDF', max=2*num_pages, suffix='%(index)d/%(max
 
         bar.next()
 
+
+with PixelBar('Compilando dados dos PDF onerado e desonerado', max=len( lista_equipamento ), suffix='%(index)d/%(max)d - %(percent).1f%% - %(eta)ds') as bar:
+
 ###### compilando os dados na lista_equipamento
 
     for item_onerado in lista_equipamento:
@@ -76,7 +87,8 @@ with PixelBar('Extraindo dados do PDF', max=2*num_pages, suffix='%(index)d/%(max
                 item_onerado.custo_improdutivo_desonerado = item_desonerado.custo_improdutivo_onerado
                 item_onerado.mao_de_obra_desonerado = item_desonerado.mao_de_obra_onerado
                 
-
+        bar.next()
+        
 ##### Escrevendo arquivo TXT
 
 obj_regex_arquivo = RegexArquivo( pdf_file_onerado )
