@@ -7,6 +7,9 @@ from constantes import (
                         MAO_DE_OBRA,
                         EQUIPAMENTO,
                         COMPOSICAO_PRINCIPAL,
+                        ATIVIDADE_AUXILIAR,
+                        TEMPO_FIXO,
+                        TRANSPORTE,
                     )
 
 
@@ -453,3 +456,224 @@ class Composicao(Sintetico):
 
     def escrever_arquivo_custo( self, custos_unitarios: TextIOWrapper, origem_dados: str ) -> None:
         custos_unitarios.write( self.obter_dados_custos_composicao( origem_dados ) )
+
+
+class RegexApropriacao:
+
+    def __init__( self, pagina ) -> None:
+        self.linhas = self.obter_linhas( pagina )
+        self.regex_fic = ''
+        self.regex_producao = ''
+        self.regex_codigo = ''
+        self.regex_equipamento = ''
+        self.regex_mao_de_obra = ''
+        self.regex_tempo_fixo = ''
+        self.regex_transporte_rodoviario = ''
+        self.regex_transporte_ferroviario = ''
+        self.regex_atividade_auxiliar = ''
+        self.regex_material = ''
+
+    def obter_linhas( self, pagina ) -> list:
+        aux1 = pagina
+        aux2 = ''
+        while aux1 != aux2:
+            aux2 = aux1
+            aux1 = aux1.replace('  ', ' ')
+        linhas = aux1.split('\n')
+        return linhas
+
+    def obter_pattern_fic( self ) -> str:
+        return r'(.+) (?P<re_uf>.+) (FIC) (?P<re_fic>\d\,\d\d\d\d\d)'
+
+    def obter_pattern_producao( self ) -> str:
+        return r'(.+) (?P<re_data_base>.+) (Produção da equipe) (?P<re_producao>\d{1,3}(\.\d{3})*,\d{5}) (?P<re_unidade>.+)'
+    
+    def obter_pattern_codigo( self ) -> str:
+        return r'(?P<re_codigo>\d{7}) (.+) (Valores em reais \(R\$\))'
+
+    def obter_pattern_equipamento( self ) -> str:
+        return r'(\s*) (?P<re_equipamento>[EA]\d{4}) (.+) (?P<re_quantidade>\d+\,\d{5}) (?P<re_utilizacao>\d+\,\d{2})'
+
+    def obter_pattern_mao_de_obra( self ) -> str:
+        return r'(\s*) (?P<re_mao_de_obra>[P]\d{4}) (.+) (?P<re_quantidade>\d+\,\d{5})'
+
+    def obter_pattern_tempo_fixo( self ) -> str:
+        return r'(\s*) (?P<re_item_transportado>\d{7}|[M]\d{4}) (.+) (?P<re_tempo_fixo>59\d{5}){1} (?P<re_quantidade>\d+\,\d{5}) (t){1}'
+    
+    def obter_pattern_transporte_rodoviario( self ) -> str:
+        return r'(\s*) (?P<re_item_transportado>\d{7}|[M]\d{4}) (.+) (?P<re_quantidade>\d+\,\d{5}) (tkm){1} (?P<re_leito_natural>59\d{5}) (?P<re_revestimento_primario>59\d{5}) (?P<re_pavimentado>59\d{5})'
+
+    def obter_pattern_transporte_ferroviario( self ) -> str:
+        return r'(\s*) (?P<re_item_transportado>\d{7}|[M]\d{4}) (.+) (?P<re_quantidade>\d+\,\d{5}) (tkm){1} (?P<re_ferroviario>59\d{5})'
+
+    def obter_pattern_atividade_auxiliar( self ) -> str:
+        return r'(\s*) (?P<re_atividade_auxiliar>\d{7}) (.+) (?P<re_quantidade>\d+\,\d{5}) (\w{1,3})'
+
+    def obter_pattern_material( self ) -> str:
+        return r'(\s*) (?P<re_material>[M]\d{4}) (.+) (?P<re_quantidade>\d+\,\d{5}) (\w{1,3})'
+
+    def obter_regex_fic( self, range ) -> Match:
+        avaliado = self.linhas[ range ]
+        return re.match( self.obter_pattern_fic(), avaliado )
+
+    def obter_regex_producao( self, range ) -> Match:
+        avaliado = self.linhas[ range ]
+        return re.match( self.obter_pattern_producao(), avaliado )
+
+    def obter_regex_codigo( self, range ) -> Match:
+        avaliado = self.linhas[ range + 1]
+        return re.match( self.obter_pattern_codigo(), avaliado )
+
+    def obter_regex_equipamento( self, range ) -> Match:
+        avaliado = self.linhas[ range ]
+        return re.match( self.obter_pattern_equipamento(), avaliado )
+
+    def obter_regex_mao_de_obra( self, range ) -> Match:
+        avaliado = self.linhas[ range ]
+        return re.match( self.obter_pattern_mao_de_obra(), avaliado )
+
+    def obter_regex_tempo_fixo( self, range ) -> Match:
+        avaliado = self.linhas[ range ]
+        return re.match( self.obter_pattern_tempo_fixo(), avaliado )
+
+    def obter_regex_transporte_rodoviario( self, range ) -> Match:
+        avaliado = self.linhas[ range ]
+        return re.match( self.obter_pattern_transporte_rodoviario(), avaliado )
+
+    def obter_regex_transporte_ferroviario( self, range ) -> Match:
+        avaliado = self.linhas[ range ]
+        return re.match( self.obter_pattern_transporte_ferroviario(), avaliado )
+
+    def obter_regex_atividade_auxiliar( self, range ) -> Match:
+        avaliado = self.linhas[ range ]
+        return re.match( self.obter_pattern_atividade_auxiliar(), avaliado )
+
+    def obter_regex_material( self, range ) -> Match:
+        avaliado = self.linhas[ range ]
+        return re.match( self.obter_pattern_material(), avaliado )
+
+
+class Apropriacao:
+
+    def __init__( self ) -> None:
+        self.tipo = 'horária'
+        self.uf = ''
+        self.data_base = ''
+        self.composicao = ''
+        self.descricao = ''
+        self.fic = '0.00000'
+        self.producao = ''
+        self.unidade = ''
+        self.lista_insumo = list()
+        self.lista_equipamento = list()
+        self.lista_mao_de_obra = list()
+        self.lista_material = list()
+        self.lista_atitivade_auxiliar = list()
+        self.lista_tempo_fixo = list()
+        self.lista_transporte = list()
+
+    def obter_apropriacao_dado_basico( self, origem_dados: str ) -> str:
+        if self.producao == '1.00000':
+            self.tipo = 'unitária'
+        dados = ';'.join( [origem_dados, self.composicao, self.fic, self.producao, self.tipo] )
+        dados = '{}{}'.format( dados, '\n' )
+        return dados
+
+    def escrever_arquivo_apropriacao_dado_basico( self, dado_basico: TextIOWrapper, origem_dados: str ) -> None:
+        dado_basico.write( self.obter_apropriacao_dado_basico( origem_dados ) )
+
+    def obter_apropriacao_equipamento( self, origem_dados: str ) -> str:
+        equipamento = self.lista_insumo[-1][0].strip()
+        quantidade = self.lista_insumo[-1][1].replace(',', '.')
+        utilizacao = self.lista_insumo[-1][2].replace('.', '').replace(',', '.')
+        dados = ';'.join( [origem_dados, self.composicao, equipamento, quantidade, utilizacao, '', str(EQUIPAMENTO)] )
+        dados = '{}{}'.format( dados, '\n' )
+        return dados
+
+    def escrever_arquivo_apropriacao_equipamento( self, apropriacao: TextIOWrapper, origem_dados: str ) -> None:
+        apropriacao.write( self.obter_apropriacao_equipamento( origem_dados ) )
+
+    def obter_apropriacao_mao_de_obra( self, origem_dados: str ) -> str:
+        mao_de_obra = self.lista_insumo[-1][0].strip()
+        quantidade = self.lista_insumo[-1][1].replace('.', '').replace(',', '.')
+        dados = ';'.join( [origem_dados, self.composicao, mao_de_obra, quantidade, '', '', str(MAO_DE_OBRA)] )
+        dados = '{}{}'.format( dados, '\n' )
+        return dados
+
+    def escrever_arquivo_apropriacao_mao_de_obra( self, apropriacao: TextIOWrapper, origem_dados: str ) -> None:
+        apropriacao.write( self.obter_apropriacao_mao_de_obra( origem_dados ) )
+
+    def obter_apropriacao_tempo_fixo( self, origem_dados: str ) -> str:
+        tempo_fixo = self.lista_tempo_fixo[-1][0].strip()
+        quantidade = self.lista_tempo_fixo[-1][1].replace('.', '').replace(',', '.')
+        item_transportado = self.lista_tempo_fixo[-1][2].strip()
+        dados = ';'.join( [origem_dados, self.composicao, tempo_fixo, quantidade, '', item_transportado, str(TEMPO_FIXO)] )
+        dados = '{}{}'.format( dados, '\n' )
+        return dados
+
+    def escrever_arquivo_apropriacao_tempo_fixo( self, apropriacao: TextIOWrapper, origem_dados: str ) -> None:
+        apropriacao.write( self.obter_apropriacao_tempo_fixo( origem_dados ) )
+
+    def obter_apropriacao_material( self, origem_dados: str ) -> str:
+        material = self.lista_insumo[-1][0].strip()
+        quantidade = self.lista_insumo[-1][1].replace('.', '').replace(',', '.')
+        dados = ';'.join( [origem_dados, self.composicao, material, quantidade, '', '', str(MATERIAL)] )
+        dados = '{}{}'.format( dados, '\n' )
+        return dados
+
+    def escrever_arquivo_apropriacao_material( self, apropriacao: TextIOWrapper, origem_dados: str ) -> None:
+        apropriacao.write( self.obter_apropriacao_material( origem_dados ) )
+
+    def obter_apropriacao_atividade_auxiliar( self, origem_dados: str ) -> str:
+        atividade_auxiliar = self.lista_atitivade_auxiliar[-1][0].strip()
+        quantidade = self.lista_atitivade_auxiliar[-1][1].replace('.', '').replace(',', '.')
+        dados = ';'.join( [origem_dados, self.composicao, atividade_auxiliar, quantidade, '', '', str(ATIVIDADE_AUXILIAR)] )
+        dados = '{}{}'.format( dados, '\n' )
+        return dados
+
+    def escrever_arquivo_apropriacao_atividade_auxiliar( self, apropriacao: TextIOWrapper, origem_dados: str ) -> None:
+        apropriacao.write( self.obter_apropriacao_atividade_auxiliar( origem_dados ) )
+
+    def obter_apropriacao_transporte_ferroviario( self, origem_dados: str ) -> str:
+        transporte_ferroviario = self.lista_transporte[-1][0].strip()
+        quantidade = self.lista_transporte[-1][1].replace('.', '').replace(',', '.')
+        item_transportado = self.lista_transporte[-1][2].strip()
+        dados = ';'.join( [origem_dados, self.composicao, transporte_ferroviario, quantidade, '', item_transportado, str(TRANSPORTE)] )
+        dados = '{}{}'.format( dados, '\n' )
+        return dados
+
+    def escrever_arquivo_apropriacao_transporte_ferroviario( self, apropriacao: TextIOWrapper, origem_dados: str ) -> None:
+        apropriacao.write( self.obter_apropriacao_transporte_ferroviario( origem_dados ) )
+
+    def obter_apropriacao_transporte_pavimentado( self, origem_dados: str ) -> str:
+        transporte_pavimentado = self.lista_transporte[-1][0].strip()
+        quantidade = self.lista_transporte[-1][1].replace('.', '').replace(',', '.')
+        item_transportado = self.lista_transporte[-1][2].strip()
+        dados = ';'.join( [origem_dados, self.composicao, transporte_pavimentado, quantidade, '', item_transportado, str(TRANSPORTE)] )
+        dados = '{}{}'.format( dados, '\n' )
+        return dados
+
+    def escrever_arquivo_apropriacao_transporte_pavimentado( self, apropriacao: TextIOWrapper, origem_dados: str ) -> None:
+        apropriacao.write( self.obter_apropriacao_transporte_pavimentado( origem_dados ) )
+
+    def obter_apropriacao_transporte_revestimento_primario( self, origem_dados: str ) -> str:
+        transporte_revestimento_primario = self.lista_transporte[-2][0].strip()
+        quantidade = self.lista_transporte[-2][1].replace('.', '').replace(',', '.')
+        item_transportado = self.lista_transporte[-2][2].strip()
+        dados = ';'.join( [origem_dados, self.composicao, transporte_revestimento_primario, quantidade, '', item_transportado, str(TRANSPORTE)] )
+        dados = '{}{}'.format( dados, '\n' )
+        return dados
+
+    def escrever_arquivo_apropriacao_transporte_revestimento_primario( self, apropriacao: TextIOWrapper, origem_dados: str ) -> None:
+        apropriacao.write( self.obter_apropriacao_transporte_revestimento_primario( origem_dados ) )
+
+    def obter_apropriacao_transporte_leito_natural( self, origem_dados: str ) -> str:
+        transporte_leito_natural = self.lista_transporte[-3][0].strip()
+        quantidade = self.lista_transporte[-3][1].replace('.', '').replace(',', '.')
+        item_transportado = self.lista_transporte[-3][2].strip()
+        dados = ';'.join( [origem_dados, self.composicao, transporte_leito_natural, quantidade, '', item_transportado, str(TRANSPORTE)] )
+        dados = '{}{}'.format( dados, '\n' )
+        return dados
+
+    def escrever_arquivo_apropriacao_transporte_leito_natural( self, apropriacao: TextIOWrapper, origem_dados: str ) -> None:
+        apropriacao.write( self.obter_apropriacao_transporte_leito_natural( origem_dados ) )
