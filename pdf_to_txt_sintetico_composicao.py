@@ -51,7 +51,7 @@ if ( obj_regex_arquivo.regex is not None ):
 with PixelBar('Escrevendo TXT', max=len( lista_composicao ), suffix='%(index)d/%(max)d - %(percent).1f%% - %(eta)ds') as bar:
 
     for composicao in lista_composicao:  
-        composicao.escrever_arquivo_cadastro( obj_arquivo.arquivo_dado_basico, obj_arquivo.origem )
-        composicao.escrever_arquivo_custo( obj_arquivo.arquivo_custo_unitario, obj_arquivo.origem )
+        composicao.escrever_arquivo_cadastro( obj_arquivo.arquivo_sintetico_dado_basico, obj_arquivo.origem )
+        composicao.escrever_arquivo_custo( obj_arquivo.arquivo_sintetico_custo_unitario_composicao, obj_arquivo.origem )
 
         bar.next()

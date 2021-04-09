@@ -97,8 +97,8 @@ if ( obj_regex_arquivo.regex is not None ):
 with PixelBar('Escrevendo TXT', max=len( lista_mao_de_obra ), suffix='%(index)d/%(max)d - %(percent).1f%% - %(eta)ds') as bar:
 
     for mao_de_obra in lista_mao_de_obra:  
-        mao_de_obra.escrever_arquivo_cadastro( obj_arquivo.arquivo_dado_basico, obj_arquivo.origem )
-        mao_de_obra.escrever_arquivo_custo( obj_arquivo.arquivo_custo_unitario, obj_arquivo.origem )
-        mao_de_obra.escrever_arquivo_detalhamento_custos( obj_arquivo.arquivo_detalhamento_custo_mao_de_obra, obj_arquivo.origem )
+        mao_de_obra.escrever_arquivo_cadastro( obj_arquivo.arquivo_sintetico_dado_basico, obj_arquivo.origem )
+        mao_de_obra.escrever_arquivo_custo( obj_arquivo.arquivo_sintetico_custo_unitario, obj_arquivo.origem )
+        mao_de_obra.escrever_arquivo_detalhamento_custos( obj_arquivo.arquivo_analitico_custo_mao_de_obra, obj_arquivo.origem )
 
         bar.next()

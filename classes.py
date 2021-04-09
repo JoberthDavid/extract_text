@@ -47,10 +47,11 @@ class Arquivo:
         self.item = self.preparar_grupo_regex_arquivo( regex.group('re_item_a'), regex.group('re_item_b') )
         self.data_base = self.obter_data_base()
         self.origem = self.obter_origem()
-        self.arquivo_dado_basico = self.gerar_arquivo_dado_basico()
-        self.arquivo_custo_unitario = self.gerar_arquivo_custo_unitario_sintetico()
-        self.arquivo_detalhamento_custo_mao_de_obra = self.gerar_arquivo_detalhamento_custo_mao_de_obra()
-        self.arquivo_detalhamento_custo_equipamento = self.gerar_arquivo_detalhamento_custo_equipamento()
+        self.arquivo_sintetico_dado_basico = self.gerar_arquivo_sintetico_dado_basico()
+        self.arquivo_sintetico_custo_unitario = self.gerar_arquivo_sintetico_custo_unitario()
+        self.arquivo_sintetico_custo_unitario_composicao = self.gerar_arquivo_sintetico_custo_unitario_composicao()
+        self.arquivo_analitico_custo_mao_de_obra = self.gerar_arquivo_analitico_custo_mao_de_obra()
+        self.arquivo_analitico_custo_equipamento = self.gerar_arquivo_analitico_custo_equipamento()
 
     def preparar_grupo_regex_arquivo( self, item_a, item_b ) -> str:
         grupo = ''.join( [ item_a, item_b ] )
@@ -77,17 +78,20 @@ class Arquivo:
     def obter_path( self ) -> str:
         return '_'.join( [ self.obter_raiz(), self.estado, self.mes_base, self.ano_base ] )
 
-    def gerar_arquivo_dado_basico( self ) -> TextIOWrapper:
-        return open( ''.join( [ self.obter_path(), '_dados_basicos.txt' ] ), 'a', encoding="utf-8" )
+    def gerar_arquivo_sintetico_dado_basico( self ) -> TextIOWrapper:
+        return open( ''.join( [ self.obter_path(), '_sintetico_dado_basico.txt' ] ), 'a', encoding="utf-8" )
 
-    def gerar_arquivo_custo_unitario_sintetico( self ) -> TextIOWrapper:
-        return open( ''.join( [ self.obter_path(), '_sinteticos_custos_unitarios.txt' ] ), 'a', encoding="utf-8" )
+    def gerar_arquivo_sintetico_custo_unitario( self ) -> TextIOWrapper:
+        return open( ''.join( [ self.obter_path(), '_sintetico_custo_unitario.txt' ] ), 'a', encoding="utf-8" )
 
-    def gerar_arquivo_detalhamento_custo_mao_de_obra( self ) -> TextIOWrapper:
-        return open( ''.join( [ self.obter_path(), '_detalhamento_mao_de_obra_custo_unitario.txt' ] ), 'a', encoding="utf-8" )
+    def gerar_arquivo_sintetico_custo_unitario_composicao( self ) -> TextIOWrapper:
+        return open( ''.join( [ self.obter_path(), '_sintetico_custo_unitario_composicao.txt' ] ), 'a', encoding="utf-8" )
 
-    def gerar_arquivo_detalhamento_custo_equipamento( self ) -> TextIOWrapper:
-        return open( ''.join( [ self.obter_path(), '_detalhamento_equipamento_custo_unitario.txt' ] ), 'a', encoding="utf-8" )
+    def gerar_arquivo_analitico_custo_mao_de_obra( self ) -> TextIOWrapper:
+        return open( ''.join( [ self.obter_path(), '_analitico_custo_unitario_mao_de_obra.txt' ] ), 'a', encoding="utf-8" )
+
+    def gerar_arquivo_analitico_custo_equipamento( self ) -> TextIOWrapper:
+        return open( ''.join( [ self.obter_path(), '_analitico_custo_unitario_equipamento.txt' ] ), 'a', encoding="utf-8" )
 
 
 
@@ -443,7 +447,7 @@ class Composicao(Sintetico):
             return ''
 
     def obter_dados_custos_composicao( self, origem_dados: str ) -> str:
-        dados = ';'.join( [origem_dados, self.codigo, self.custo, self.categoria] )
+        dados = ';'.join( [origem_dados, self.codigo, self.custo, '', self.categoria] )
         dados = '{}{}'.format( dados, '\n' )
         return dados
 

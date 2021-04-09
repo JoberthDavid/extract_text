@@ -99,8 +99,8 @@ if ( obj_regex_arquivo.regex is not None ):
 with PixelBar('Escrevendo TXT', max=len( lista_equipamento ), suffix='%(index)d/%(max)d - %(percent).1f%% - %(eta)ds') as bar:
 
     for equipamento in lista_equipamento:  
-        equipamento.escrever_arquivo_cadastro( obj_arquivo.arquivo_dado_basico, obj_arquivo.origem )
-        equipamento.escrever_arquivo_custo( obj_arquivo.arquivo_custo_unitario, obj_arquivo.origem )
-        equipamento.escrever_arquivo_detalhamento_custos( obj_arquivo.arquivo_detalhamento_custo_equipamento, obj_arquivo.origem )
+        equipamento.escrever_arquivo_cadastro( obj_arquivo.arquivo_sintetico_dado_basico, obj_arquivo.origem )
+        equipamento.escrever_arquivo_custo( obj_arquivo.arquivo_sintetico_custo_unitario, obj_arquivo.origem )
+        equipamento.escrever_arquivo_detalhamento_custos( obj_arquivo.arquivo_analitico_custo_equipamento, obj_arquivo.origem )
 
         bar.next()
