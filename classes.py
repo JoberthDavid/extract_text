@@ -19,7 +19,7 @@ class DescricaoNormalizada:
         self.descricao = self.obter_descricao_normalizada( descricao )
 
     def obter_descricao_normalizada( self, descricao ) -> str:
-        return descricao.strip().replace('.','')
+        return descricao.strip().replace('.','').replace(';','-')
 
 
 class NumeroNormalizado:
